@@ -7,10 +7,10 @@
   <meta name="force-rendering" content="webkit"> 
   <meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1"> 
   <meta name="applicable-device" content="pc,mobile"> 
-  <title>新闻博客文章资讯类网站pbootcms模板(自适应手机端) SEO教程资讯网站源码下载</title> 
-  <meta name="keywords" content="新闻博客网站模板,教程资讯网站源码"> 
-  <meta name="description" content="新闻博客文章资讯类网站pbootcms模板(自适应手机端) SEO教程资讯网站源码下载"> 
-  <meta name="author" content="www.91084.com PB219"> 
+  <title>pm博客site</title> 
+  <meta name="keywords" content="pm博客site"> 
+  <meta name="description" content="pm博客site"> 
+  <meta name="author" content="zichen"> 
   <link rel="stylesheet" href="/static/css/iconfont.css" type="text/css"> 
   <link rel="stylesheet" href="/static/css/style.css" type="text/css"> 
   <!--[if lt IE 9]><div class="fuck-ie"><p class="tips">*您的IE浏览器版本过低，为获得更好的体验请使用Chrome、Firefox或其他现代浏览器!</p></div><![endif]--> 
@@ -21,7 +21,7 @@
  <body> 
   <header class="header sb"> 
    <div class="h-wrap container clearfix"> 
-    <h1 class="logo-area fl"> <a href="https://www.yingzia.com/pbootcms219/" title="新闻博客文章资讯类网站pbootcms模板(自适应手机端) SEO教程资讯网站源码下载"> <img class="img" src="/static/images/1645527463866306.png" alt="新闻博客文章资讯类网站pbootcms模板(自适应手机端) SEO教程资讯网站源码下载" title="新闻博客文章资讯类网站pbootcms模板(自适应手机端) SEO教程资讯网站源码下载"> </a> </h1> 
+    <h1 class="logo-area fl"> <a href="https://www.yingzia.com/pbootcms219/" title="pm博客site"> <img class="img" src="/static/images/1645527463866306.png" alt="pm博客site" title="pm博客site"> </a> </h1> 
     <div class="m-nav-btn">
      <i class="iconfont icon-category"></i>
     </div> 
@@ -66,9 +66,9 @@
     <div id="mainbox" class="fl"> 
      <div class="swiper-container br"> 
       <ul class="swiper-wrapper"> 
-       <li class="swiper-slide"> <a class="link" href="" title="格展网络博客模板"> <p class="p ellipsis">格展网络博客模板</p> <img src="images/1577085917492097.jpg" alt="格展网络博客模板"> <i class="mask"></i> </a> </li> 
-       <li class="swiper-slide"> <a class="link" href="" title="格展网络博客模板"> <p class="p ellipsis">格展网络博客模板</p> <img src="images/1645579631563919.jpg" alt="格展网络博客模板"> <i class="mask"></i> </a> </li> 
-       <li class="swiper-slide"> <a class="link" href="" title="格展网络博客模板"> <p class="p ellipsis">格展网络博客模板</p> <img src="images/1645579640506868.jpg" alt="格展网络博客模板"> <i class="mask"></i> </a> </li> 
+       <li class="swiper-slide"> <a class="link" href="" title="格展网络博客模板"> <p class="p ellipsis">格展网络博客模板1</p> <img src="/static/images/1577085917492097.jpg" alt="格展网络博客模板"> <i class="mask"></i> </a> </li> 
+       <li class="swiper-slide"> <a class="link" href="" title="格展网络博客模板"> <p class="p ellipsis">格展网络博客模板1</p> <img src="/static/images/1645579631563919.jpg" alt="格展网络博客模板"> <i class="mask"></i> </a> </li> 
+       <li class="swiper-slide"> <a class="link" href="" title="格展网络博客模板"> <p class="p ellipsis">格展网络博客模板</p> <img src="/static/images/1645579640506868.jpg" alt="格展网络博客模板"> <i class="mask"></i> </a> </li> 
       </ul> 
       <p class="swiper-pagination"></p> 
       <i class="hidden-sm-md-lg swiper-button-next iconfont icon-right"></i> 
@@ -79,7 +79,7 @@
       <p class="c-title"><span>网站建设</span></p> 
       <div class="wrap clearfix"> 
        <article class="item fl"> 
-        <a class="thumbnail" href="/pbootcms219/jianshe/20.html" title="5G+AR，能为工业带来什么？"> <img class="img-cover br" src="images/1577084922438832.png" alt="5G+AR，能为工业带来什么？" title="5G+AR，能为工业带来什么？"> </a> 
+        <a class="thumbnail" href="/pbootcms219/jianshe/20.html" title="5G+AR，能为工业带来什么？"> <img class="img-cover br" src="/static/images/1577084922438832.png" alt="5G+AR，能为工业带来什么？" title="5G+AR，能为工业带来什么？"> </a> 
         <a class="category brightness transition br" href="/pbootcms219/jianshe/20.html">5G,AR,工业</a> 
         <h2 class="title multi-ellipsis"><a href="/pbootcms219/jianshe/20.html" title="5G+AR，能为工业带来什么？">5G+AR，能为工业带来什么？</a></h2> 
         <div class="num clearfix"> 
@@ -88,7 +88,7 @@
         </div> 
        </article> 
        <article class="item fl"> 
-        <a class="thumbnail" href="/pbootcms219/jianshe/19.html" title="电脑长时间睡眠不关机有害么？英特尔官方答案来了"> <img class="img-cover br" src="images/1577084872374796.jpg" alt="电脑长时间睡眠不关机有害么？英特尔官方答案来了" title="电脑长时间睡眠不关机有害么？英特尔官方答案来了"> </a> 
+        <a class="thumbnail" href="/pbootcms219/jianshe/19.html" title="电脑长时间睡眠不关机有害么？英特尔官方答案来了"> <img class="img-cover br" src="/static/images/1577084872374796.jpg" alt="电脑长时间睡眠不关机有害么？英特尔官方答案来了" title="电脑长时间睡眠不关机有害么？英特尔官方答案来了"> </a> 
         <a class="category brightness transition br" href="/pbootcms219/jianshe/19.html">英特尔</a> 
         <h2 class="title multi-ellipsis"><a href="/pbootcms219/jianshe/19.html" title="电脑长时间睡眠不关机有害么？英特尔官方答案来了">电脑长时间睡眠不关机有害么？英特尔官方答案来了</a></h2> 
         <div class="num clearfix"> 
@@ -97,7 +97,7 @@
         </div> 
        </article> 
        <article class="item fl"> 
-        <a class="thumbnail" href="/pbootcms219/jianshe/18.html" title="大…大…大、哥，我…我…我，这么，说，说话，可以，可以，吗？"> <img class="img-cover br" src="images/1577084329882470.jpg" alt="大…大…大、哥，我…我…我，这么，说，说话，可以，可以，吗？" title="大…大…大、哥，我…我…我，这么，说，说话，可以，可以，吗？"> </a> 
+        <a class="thumbnail" href="/pbootcms219/jianshe/18.html" title="大…大…大、哥，我…我…我，这么，说，说话，可以，可以，吗？"> <img class="img-cover br" src="/static/images/1577084329882470.jpg" alt="大…大…大、哥，我…我…我，这么，说，说话，可以，可以，吗？" title="大…大…大、哥，我…我…我，这么，说，说话，可以，可以，吗？"> </a> 
         <a class="category brightness transition br" href="/pbootcms219/jianshe/18.html">笑话</a> 
         <h2 class="title multi-ellipsis"><a href="/pbootcms219/jianshe/18.html" title="大…大…大、哥，我…我…我，这么，说，说话，可以，可以，吗？">大…大…大、哥，我…我…我，这么，说，说话，可以，可以，吗？</a></h2> 
         <div class="num clearfix"> 
@@ -117,7 +117,7 @@
           <a class="category transition ellipsis br fl" href="/pbootcms219/youhua/">站内优化</a> 
           <h2 class="title ellipsis fl"> <a href="/pbootcms219/youhua/6.html" title="锤子6年了 我们找到了它没有死的秘密">锤子6年了 我们找到了它没有死的秘密</a> </h2> 
          </div> 
-         <a class="thumbnail fl" href="/pbootcms219/youhua/6.html" title="锤子6年了 我们找到了它没有死的秘密"> <img class="img-cover br" src="images/1523499864406172.jpg" alt="锤子6年了 我们找到了它没有死的秘密" title="锤子6年了 我们找到了它没有死的秘密"> </a> 
+         <a class="thumbnail fl" href="/pbootcms219/youhua/6.html" title="锤子6年了 我们找到了它没有死的秘密"> <img class="img-cover br" src="/static/images/1523499864406172.jpg" alt="锤子6年了 我们找到了它没有死的秘密" title="锤子6年了 我们找到了它没有死的秘密"> </a> 
          <div class="fr-wrap"> 
           <p class="intro br clearfix">他有些戏谑意味地取了“锤子”这个名字。此前抡锤砸西门子冰箱的“壮举”让他一举成名...</p> 
          </div> 
@@ -129,7 +129,7 @@
           <a class="category transition ellipsis br fl" href="/pbootcms219/shoulu/">收录问题</a> 
           <h2 class="title ellipsis fl"> <a href="/pbootcms219/shoulu/4.html" title="PbootCMSV1.0.0正式发布">PbootCMSV1.0.0正式发布</a> </h2> 
          </div> 
-         <a class="thumbnail fl" href="/pbootcms219/shoulu/4.html" title="PbootCMSV1.0.0正式发布"> <img class="img-cover br" src="images/1523499864406172.jpg" alt="PbootCMSV1.0.0正式发布" title="PbootCMSV1.0.0正式发布"> </a> 
+         <a class="thumbnail fl" href="/pbootcms219/shoulu/4.html" title="PbootCMSV1.0.0正式发布"> <img class="img-cover br" src="/static/images/1523499864406172.jpg" alt="PbootCMSV1.0.0正式发布" title="PbootCMSV1.0.0正式发布"> </a> 
          <div class="fr-wrap"> 
           <p class="intro br clearfix">PbootCMS是全新内核且永久开源免费的PHP企业网站开发建设管理系统，是一套...</p> 
          </div> 
@@ -141,7 +141,7 @@
           <a class="category transition ellipsis br fl" href="/pbootcms219/youhua/">站内优化</a> 
           <h2 class="title ellipsis fl"> <a href="/pbootcms219/youhua/22.html" title="制造业仓促“智能化”警惕“反噬”风险">制造业仓促“智能化”警惕“反噬”风险</a> </h2> 
          </div> 
-         <a class="thumbnail fl" href="/pbootcms219/youhua/22.html" title="制造业仓促“智能化”警惕“反噬”风险"> <img class="img-cover br" src="images/1577085312882794.jpg" alt="制造业仓促“智能化”警惕“反噬”风险" title="制造业仓促“智能化”警惕“反噬”风险"> </a> 
+         <a class="thumbnail fl" href="/pbootcms219/youhua/22.html" title="制造业仓促“智能化”警惕“反噬”风险"> <img class="img-cover br" src="/static/images/1577085312882794.jpg" alt="制造业仓促“智能化”警惕“反噬”风险" title="制造业仓促“智能化”警惕“反噬”风险"> </a> 
          <div class="fr-wrap"> 
           <p class="intro br clearfix">在第二届进博会装备展区，日本那智不二越公司展台的超高速点焊SRA系列机器人。记者...</p> 
          </div> 
@@ -153,7 +153,7 @@
           <a class="category transition ellipsis br fl" href="/pbootcms219/shoulu/">收录问题</a> 
           <h2 class="title ellipsis fl"> <a href="/pbootcms219/shoulu/21.html" title="传苹果明年发4款5G版iPhone 最贵售价或超13000元">传苹果明年发4款5G版iPhone 最贵售价或超13000元</a> </h2> 
          </div> 
-         <a class="thumbnail fl" href="/pbootcms219/shoulu/21.html" title="传苹果明年发4款5G版iPhone 最贵售价或超13000元"> <img class="img-cover br" src="images/1577085190150578.jpg" alt="传苹果明年发4款5G版iPhone 最贵售价或超13000元" title="传苹果明年发4款5G版iPhone 最贵售价或超13000元"> </a> 
+         <a class="thumbnail fl" href="/pbootcms219/shoulu/21.html" title="传苹果明年发4款5G版iPhone 最贵售价或超13000元"> <img class="img-cover br" src="/static/images/1577085190150578.jpg" alt="传苹果明年发4款5G版iPhone 最贵售价或超13000元" title="传苹果明年发4款5G版iPhone 最贵售价或超13000元"> </a> 
          <div class="fr-wrap"> 
           <p class="intro br clearfix">苹果将改变iPhone的发布周期。在上半年发布两款新iPhone，下半年发布另外...</p> 
          </div> 
@@ -167,7 +167,7 @@
       <!--<p class="c-title"><span>最新文章</span></p>--> 
       <article class="article-list br mb sb clearfix"> 
        <figure class="figure fl"> 
-        <a class="thumbnail" href="/pbootcms219/youhua/22.html" title="制造业仓促“智能化”警惕“反噬”风险"> <img class="img-cover br" src="images/1577085312882794.jpg" alt="制造业仓促“智能化”警惕“反噬”风险" title="制造业仓促“智能化”警惕“反噬”风险"> </a> 
+        <a class="thumbnail" href="/pbootcms219/youhua/22.html" title="制造业仓促“智能化”警惕“反噬”风险"> <img class="img-cover br" src="/static/images/1577085312882794.jpg" alt="制造业仓促“智能化”警惕“反噬”风险" title="制造业仓促“智能化”警惕“反噬”风险"> </a> 
        </figure> 
        <div class="content"> 
         <h2 class="title ellipsis m-multi-ellipsis"><a href="/pbootcms219/youhua/22.html" title="制造业仓促“智能化”警惕“反噬”风险">制造业仓促“智能化”警惕“反噬”风险</a></h2> 
@@ -177,7 +177,7 @@
       </article> 
       <article class="article-list br mb sb clearfix"> 
        <figure class="figure fl"> 
-        <a class="thumbnail" href="/pbootcms219/shoulu/21.html" title="传苹果明年发4款5G版iPhone 最贵售价或超13000元"> <img class="img-cover br" src="images/1577085190150578.jpg" alt="传苹果明年发4款5G版iPhone 最贵售价或超13000元" title="传苹果明年发4款5G版iPhone 最贵售价或超13000元"> </a> 
+        <a class="thumbnail" href="/pbootcms219/shoulu/21.html" title="传苹果明年发4款5G版iPhone 最贵售价或超13000元"> <img class="img-cover br" src="/static/images/1577085190150578.jpg" alt="传苹果明年发4款5G版iPhone 最贵售价或超13000元" title="传苹果明年发4款5G版iPhone 最贵售价或超13000元"> </a> 
        </figure> 
        <div class="content"> 
         <h2 class="title ellipsis m-multi-ellipsis"><a href="/pbootcms219/shoulu/21.html" title="传苹果明年发4款5G版iPhone 最贵售价或超13000元">传苹果明年发4款5G版iPhone 最贵售价或超13000元</a></h2> 
@@ -243,9 +243,9 @@
     <aside id="sidebar" class="hidden-sm-md-lg fr"> 
      <div class="theiaStickySidebar"> 
       <section id="aside_about" class="widget widget_aside_about sb br mb"> 
-       <img class="bg" src="images/aboutbg.jpg"> 
+       <img class="bg" src="/static/images/aboutbg.jpg"> 
        <div class="avatar">
-        <img class="img" src="images/user.png">
+        <img class="img" src="/static/images/user.png">
        </div> 
        <div class="wrap pd"> 
         <p class="title">某某新闻博客</p> 

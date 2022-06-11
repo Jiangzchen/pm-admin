@@ -2,7 +2,7 @@
  * @Author: Jiangzchen 927764151@qq.com
  * @Date: 2022-06-10 19:57:13
  * @LastEditors: Jiangzchen 927764151@qq.com
- * @LastEditTime: 2022-06-11 12:09:25
+ * @LastEditTime: 2022-06-11 14:12:21
  * @FilePath: \pm-admin\routers\router.go
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
@@ -19,7 +19,8 @@ import (
 func init() {
 	beego.Router("/", &controllers.MainController{})
 	beego.Router("/system/index", &system.BackendSystemController{}, "get:Index")
-	beego.Router("/system/login", &system.BackendSystemController{}, "get,post:Login")
+	beego.Router("/system/toLogin", &system.BackendSystemController{}, "get:ToLogin")
+	beego.Router("/system/login", &system.BackendSystemController{}, "post:Login")
 	beego.Router("/system/captcha", &system.BackendSystemController{}, "get:Captcha")
 
 	// 用户管理

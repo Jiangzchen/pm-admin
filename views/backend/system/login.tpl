@@ -86,7 +86,7 @@
           </label>
         </div>
         <div class="form-group">
-          <button class="btn btn-block btn-primary" type="button" onclick="location.href='index.html'">立即登录</button>
+          <button class="btn btn-block btn-primary" type="button" id="loginBtn">立即登录</button>
         </div>
       </form>
       <hr>
@@ -98,6 +98,25 @@
 </div>
 <script type="text/javascript" src="/static/js/jquery.min.js"></script>
 <script type="text/javascript" src="/static/js/bootstrap.min.js"></script>
-<script type="text/javascript">;</script>
+<script type="text/javascript">
+    $(function() {
+        $('#loginBtn').on('click',function() {
+            $.ajax({
+                type: 'POST', //请求的方式
+                url: '/system/login', // 请求的URL地址
+                dataType:"json",
+                data: { 
+                        "username": "admin",
+                        "password": "admin",
+                        "verCode": "verCpde"
+                      },// 这次请求要携带的数据
+                success: function(res) { //请求成功之后的回调函数
+                    console. log (res)
+                }
+            });
+        });
+    });
+    
+</script>
 </body>
 </html>
