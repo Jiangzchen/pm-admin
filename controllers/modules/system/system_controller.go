@@ -9,11 +9,13 @@
 package system
 
 import (
+	"encoding/json"
 	"fmt"
 	"image/png"
 
 	"github.com/astaxie/beego"
 	"github.com/vcqr/captcha"
+	"pm-admin/models/dto"
 )
 
 type SystemController struct {
@@ -26,12 +28,13 @@ func (this *SystemController) ToLogin() {
 }
 
 func (this *SystemController) Login() {
-	// var loginDto dto.LoginDto
-	// err := json.Unmarshal(this.Ctx.Input.RequestBody, &loginDto)
+	var loginDto dto.LoginDto
+	err := json.Unmarshal(this.Ctx.Input.RequestBody, &loginDto)
 
-	// if err != nil {
-	// 	fmt.Println("json.Unmarshal is err:", err.Error())
-	// }
+	if err != nil {
+		fmt.Println("json.Unmarshal is err:", err.Error())
+	}
+	fmt.Println("code1111")
 }
 
 func (this *SystemController) Index() {

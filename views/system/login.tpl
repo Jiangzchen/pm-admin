@@ -3,11 +3,11 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
-<title>登录页面 - 光年(Light Year Admin)后台管理系统模板</title>
+<title>pm</title>
 <link rel="icon" href="/static/favicon.ico" type="image/ico">
-<meta name="keywords" content="LightYear,光年,后台模板,后台管理系统,光年HTML模板">
-<meta name="description" content="LightYear是一个基于Bootstrap v3.3.7的后台管理系统的HTML模板。">
-<meta name="author" content="yinqi">
+<meta name="keywords" content="pm">
+<meta name="description" content="pm">
+<meta name="author" content="zichen">
 <link href="/static/css/bootstrap.min.css" rel="stylesheet">
 <link href="/static/css/materialdesignicons.min.css" rel="stylesheet">
 <link href="/static/css/style.min.css" rel="stylesheet">
@@ -102,16 +102,16 @@
     $(function() {
         $('#loginBtn').on('click',function() {
             $.ajax({
-                type: 'POST', //请求的方式
-                url: '/system/login', // 请求的URL地址
+                type: 'Post',
+                url: '/system/login',
                 dataType:"json",
                 contentType:"application/json;charset=utf-8",
                 data: JSON.stringify({ 
                         "username": "admin",
                         "password": "admin",
                         "verCode": "verCpde"
-                      }),// 这次请求要携带的数据
-                success: function(res) { //请求成功之后的回调函数
+                      }),
+                success: function(res) {
                     console. log (res)
                 }
             });

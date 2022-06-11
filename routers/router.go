@@ -14,22 +14,31 @@ import (
 	"pm-admin/controllers/modules/system"
 
 	"github.com/astaxie/beego"
+	"github.com/astaxie/beego/plugins/cors"
 )
 
 func init() {
+	beego.InsertFilter("*", beego.BeforeRouter, cors.Allow(&cors.Options{
+		AllowAllOrigins:  true,
+		AllowMethods:     []string{"GET", "POST", "PUT", "DELETE", "OPTIONS"},
+		AllowHeaders:     []string{"Origin", "Authorization", "Access-Control-Allow-Origin", "Access-Control-Allow-Headers", "Content-Type"},
+		ExposeHeaders:    []string{"Content-Length", "Access-Control-Allow-Origin", "Access-Control-Allow-Headers", "Content-Type"},
+		AllowCredentials: true,
+	}))
+
 	beego.Router("/", &controllers.MainController{})
-	beego.Router("/system/index", &system.SystemController{}, "get:Index")
-	beego.Router("/system/toLogin", &system.SystemController{}, "get:ToLogin")
-	beego.Router("/system/login", &system.SystemController{}, "post:Login")
-	beego.Router("/system/captcha", &system.SystemController{}, "get:Captcha")
+	beego.Router("/system/index", &system.SystemController{}, "Get:Index")
+	beego.Router("/system/toLogin", &system.SystemController{}, "Get:ToLogin")
+	beego.Router("/system/login", &system.SystemController{}, "Post:Login")
+	beego.Router("/system/captcha", &system.SystemController{}, "Get:Captcha")
 
 	// 用户管理
-	beego.Router("/user/view", &system.UserController{}, "get:View")
+	beego.Router("/user/view", &system.UserController{}, "Get:View")
 
 	// 角色管理
-	beego.Router("/role/view", &system.RoleController{}, "get:View")
+	beego.Router("/role/view", &system.RoleController{}, "Get:View")
 
 	// 菜单管理
-	beego.Router("/menu/view", &system.MenuController{}, "get:View")
+	beego.Router("/menu/view", &system.MenuController{}, "Get:View")
 
 }
