@@ -2,7 +2,7 @@
  * @Author: Jiangzchen 927764151@qq.com
  * @Date: 2022-06-10 20:18:57
  * @LastEditors: Jiangzchen 927764151@qq.com
- * @LastEditTime: 2022-06-11 15:20:23
+ * @LastEditTime: 2022-06-11 17:57:42
  * @FilePath: \pm-admin\controllers\system.go
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
@@ -13,9 +13,11 @@ import (
 	"fmt"
 	"image/png"
 
+	"pm-admin/models/dto"
+	"pm-admin/serivces"
+
 	"github.com/astaxie/beego"
 	"github.com/vcqr/captcha"
-	"pm-admin/models/dto"
 )
 
 type SystemController struct {
@@ -35,7 +37,11 @@ func (this *SystemController) Login() {
 		fmt.Println("json.Unmarshal is err:", err.Error())
 	}
 
-	fmt.Println("code1111")
+	loginVo := serivces.SelectPmUserWithUsername(loginDto.Username)
+
+	fmt.Println("code1111", loginVo)
+	this.Data["json"] = loginVo
+	this.ServeJSON()
 }
 
 func (this *SystemController) Index() {
