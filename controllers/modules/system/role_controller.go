@@ -9,6 +9,10 @@
 package system
 
 import (
+	"encoding/json"
+	"fmt"
+	"pm-admin/models"
+	"pm-admin/serivces"
 	"pm-admin/utils"
 
 	"github.com/astaxie/beego"
@@ -30,15 +34,15 @@ func (this *RoleController) List() {
 	this.ServeJSON()
 }
 
-func (this *RotationController) Create() {
-	var pmRotation models.PmRotation
-	err := json.Unmarshal(this.Ctx.Input.RequestBody, &pmRotation)
+func (this *RoleController) Create() {
+	var pmRole models.PmRole
+	err := json.Unmarshal(this.Ctx.Input.RequestBody, &pmRole)
 
 	if err != nil {
 		fmt.Println("json.Unmarshal is err:", err.Error())
 	}
 
-	Id := serivces.CreatePmRotation(pmRotation)
+	Id := serivces.CreatePmRole(pmRole)
 	data := utils.R{0, "ok", Id}
 	this.Data["json"] = &data
 	this.ServeJSON()

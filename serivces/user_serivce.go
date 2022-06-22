@@ -11,6 +11,7 @@ package serivces
 import (
 	"fmt"
 
+	"pm-admin/models"
 	"pm-admin/models/dto"
 	"pm-admin/models/vo"
 	"pm-admin/utils"
@@ -44,4 +45,15 @@ func CreatePmUser(createUserDto dto.CreateUserDto) int64 {
 		fmt.Println("mysql row affected nums: ", num)
 	}
 	return Id
+}
+
+func SelectPmUser() []models.PmUser {
+	orm := orm.NewOrm()
+	var list []models.PmUser
+	res, err := orm.Raw("SELECT * FROM pm_user").QueryRows(&list)
+	if err == nil {
+		//返回执行成功条数
+		fmt.Println("mysql row affected nums: ", res)
+	}
+	return list
 }

@@ -9,6 +9,10 @@
 package system
 
 import (
+	"encoding/json"
+	"fmt"
+	"pm-admin/models"
+	"pm-admin/serivces"
 	"pm-admin/utils"
 
 	"github.com/astaxie/beego"
@@ -30,15 +34,15 @@ func (this *MenuController) List() {
 	this.ServeJSON()
 }
 
-func (this *RotationController) Create() {
-	var pmRotation models.PmRotation
-	err := json.Unmarshal(this.Ctx.Input.RequestBody, &pmRotation)
+func (this *MenuController) Create() {
+	var pmMenu models.PmMenu
+	err := json.Unmarshal(this.Ctx.Input.RequestBody, &pmMenu)
 
 	if err != nil {
 		fmt.Println("json.Unmarshal is err:", err.Error())
 	}
 
-	Id := serivces.CreatePmRotation(pmRotation)
+	Id := serivces.CreatePmMenu(pmMenu)
 	data := utils.R{0, "ok", Id}
 	this.Data["json"] = &data
 	this.ServeJSON()
