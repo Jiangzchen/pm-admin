@@ -18,7 +18,7 @@ type Page struct {
 	List       interface{}
 }
 
-func PageHelper(count int, pageNo int, pageSize int, list interface{}) Page {
+func PageHelper(pageNo int, pageSize int, list interface{}) Page {
 	tp := count / pageSize
 	if count%pageSize > 0 {
 		tp = count/pageSize + 1
