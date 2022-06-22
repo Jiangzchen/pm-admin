@@ -9,8 +9,16 @@
 package dto
 
 type CreateUserDto struct {
-	Id       int    `json:"id"`
-	Username string `json:"username"`
-	Password string `json:"password"`
-	Salt string `json:"salt"`
+	Id           int64  `json:"id" orm:"column(id)"`
+	Username     string `json:"username" orm:"column(username)"`
+	Nickname     string `json:"nickname" orm:"column(nickname)"`
+	Password     string `json:"password" orm:"column(password)"`
+	Email        string `json:"email" orm:"column(email)"`
+	Mobile       string `json:"mobile" orm:"column(mobile)"`
+	Status       int64  `json:"status" orm:"column(status)"`
+	Salt         int64  `json:"salt" orm:"column(salt)"`
+	Remark       string `json:"remark" orm:"column(remark)"`
+	UserIdCreate int64  `json:"userIdCreate" orm:"column(user_id_create)"`
+	GmtCreate    string `json:"gmtCreate" orm:"column(gmt_create)"`
+	GmtModified  string `json:"gmtModified" orm:"column(gmt_modified)"`
 }

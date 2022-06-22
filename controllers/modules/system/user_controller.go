@@ -13,6 +13,7 @@ import (
 	"fmt"
 	"pm-admin/models/dto"
 	"pm-admin/serivces"
+	"pm-admin/utils"
 
 	"github.com/astaxie/beego"
 )
@@ -38,3 +39,12 @@ func (this *UserController) Create() {
 	this.Data["json"] = Id
 	this.ServeJSON()
 }
+
+func (this *UserController) List() {
+	list := serivces.SelectPmUser()
+	data := utils.R{0, "ok", list}
+	this.Data["json"] = &data
+	this.ServeJSON()
+}
+
+

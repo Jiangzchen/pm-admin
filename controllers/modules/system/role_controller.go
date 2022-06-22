@@ -9,6 +9,8 @@
 package system
 
 import (
+	"pm-admin/utils"
+
 	"github.com/astaxie/beego"
 )
 
@@ -19,4 +21,25 @@ type RoleController struct {
 func (this *RoleController) View() {
 	// 渲染模板
 	this.TplName = "role/view.tpl"
+}
+
+func (this *RoleController) List() {
+	list := serivces.SelectPmRole()
+	data := utils.R{0, "ok", list}
+	this.Data["json"] = &data
+	this.ServeJSON()
+}
+
+func (this *RotationController) Create() {
+	var pmRotation models.PmRotation
+	err := json.Unmarshal(this.Ctx.Input.RequestBody, &pmRotation)
+
+	if err != nil {
+		fmt.Println("json.Unmarshal is err:", err.Error())
+	}
+
+	Id := serivces.CreatePmRotation(pmRotation)
+	data := utils.R{0, "ok", Id}
+	this.Data["json"] = &data
+	this.ServeJSON()
 }

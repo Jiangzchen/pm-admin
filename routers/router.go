@@ -46,12 +46,15 @@ func init() {
 	// 用户管理
 	beego.Router("/user/view", &system.UserController{}, "Get:View")
 	beego.Router("/user/create", &system.UserController{}, "Post:Create")
+	beego.Router("/user/list", &article.UserController{}, "Post:List")
 
 	// 角色管理
 	beego.Router("/role/view", &system.RoleController{}, "Get:View")
+	beego.Router("/role/list", &article.RoleController{}, "Post:List")
 
 	// 菜单管理
 	beego.Router("/menu/view", &system.MenuController{}, "Get:View")
+	beego.Router("/menu/list", &article.MenuController{}, "Post:List")
 
 	// 文章管理
 	beego.Router("/article/view", &article.ArticleController{}, "Get:View")

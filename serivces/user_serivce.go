@@ -37,7 +37,7 @@ func CreatePmUser(createUserDto dto.CreateUserDto) int64 {
 	Id := node.GetId()
 	newSalt := utils.CreateSalt()
 	newMd5Pass := utils.Md5Crypt(createUserDto.Password, newSalt)
-	res, err := orm.Raw("insert into pm_user set id = ?,username = ?,password = ?,salt = ?", Id, createUserDto.Username, newMd5Pass, newSalt).Exec()
+	res, err := orm.Raw("insert into pm_user set id = ?,username = ?,nickname = ?,password = ?,salt = ?,email = ?,mobile = ?", Id, createUserDto.Username, createUserDto.Nickname, newMd5Pass, newSalt, createUserDto.Email, createUserDto.Mobile).Exec()
 	if err == nil {
 		//返回执行成功条数
 		num, _ := res.RowsAffected()
