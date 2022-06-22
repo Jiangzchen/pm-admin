@@ -2,23 +2,33 @@
  * @Author: Jiangzchen 927764151@qq.com
  * @Date: 2022-06-10 19:57:13
  * @LastEditors: Jiangzchen 927764151@qq.com
- * @LastEditTime: 2022-06-22 12:38:26
+ * @LastEditTime: 2022-06-22 20:40:53
  * @FilePath: \pm-admin\routers\router.go
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
 package routers
 
 import (
+	"fmt"
 	"pm-admin/controllers"
+
+	"github.com/astaxie/beego/context"
+	"github.com/astaxie/beego/plugins/cors"
 
 	"pm-admin/controllers/modules/article"
 	"pm-admin/controllers/modules/system"
 
 	"github.com/astaxie/beego"
-	"github.com/astaxie/beego/plugins/cors"
 )
 
+var JwtAuthFilter = func(ctx *context.Context) {
+	fmt.Println("都要过滤")
+
+}
+
 func init() {
+
+	beego.InsertFilter("/*", beego.BeforeRouter, JwtAuthFilter)
 	beego.InsertFilter("*", beego.BeforeRouter, cors.Allow(&cors.Options{
 		AllowAllOrigins:  true,
 		AllowMethods:     []string{"GET", "POST", "PUT", "DELETE", "OPTIONS"},
@@ -44,7 +54,6 @@ func init() {
 	beego.Router("/menu/view", &system.MenuController{}, "Get:View")
 
 	// 文章管理
-
 	beego.Router("/article/view", &article.ArticleController{}, "Get:View")
 	beego.Router("/article/list", &article.ArticleController{}, "Post:List")
 	beego.Router("/article/create", &article.ArticleController{}, "Post:Create")

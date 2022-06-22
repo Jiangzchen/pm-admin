@@ -6,6 +6,7 @@ require github.com/astaxie/beego v1.12.3
 
 require (
 	github.com/OwnLocal/goes v1.0.0 // indirect
+	github.com/dgrijalva/jwt-go v3.2.0+incompatible
 	github.com/go-sql-driver/mysql v1.5.0
 	github.com/llgcode/draw2d v0.0.0-20210904075650-80aa0a2a901d // indirect
 	github.com/shiena/ansicolor v0.0.0-20200904210342-c7312218db18 // indirect
