@@ -18,5 +18,5 @@ type MenuController struct {
 
 func (this *MenuController) View() {
 	// 渲染模板
-	this.TplName = "system/menu/view.tpl"
+	this.TplName = "menu/view.tpl"
 }

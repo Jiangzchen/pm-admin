@@ -11,6 +11,7 @@
 <link href="/static/css/bootstrap.min.css" rel="stylesheet">
 <link href="/static/css/materialdesignicons.min.css" rel="stylesheet">
 <link href="/static/css/style.min.css" rel="stylesheet">
+<link href="/static/js/bootstrap-table/bootstrap-table.min.css" rel="stylesheet">
 </head>
   
 <body>
@@ -31,7 +32,7 @@
             <li class="nav-item nav-item-has-subnav">
               <a href="javascript:void(0)"><i class="mdi mdi-palette"></i> 系统管理 </a>
               <ul class="nav nav-subnav">
-                <li> <a href="/user/view">用户管理</a> </li>
+                <li class="active"> <a href="/user/view">用户管理</a> </li>
                 <li> <a href="/role/view">角色管理</a> </li>
                 <li> <a href="/menu/view">菜单管理</a> </li>
               </ul>
@@ -59,7 +60,7 @@
               <span class="lyear-toggler-bar"></span>
               <span class="lyear-toggler-bar"></span>
             </div>
-            <span class="navbar-page-title"> 后台首页 </span>
+            <span class="navbar-page-title"> 系统管理 - 用户管理 </span>
           </div>
           
           <ul class="topbar-right">
@@ -219,134 +220,150 @@
         <div class="row">
           <div class="col-lg-12">
             <div class="card">
-              <div class="card-toolbar clearfix">
-                <form class="pull-right search-bar" method="get" action="#!" role="form">
-                  <div class="input-group">
-                    <div class="input-group-btn">
-                      <input type="hidden" name="search_field" id="search-field" value="title">
-                      <button class="btn btn-default dropdown-toggle" id="search-btn" data-toggle="dropdown" type="button" aria-haspopup="true" aria-expanded="false">
-                      标题 <span class="caret"></span>
-                      </button>
-                      <ul class="dropdown-menu">
-                        <li> <a tabindex="-1" href="javascript:void(0)" data-field="title">标题</a> </li>
-                        <li> <a tabindex="-1" href="javascript:void(0)" data-field="cat_name">栏目</a> </li>
-                      </ul>
-                    </div>
-                    <input type="text" class="form-control" value="" name="keyword" placeholder="请输入名称">
-                  </div>
+              <!--默认使用-->
+            <div class="card-toolbar clearfix">
+                <form class="form-inline" action="#!" method="post">
+                <div class="form-group m-b-5">
+                    <input class="form-control" type="email" name="keywords" placeholder="请输入邮箱..">
+                </div>
+                <div class="form-group m-b-5">
+                    <input class="form-control" type="password" name="usernbame" placeholder="请输入用户名..">
+                </div>
+                <div class="form-group m-b-5">
+                    <input class="form-control" type="phone" name="phone" placeholder="请输入手机号..">
+                </div>
+                <a class="btn btn-default m-b-5" href="#!"><i class="mdi mdi-magnify"></i> 搜索</a>
+                <a class="btn btn-primary m-b-5" href="#!"><i class="mdi mdi-plus"></i> 新增</a>
+                <a class="btn btn-success m-b-5" href="#!"><i class="mdi mdi-check"></i> 启用</a>
+                <a class="btn btn-warning m-b-5" href="#!"><i class="mdi mdi-block-helper"></i> 禁用</a>
+                <a class="btn btn-danger m-b-5" href="#!"><i class="mdi mdi-window-close"></i> 删除</a>
+                <button class="btn btn-secondary m-b-5" type="reset"><i class="mdi mdi-delete"></i> 清空数据</button>
                 </form>
-                <div class="toolbar-btn-action">
-                  <a class="btn btn-primary m-r-5" href="#!"><i class="mdi mdi-plus"></i> 新增</a>
-                  <a class="btn btn-success m-r-5" href="#!"><i class="mdi mdi-check"></i> 启用</a>
-                  <a class="btn btn-warning m-r-5" href="#!"><i class="mdi mdi-block-helper"></i> 禁用</a>
-                  <a class="btn btn-danger" href="#!"><i class="mdi mdi-window-close"></i> 删除</a>
-                </div>
-              </div>
+            </div>
               <div class="card-body">
-                
-                <div class="table-responsive">
-                  <table class="table table-bordered">
-                    <thead>
-                      <tr>
-                        <th>
-                          <label class="lyear-checkbox checkbox-primary">
-                            <input type="checkbox" id="check-all"><span></span>
-                          </label>
-                        </th>
-                        <th>编号</th>
-                        <th>标题</th>
-                        <th>书籍</th>
-                        <th>作者</th>
-                        <th>阅读量</th>
-                        <th>状态</th>
-                        <th>操作</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <td>
-                          <label class="lyear-checkbox checkbox-primary">
-                            <input type="checkbox" name="ids[]" value="1"><span></span>
-                          </label>
-                        </td>
-                        <td>1</td>
-                        <td>第01章 天涯思君不可忘</td>
-                        <td>《倚天屠龙记》</td>
-                        <td>金庸</td>
-                        <td>36</td>
-                        <td><font class="text-success">正常</font></td>
-                        <td>
-                          <div class="btn-group">
-                            <a class="btn btn-xs btn-default" href="#!" title="编辑" data-toggle="tooltip"><i class="mdi mdi-pencil"></i></a>
-                            <a class="btn btn-xs btn-default" href="#!" title="查看" data-toggle="tooltip"><i class="mdi mdi-eye"></i></a>
-                            <a class="btn btn-xs btn-default" href="#!" title="删除" data-toggle="tooltip"><i class="mdi mdi-window-close"></i></a>
-                          </div>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <label class="lyear-checkbox checkbox-primary">
-                            <input type="checkbox" name="ids[]" value="2"><span></span>
-                          </label>
-                        </td>
-                        <td>2</td>
-                        <td>第01章 古道腾驹惊白发，危峦快剑识青翎</td>
-                        <td>《书剑恩仇录》</td>
-                        <td>金庸</td>
-                        <td>44</td>
-                        <td><font class="text-success">正常</font></td>
-                        <td>
-                          <div class="btn-group">
-                            <a class="btn btn-xs btn-default" href="#!" title="编辑" data-toggle="tooltip"><i class="mdi mdi-pencil"></i></a>
-                            <a class="btn btn-xs btn-default" href="#!" title="查看" data-toggle="tooltip"><i class="mdi mdi-eye"></i></a>
-                            <a class="btn btn-xs btn-default" href="#!" title="删除" data-toggle="tooltip"><i class="mdi mdi-window-close"></i></a>
-                          </div>
-                        </td>
-                      </tr>
-                    </tbody>
-                  </table>
-                </div>
-                <ul class="pagination">
-                  <li class="disabled"><span>«</span></li>
-                  <li class="active"><span>1</span></li>
-                  <li><a href="#1">2</a></li>
-                  <li><a href="#1">3</a></li>
-                  <li><a href="#1">4</a></li>
-                  <li><a href="#1">5</a></li>
-                  <li><a href="#1">6</a></li>
-                  <li><a href="#1">7</a></li>
-                  <li><a href="#1">8</a></li>
-                  <li class="disabled"><span>...</span></li>
-                  <li><a href="#!">14452</a></li>
-                  <li><a href="#!">14453</a></li>
-                  <li><a href="#!">»</a></li>
-                </ul>
-       
+                <table id="tb_departments"></table>
               </div>
             </div>
           </div>
-          
         </div>
-        
       </div>
-      
     </main>
     <!--End 页面主要内容-->
   </div>
 </div>
 
 <script type="text/javascript" src="/static/js/jquery.min.js"></script>
+<script type="text/javascript" src="/static/js/popper.min.js"></script>
 <script type="text/javascript" src="/static/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="/static/js/perfect-scrollbar.min.js"></script>
 <script type="text/javascript" src="/static/js/main.min.js"></script>
+<script type="text/javascript" src="/static/js/bootstrap-table/bootstrap-table.min.js"></script>
+<script type="text/javascript" src="/static/js/bootstrap-table/locale/bootstrap-table-zh-CN.min.js"></script>
 <script type="text/javascript">
-$(function(){
-    $('.search-bar .dropdown-menu a').click(function() {
-        var field = $(this).data('field') || '';
-        $('#search-field').val(field);
-        $('#search-btn').html($(this).text() + ' <span class="caret"></span>');
-    });
+
+$('#tb_departments').bootstrapTable({
+	classes: 'table table-hover table-condensed',
+	url: 'http://www.bixiaguangnian.com/index/test/getExampleJson',
+	method: 'get',
+	dataType: 'jsonp', // 因为本示例中是跨域的调用,所以涉及到ajax都采用jsonp,
+	uniqueId: 'id',
+	idField: 'id', // 每行的唯一标识字段
+	pagination: true, // 是否显示分页
+	sortOrder: "asc", // 排序方式
+	// 传递参数
+	queryParams: function(params) {
+		return {
+			limit: params.limit, // 每页数据量
+			offset: params.offset, // sql语句起始索引
+			page: (params.offset / params.limit) + 1,
+			sort: params.sort, // 排序的列名
+			sortOrder: params.order // 排序方式'asc' 'desc'
+		};
+	},
+	sidePagination: "server", // 分页方式：client客户端分页，server服务端分页
+	pageNumber: 1, // 初始化加载第一页，默认第一页
+	pageSize: 15, // 每页的记录行数
+	pageList: [15, 30, 60, 120], // 可供选择的每页的行数
+	columns: [{
+		field: 'example',
+		checkbox: true // 是否显示复选框
+	}, {
+		field: 'id',
+		title: 'ID',
+		// 居中显示
+		align: 'center',
+		// 是否排序
+		sortable: true
+	}, {
+		field: 'author',
+		align: 'center',
+		title: '作者'
+	}, {
+		field: 'dynasty',
+		align: 'center',
+		title: '朝代',
+	}, {
+		field: 'nationality',
+		// 是否可视(默认true)
+		visible: false,
+		align: 'center',
+		title: '国籍'
+	}, {
+		field: 'opus',
+		align: 'center',
+		title: '作品'
+	}, {
+		field: 'category',
+		align: 'center',
+		title: '分类'
+	}, {
+		field: 'status',
+		align: 'center',
+		title: '状态',
+		formatter: function(value, row, index) {
+			var value = "";
+			if (row.status == '0') {
+				value = '<span class="badge badge-danger">禁用</span>';
+			} else if (row.status == '1') {
+				value = '<span class="badge badge-success">正常</span>';
+			} else {
+				value = row.pType;
+			}
+			return value;
+		}
+	}, {
+		field: 'operate',
+		align: 'center',
+		title: '操作',
+		formatter: btnGroup, 
+		events: {
+			'click .edit-btn': function(event, value, row, index) {
+				editUser(row);
+			},
+			'click .del-btn': function(event, value, row, index) {
+				delUser(row);
+			}
+		}
+	}],
 });
+
+// 操作按钮
+function btnGroup() {
+	let html =
+		'<a href="#!" class="btn btn-xs btn-default m-r-5 edit-btn" title="编辑" data-toggle="tooltip"><i class="mdi mdi-pencil"></i></a>' +
+		'<a href="#!" class="btn btn-xs btn-default del-btn" title="删除" data-toggle="tooltip"><i class="mdi mdi-window-close"></i></a>';
+	return html;
+}
+
+// 操作方法 - 编辑
+function editUser() {
+	alert('跳转修改信息');
+}
+// 操作方法 - 删除
+function delUser() {
+	alert('信息删除成功');
+}
+
 </script>
 </body>
 </html>
