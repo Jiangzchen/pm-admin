@@ -14,5 +14,5 @@ require (
 	github.com/siddontang/ledisdb v0.0.0-20181029004158-becf5f38d373 // indirect
 	github.com/smartystreets/goconvey v1.6.4
 	github.com/vcqr/captcha v0.0.0-20190226134436-33e818ba057b
-	golang.org/x/tools v0.0.0-20200117065230-39095c1d176c // indirect
+	golang.org/x/tools v0.0.0-20200117065230-39095c1d176c
 )

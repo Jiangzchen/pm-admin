@@ -2,7 +2,7 @@
  * @Author: Jiangzchen 927764151@qq.com
  * @Date: 2022-06-10 19:57:13
  * @LastEditors: Jiangzchen 927764151@qq.com
- * @LastEditTime: 2022-06-22 20:40:53
+ * @LastEditTime: 2022-06-23 13:08:49
  * @FilePath: \pm-admin\routers\router.go
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
@@ -47,6 +47,7 @@ func init() {
 	beego.Router("/user/view", &system.UserController{}, "Get:View")
 	beego.Router("/user/create", &system.UserController{}, "Post:Create")
 	beego.Router("/user/list", &system.UserController{}, "Post:List")
+	beego.Router("/user/delete", &system.UserController{}, "Post:Delete")
 
 	// 角色管理
 	beego.Router("/role/view", &system.RoleController{}, "Get:View")

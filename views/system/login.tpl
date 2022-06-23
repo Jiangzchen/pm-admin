@@ -155,10 +155,19 @@
             e.preventDefault();
             var $form = $(e.target);
             var bv = $form.data('bootstrapValidator');
-            $.post('/system/login', JSON.stringify({"username": "admin","password": "admin","verCode": "verCpde"}), function(res) {
+
+            var username = $("#username").val();
+            var password = $("#password").val();
+            var verCpde = $("#captcha").val();
+            console.log(username);
+            console.log(password);
+            console.log(verCpde);
+            $.post('/system/login', JSON.stringify({"username": username,"password": password,"verCode": verCpde}), function(res) {
                 console.log(res);
-                // 跳转到主页
-                location.href='/system/index';
+                if(res.code == 0){
+                    // 跳转到主页
+                   location.href='/system/index';   
+                }
             }, 'json');
         });
     });
