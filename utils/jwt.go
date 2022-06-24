@@ -2,8 +2,10 @@ package utils
 
 import (
 	"fmt"
+	"pm-admin/models/vo"
 	"time"
 
+	"github.com/astaxie/beego/logs"
 	"github.com/dgrijalva/jwt-go"
 )
 
@@ -13,16 +15,11 @@ const (
 
 )
 
-type User struct {
-	Id   string `json:"id"`
-	Name string `json:"json"`
-}
-
 // JWT -- json web token
 // HEADER PAYLOAD SIGNATURE
 // This struct is the PAYLOAD
 type MyCustomClaims struct {
-	User
+	vo.LoginVo
 	jwt.StandardClaims
 }
 
@@ -42,10 +39,10 @@ func RefreshToken(tokenString string) (string, error) {
 	mySigningKey := []byte(KEY)
 	expireAt := time.Now().Add(time.Second * time.Duration(DEFAULT_EXPIRE_SECONDS)).Unix()
 	newClaims := MyCustomClaims{
-		claims.User,
+		claims.LoginVo,
 		jwt.StandardClaims{
 			ExpiresAt: expireAt,
-			Issuer:    claims.User.Name,
+			Issuer:    claims.LoginVo.Username,
 			IssuedAt:  time.Now().Unix(),
 		},
 	}
@@ -53,7 +50,7 @@ func RefreshToken(tokenString string) (string, error) {
 	newToken := jwt.NewWithClaims(jwt.SigningMethodHS256, newClaims)
 	tokenStr, err := newToken.SignedString(mySigningKey)
 	if err != nil {
-		fmt.Println("generate new fresh json web token failed !! error :", err)
+		logs.Info("generate new fresh json web token failed !! error :", err)
 		return "", err
 	}
 	return tokenStr, err
@@ -67,37 +64,38 @@ func ValidateToken(tokenString string) error {
 			return []byte(KEY), nil
 		})
 	if claims, ok := token.Claims.(*MyCustomClaims); ok && token.Valid {
-		fmt.Printf("%v %v", claims.User, claims.StandardClaims.ExpiresAt)
-		fmt.Println("token will be expired at ", time.Unix(claims.StandardClaims.ExpiresAt, 0))
+		logs.Info("%v %v", claims.LoginVo, claims.StandardClaims.ExpiresAt)
+		logs.Info("token will be expired at ", time.Unix(claims.StandardClaims.ExpiresAt, 0))
 	} else {
-		fmt.Println("validate tokenString failed !!!", err)
+		logs.Info("validate tokenString failed !!!", err)
 		return err
 	}
 	return nil
 }
 
-func GenerateToken(expiredSeconds int) (tokenString string) {
+func CreateToken(loginVo vo.LoginVo, expiredSeconds int) (tokenString string) {
 	if expiredSeconds == 0 {
 		expiredSeconds = DEFAULT_EXPIRE_SECONDS
 	}
 	// Create the Claims
 	mySigningKey := []byte(KEY)
 	expireAt := time.Now().Add(time.Second * time.Duration(expiredSeconds)).Unix()
-	fmt.Println("token will be expired at ", time.Unix(expireAt, 0))
+	logs.Info("token will be expired at ", time.Unix(expireAt, 0))
 	// pass parameter to this func or not
-	user := User{"007", "Kev"}
+
+	// user := User{"007", "Kev"}
 	claims := MyCustomClaims{
-		user,
+		loginVo,
 		jwt.StandardClaims{
 			ExpiresAt: expireAt,
-			Issuer:    user.Name,
+			Issuer:    loginVo.Username,
 			IssuedAt:  time.Now().Unix(),
 		},
 	}
 	token := jwt.NewWithClaims(jwt.SigningMethodHS256, claims)
 	tokenStr, err := token.SignedString(mySigningKey)
 	if err != nil {
-		fmt.Println("generate json web token failed !! error :", err)
+		logs.Info("generate json web token failed !! error :", err)
 	}
 	return tokenStr
 

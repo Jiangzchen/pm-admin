@@ -2,7 +2,7 @@
  * @Author: Jiangzchen 927764151@qq.com
  * @Date: 2022-06-10 20:18:57
  * @LastEditors: Jiangzchen 927764151@qq.com
- * @LastEditTime: 2022-06-23 13:46:13
+ * @LastEditTime: 2022-06-24 11:50:12
  * @FilePath: \pm-admin\controllers\system.go
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
@@ -52,9 +52,27 @@ func (this *SystemController) Login() {
 	}
 
 	loginVo := serivces.SelectPmUserWithUsername(loginDto.Username)
-	data := utils.R{0, "请求成功", loginVo}
-	this.Data["json"] = &data
+
+	token := utils.CreateToken(loginVo, 0)
+
+	if err != nil {
+		fmt.Println("token:", token)
+	} else {
+		//获取jwt
+		this.Ctx.WriteString(token)
+	}
+
+	// data := utils.R{0, "请求成功", loginVo}
+	this.Data["json"] = &token
 	this.ServeJSON()
+}
+
+//验证token
+func (this *SystemController) Check() {
+	token := "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwicGFzc3dvcmQiOiIwYjQ5OGZiYjIyZGFiZDI0ZmQ4NjYyZmRmZGEwZGNlNyIsImV4cCI6MTY1NjA0Mjk2OCwiaWF0IjoxNjU2MDQyMzY4LCJpc3MiOiJhZG1pbiJ9.yZwRzKIrmzy_nfWmzVRD_JO0TNP7bZHazPcWpmyKorI"
+	info := utils.ValidateToken(token)
+	fmt.Println(info)
+	this.Ctx.WriteString("success")
 }
 
 func (this *SystemController) Index() {

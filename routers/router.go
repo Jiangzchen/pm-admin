@@ -2,7 +2,7 @@
  * @Author: Jiangzchen 927764151@qq.com
  * @Date: 2022-06-10 19:57:13
  * @LastEditors: Jiangzchen 927764151@qq.com
- * @LastEditTime: 2022-06-23 13:08:49
+ * @LastEditTime: 2022-06-24 12:29:54
  * @FilePath: \pm-admin\routers\router.go
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
@@ -13,6 +13,7 @@ import (
 	"pm-admin/controllers"
 
 	"github.com/astaxie/beego/context"
+	"github.com/astaxie/beego/logs"
 	"github.com/astaxie/beego/plugins/cors"
 
 	"pm-admin/controllers/modules/article"
@@ -23,6 +24,7 @@ import (
 
 var JwtAuthFilter = func(ctx *context.Context) {
 	fmt.Println("都要过滤")
+	logs.Info("current router path is ", ctx.Request.RequestURI)
 
 }
 
@@ -42,6 +44,7 @@ func init() {
 	beego.Router("/system/toLogin", &system.SystemController{}, "Get:ToLogin")
 	beego.Router("/system/login", &system.SystemController{}, "Post:Login")
 	beego.Router("/system/captcha", &system.SystemController{}, "Get:Captcha")
+	beego.Router("/system/check", &system.SystemController{}, "Post:Check")
 
 	// 用户管理
 	beego.Router("/user/view", &system.UserController{}, "Get:View")
