@@ -73,3 +73,7 @@
 2022/06/26 00:04:38.963 [D] [server.go:2843]  |      127.0.0.1|[42m 200 [0m|      998.1µs|   match|[44m GET     [0m /swagger/swagger.json
 2022/06/26 00:04:42.363 [I] [asm_amd64.s:1374]  http server Running on http://:8082
 2022/06/26 00:04:42.363 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/26 00:05:34.619 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/26 00:05:34.619 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/26 00:05:41.459 [D] [server.go:2843]  |      127.0.0.1|[47m 304 [0m|      998.2µs|   match|[44m GET     [0m /swagger/
+2022/06/26 00:05:41.583 [D] [server.go:2843]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /swagger/swagger.json
