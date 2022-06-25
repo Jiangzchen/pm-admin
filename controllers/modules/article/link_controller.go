@@ -18,6 +18,7 @@ import (
 	"github.com/astaxie/beego"
 )
 
+// 链接控制器
 type LinkController struct {
 	beego.Controller
 }

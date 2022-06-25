@@ -1,0 +1,537 @@
+2022/06/25 17:15:52.062 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/25 17:15:52.062 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/25 17:16:04.845 [I] [router.go:678]  current router path is  /system/toLogin
+2022/06/25 17:16:04.847 [D] [server.go:2843]  |            ::1|[42m 200 [0m|     3.9906ms|   match|[44m GET     [0m /system/toLogin   r:/system/toLogin
+2022/06/25 17:16:04.868 [I] [router.go:678]  current router path is  /system/captcha
+2022/06/25 17:16:04.912 [D] [server.go:2843]  |            ::1|[42m 200 [0m|    48.8689ms|   match|[44m GET     [0m /system/captcha   r:/system/captcha
+2022/06/25 17:16:07.707 [I] [router.go:678]  current router path is  /system/login
+2022/06/25 17:16:07.793 [I] [system_controller.go:56]  token will be expired at  2022-06-25 17:26:07 +0800 CST
+2022/06/25 17:16:07.908 [D] [server.go:2843]  |            ::1|[42m 200 [0m|    201.965ms|   match|[46m POST    [0m /system/login   r:/system/login
+2022/06/25 17:16:11.180 [I] [router.go:678]  current router path is  /system/toLogin
+2022/06/25 17:16:11.182 [D] [server.go:2843]  |            ::1|[42m 200 [0m|     2.9908ms|   match|[44m GET     [0m /system/toLogin   r:/system/toLogin
+2022/06/25 17:16:11.194 [I] [router.go:678]  current router path is  /system/captcha
+2022/06/25 17:16:11.200 [D] [server.go:2843]  |            ::1|[42m 200 [0m|      4.987ms|   match|[44m GET     [0m /system/captcha   r:/system/captcha
+2022/06/25 17:16:14.691 [I] [router.go:678]  current router path is  /system/captcha?d=0.04375076712499992
+2022/06/25 17:16:14.694 [D] [server.go:2843]  |            ::1|[42m 200 [0m|     3.9883ms|   match|[44m GET     [0m /system/captcha   r:/system/captcha
+2022/06/25 17:16:15.997 [I] [router.go:678]  current router path is  /system/captcha?d=0.04375076712499992?d=0.5416770907462074
+2022/06/25 17:16:16.001 [D] [server.go:2843]  |            ::1|[42m 200 [0m|     3.9901ms|   match|[44m GET     [0m /system/captcha   r:/system/captcha
+2022/06/25 17:16:16.764 [I] [router.go:678]  current router path is  /system/captcha?d=0.04375076712499992?d=0.5416770907462074?d=0.48600411319531056
+2022/06/25 17:16:16.767 [D] [server.go:2843]  |            ::1|[42m 200 [0m|     3.9898ms|   match|[44m GET     [0m /system/captcha   r:/system/captcha
+2022/06/25 17:16:20.305 [I] [router.go:678]  current router path is  /system/login
+2022/06/25 17:16:20.339 [I] [system_controller.go:56]  token will be expired at  2022-06-25 17:26:20 +0800 CST
+2022/06/25 17:16:20.340 [D] [server.go:2843]  |            ::1|[42m 200 [0m|     34.906ms|   match|[46m POST    [0m /system/login   r:/system/login
+2022/06/25 17:17:23.829 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/25 17:17:23.829 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/25 17:17:29.014 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/25 17:17:29.014 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/25 17:17:32.884 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/25 17:17:32.884 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/25 17:17:36.733 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/25 17:17:36.733 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/25 17:20:40.657 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/25 17:20:40.657 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/25 17:21:55.738 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/25 17:21:55.738 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/25 17:22:00.216 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/25 17:22:00.216 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/25 17:22:03.807 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/25 17:22:03.807 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/25 17:22:07.027 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/25 17:22:07.027 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/25 17:22:10.579 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/25 17:22:10.579 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/25 17:22:13.870 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/25 17:22:13.870 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/25 17:23:21.583 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/25 17:23:21.583 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/25 17:23:24.844 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/25 17:23:24.844 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/25 17:23:27.835 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/25 17:23:27.835 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/25 17:25:01.634 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/25 17:25:01.634 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/25 17:25:38.211 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/25 17:25:38.211 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/25 17:25:41.471 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/25 17:25:41.471 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/25 17:25:48.819 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/25 17:25:48.819 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/25 17:30:53.567 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/25 17:30:53.567 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/25 17:36:08.840 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/25 17:36:08.840 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/25 17:36:38.104 [I] [router.go:678]  current router path is  /swagger-ui.html
+2022/06/25 17:36:38.104 [D] [server.go:2843]  |      127.0.0.1|[43m 404 [0m|     1.9927ms| nomatch|[44m GET     [0m /swagger-ui.html
+2022/06/25 17:36:38.189 [D] [server.go:2843]  |      127.0.0.1|[42m 200 [0m|    10.9679ms|   match|[44m GET     [0m /favicon.ico
+2022/06/25 17:36:45.736 [I] [router.go:678]  current router path is  /swagger
+2022/06/25 17:36:45.737 [D] [server.go:2843]  |      127.0.0.1|[43m 404 [0m|      998.9µs| nomatch|[44m GET     [0m /swagger
+2022/06/25 17:36:58.356 [I] [router.go:678]  current router path is  /swagger
+2022/06/25 17:36:58.357 [D] [server.go:2843]  |      127.0.0.1|[43m 404 [0m|      996.8µs| nomatch|[44m GET     [0m /swagger
+2022/06/25 17:36:58.434 [D] [server.go:2843]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /favicon.ico
+2022/06/25 17:38:34.220 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/25 17:38:34.220 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/25 17:38:39.342 [D] [server.go:2843]  |      127.0.0.1|[43m 403 [0m|      996.5µs|   match|[44m GET     [0m /swagger
+2022/06/25 17:38:40.077 [D] [server.go:2843]  |      127.0.0.1|[43m 403 [0m|           0s|   match|[44m GET     [0m /swagger
+2022/06/25 17:38:40.415 [D] [server.go:2843]  |      127.0.0.1|[43m 403 [0m|           0s|   match|[44m GET     [0m /swagger
+2022/06/25 17:38:40.611 [D] [server.go:2843]  |      127.0.0.1|[43m 403 [0m|           0s|   match|[44m GET     [0m /swagger
+2022/06/25 17:38:40.784 [D] [server.go:2843]  |      127.0.0.1|[43m 403 [0m|           0s|   match|[44m GET     [0m /swagger
+2022/06/25 17:38:40.952 [D] [server.go:2843]  |      127.0.0.1|[43m 403 [0m|           0s|   match|[44m GET     [0m /swagger
+2022/06/25 17:38:41.127 [D] [server.go:2843]  |      127.0.0.1|[43m 403 [0m|           0s|   match|[44m GET     [0m /swagger
+2022/06/25 17:38:41.287 [D] [server.go:2843]  |      127.0.0.1|[43m 403 [0m|           0s|   match|[44m GET     [0m /swagger
+2022/06/25 17:38:43.520 [D] [server.go:2843]  |      127.0.0.1|[43m 403 [0m|           0s|   match|[44m GET     [0m /swagger
+2022/06/25 17:39:38.266 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/25 17:39:38.266 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/25 17:39:57.075 [D] [server.go:2843]  |      127.0.0.1|[43m 403 [0m|           0s|   match|[44m GET     [0m /swagger
+2022/06/25 17:40:22.342 [D] [server.go:2843]  |      127.0.0.1|[43m 403 [0m|           0s|   match|[44m GET     [0m /swagger
+2022/06/25 17:40:22.499 [D] [server.go:2843]  |      127.0.0.1|[42m 200 [0m|    84.2818ms|   match|[44m GET     [0m /favicon.ico
+2022/06/25 17:40:31.468 [D] [server.go:2843]  |      127.0.0.1|[43m 403 [0m|           0s|   match|[44m GET     [0m /swagger
+2022/06/25 17:40:31.503 [D] [server.go:2843]  |      127.0.0.1|[42m 200 [0m|      995.8µs|   match|[44m GET     [0m /favicon.ico
+2022/06/25 17:40:35.997 [I] [router.go:678]  current router path is  /swagger/swagger
+2022/06/25 17:40:35.998 [D] [server.go:2843]  |      127.0.0.1|[43m 404 [0m|     2.9917ms| nomatch|[44m GET     [0m /swagger/swagger
+2022/06/25 17:42:10.487 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/25 17:42:10.487 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/25 17:42:10.610 [I] [router.go:678]  current router path is  /swagger/swagger
+2022/06/25 17:42:10.610 [D] [server.go:2843]  |      127.0.0.1|[43m 404 [0m|     1.9944ms| nomatch|[44m GET     [0m /swagger/swagger
+2022/06/25 17:42:10.651 [D] [server.go:2843]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /favicon.ico
+2022/06/25 17:42:12.909 [I] [router.go:678]  current router path is  /swagger/swagger
+2022/06/25 17:42:12.910 [D] [server.go:2843]  |      127.0.0.1|[43m 404 [0m|     1.0077ms| nomatch|[44m GET     [0m /swagger/swagger
+2022/06/25 17:42:17.175 [I] [router.go:678]  current router path is  /swagger/swagger
+2022/06/25 17:42:17.175 [D] [server.go:2843]  |      127.0.0.1|[43m 404 [0m|      997.4µs| nomatch|[44m GET     [0m /swagger/swagger
+2022/06/25 17:42:20.835 [D] [server.go:2843]  |      127.0.0.1|[43m 403 [0m|      996.4µs|   match|[44m GET     [0m /swagger
+2022/06/25 17:53:42.304 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/25 17:53:42.304 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/25 17:54:01.768 [D] [server.go:2843]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /swagger/
+2022/06/25 17:54:01.829 [D] [server.go:2843]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /swagger/css/typography.css
+2022/06/25 17:54:01.830 [D] [server.go:2843]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /swagger/css/reset.css
+2022/06/25 17:54:01.831 [D] [server.go:2843]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /swagger/css/screen.css
+2022/06/25 17:54:01.838 [D] [server.go:2843]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /swagger/images/logo_small.png
+2022/06/25 17:54:01.854 [D] [server.go:2843]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /swagger/lib/object-assign-pollyfill.js
+2022/06/25 17:54:01.855 [D] [server.go:2843]  |      127.0.0.1|[42m 200 [0m|      997.6µs|   match|[44m GET     [0m /swagger/lib/jquery-1.8.0.min.js
+2022/06/25 17:54:01.855 [D] [server.go:2843]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /swagger/lib/jquery.slideto.min.js
+2022/06/25 17:54:01.857 [D] [server.go:2843]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /swagger/lib/jquery.ba-bbq.min.js
+2022/06/25 17:54:01.857 [D] [server.go:2843]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /swagger/lib/jquery.wiggle.min.js
+2022/06/25 17:54:01.862 [D] [server.go:2843]  |      127.0.0.1|[42m 200 [0m|      997.2µs|   match|[44m GET     [0m /swagger/lib/highlight.9.1.0.pack.js
+2022/06/25 17:54:01.862 [D] [server.go:2843]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /swagger/lib/highlight.9.1.0.pack_extended.js
+2022/06/25 17:54:01.862 [D] [server.go:2843]  |      127.0.0.1|[42m 200 [0m|     2.9914ms|   match|[44m GET     [0m /swagger/swagger-ui.js
+2022/06/25 17:54:01.863 [D] [server.go:2843]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /swagger/lib/jsoneditor.min.js
+2022/06/25 17:54:01.864 [D] [server.go:2843]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /swagger/lib/swagger-oauth.js
+2022/06/25 17:54:01.866 [D] [server.go:2843]  |      127.0.0.1|[42m 200 [0m|      997.2µs|   match|[44m GET     [0m /swagger/lib/marked.js
+2022/06/25 17:54:01.943 [D] [server.go:2843]  |      127.0.0.1|[42m 200 [0m|      997.1µs|   match|[44m GET     [0m /swagger/lib/backbone-min.js
+2022/06/25 17:54:01.943 [D] [server.go:2843]  |      127.0.0.1|[42m 200 [0m|      997.1µs|   match|[44m GET     [0m /swagger/lib/lodash.min.js
+2022/06/25 17:54:01.943 [D] [server.go:2843]  |      127.0.0.1|[42m 200 [0m|     1.9948ms|   match|[44m GET     [0m /swagger/lib/handlebars-4.0.5.js
+2022/06/25 17:54:01.944 [D] [server.go:2843]  |      127.0.0.1|[42m 200 [0m|      997.5µs|   match|[44m GET     [0m /swagger/css/print.css
+2022/06/25 17:54:02.014 [D] [server.go:2843]  |      127.0.0.1|[42m 200 [0m|      997.2µs|   match|[44m GET     [0m /swagger/images/favicon-16x16.png
+2022/06/25 17:54:02.020 [D] [server.go:2843]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /swagger/swagger.json
+2022/06/25 17:54:18.315 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/25 17:54:18.315 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/25 17:54:27.590 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/25 17:54:27.590 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/25 17:54:51.186 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/25 17:54:51.186 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/25 17:55:41.260 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/25 17:55:41.260 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/25 17:55:48.111 [D] [server.go:2843]  |      127.0.0.1|[42m 200 [0m|      997.6µs|   match|[44m GET     [0m /swagger/
+2022/06/25 17:55:48.202 [D] [server.go:2843]  |      127.0.0.1|[42m 200 [0m|      997.8µs|   match|[44m GET     [0m /swagger/lib/object-assign-pollyfill.js
+2022/06/25 17:55:48.205 [D] [server.go:2843]  |      127.0.0.1|[42m 200 [0m|      996.4µs|   match|[44m GET     [0m /swagger/lib/jquery.slideto.min.js
+2022/06/25 17:55:48.206 [D] [server.go:2843]  |      127.0.0.1|[42m 200 [0m|      997.1µs|   match|[44m GET     [0m /swagger/lib/jquery-1.8.0.min.js
+2022/06/25 17:55:48.206 [D] [server.go:2843]  |      127.0.0.1|[42m 200 [0m|      997.1µs|   match|[44m GET     [0m /swagger/lib/jquery.wiggle.min.js
+2022/06/25 17:55:48.207 [D] [server.go:2843]  |      127.0.0.1|[42m 200 [0m|     1.9954ms|   match|[44m GET     [0m /swagger/lib/handlebars-4.0.5.js
+2022/06/25 17:55:48.207 [D] [server.go:2843]  |      127.0.0.1|[42m 200 [0m|     1.9954ms|   match|[44m GET     [0m /swagger/lib/jquery.ba-bbq.min.js
+2022/06/25 17:55:48.210 [D] [server.go:2843]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /swagger/lib/highlight.9.1.0.pack_extended.js
+2022/06/25 17:55:48.472 [D] [server.go:2843]  |      127.0.0.1|[47m 304 [0m|           0s|   match|[44m GET     [0m /swagger/swagger.json
+2022/06/25 17:55:49.492 [D] [server.go:2843]  |      127.0.0.1|[47m 304 [0m|           0s|   match|[44m GET     [0m /swagger/
+2022/06/25 17:56:09.288 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/25 17:56:09.288 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/25 17:56:14.679 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/25 17:56:14.679 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/25 17:56:17.835 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/25 17:56:17.835 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/25 17:57:53.410 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/25 17:57:53.410 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/25 17:58:11.052 [D] [server.go:2843]  |      127.0.0.1|[47m 304 [0m|           0s|   match|[44m GET     [0m /swagger/
+2022/06/25 17:58:11.202 [D] [server.go:2843]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /swagger/swagger.json
+2022/06/25 17:58:11.987 [D] [server.go:2843]  |      127.0.0.1|[47m 304 [0m|           0s|   match|[44m GET     [0m /swagger/
+2022/06/25 17:58:12.113 [D] [server.go:2843]  |      127.0.0.1|[47m 304 [0m|           0s|   match|[44m GET     [0m /swagger/swagger.json
+2022/06/25 17:58:13.865 [D] [server.go:2843]  |      127.0.0.1|[47m 304 [0m|           0s|   match|[44m GET     [0m /swagger/swagger.json
+2022/06/25 17:58:14.520 [D] [server.go:2843]  |      127.0.0.1|[47m 304 [0m|           0s|   match|[44m GET     [0m /swagger/swagger.json
+2022/06/25 17:58:15.102 [D] [server.go:2843]  |      127.0.0.1|[47m 304 [0m|           0s|   match|[44m GET     [0m /swagger/swagger.json
+2022/06/25 18:01:10.466 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/25 18:01:10.466 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/25 18:01:17.786 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/25 18:01:17.786 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/25 18:01:25.090 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/25 18:01:25.090 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/25 22:38:50.944 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/25 22:38:50.944 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/25 22:49:33.179 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/25 22:49:33.179 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/25 22:49:59.668 [D] [server.go:2843]  |      127.0.0.1|[43m 403 [0m|           0s|   match|[44m GET     [0m /swagger
+2022/06/25 22:49:59.832 [D] [server.go:2843]  |      127.0.0.1|[42m 200 [0m|      998.4µs|   match|[44m GET     [0m /favicon.ico
+2022/06/25 23:01:49.484 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/25 23:01:49.484 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/25 23:01:52.978 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/25 23:01:52.978 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/25 23:01:53.331 [D] [server.go:2843]  |      127.0.0.1|[43m 403 [0m|           0s|   match|[44m GET     [0m /swagger
+2022/06/25 23:01:53.480 [D] [server.go:2843]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /favicon.ico
+2022/06/25 23:01:54.545 [D] [server.go:2843]  |      127.0.0.1|[43m 403 [0m|           0s|   match|[44m GET     [0m /swagger
+2022/06/25 23:01:55.174 [D] [server.go:2843]  |      127.0.0.1|[43m 403 [0m|      997.8µs|   match|[44m GET     [0m /swagger
+2022/06/25 23:01:58.718 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/25 23:01:58.718 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/25 23:02:04.139 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/25 23:02:04.139 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/25 23:02:08.623 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/25 23:02:08.623 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/25 23:02:42.837 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/25 23:02:42.837 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/25 23:02:46.499 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/25 23:02:46.499 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/25 23:02:53.072 [D] [server.go:2843]  |      127.0.0.1|[43m 403 [0m|           0s|   match|[44m GET     [0m /swagger
+2022/06/25 23:02:53.136 [D] [server.go:2843]  |      127.0.0.1|[42m 200 [0m|      978.6µs|   match|[44m GET     [0m /favicon.ico
+2022/06/25 23:02:54.100 [D] [server.go:2843]  |      127.0.0.1|[43m 403 [0m|      998.9µs|   match|[44m GET     [0m /swagger
+2022/06/25 23:02:54.279 [D] [server.go:2843]  |      127.0.0.1|[43m 403 [0m|           0s|   match|[44m GET     [0m /swagger
+2022/06/25 23:02:54.468 [D] [server.go:2843]  |      127.0.0.1|[43m 403 [0m|      996.1µs|   match|[44m GET     [0m /swagger
+2022/06/25 23:02:59.001 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/25 23:02:59.001 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/25 23:03:42.214 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/25 23:03:42.214 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/25 23:03:42.366 [D] [server.go:2843]  |      127.0.0.1|[43m 403 [0m|           0s|   match|[44m GET     [0m /swagger
+2022/06/25 23:03:42.411 [D] [server.go:2843]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /favicon.ico
+2022/06/25 23:03:43.473 [D] [server.go:2843]  |      127.0.0.1|[43m 403 [0m|           0s|   match|[44m GET     [0m /swagger
+2022/06/25 23:03:43.648 [D] [server.go:2843]  |      127.0.0.1|[43m 403 [0m|           0s|   match|[44m GET     [0m /swagger
+2022/06/25 23:03:43.822 [D] [server.go:2843]  |      127.0.0.1|[43m 403 [0m|           0s|   match|[44m GET     [0m /swagger
+2022/06/25 23:03:44.002 [D] [server.go:2843]  |      127.0.0.1|[43m 403 [0m|           0s|   match|[44m GET     [0m /swagger
+2022/06/25 23:03:44.152 [D] [server.go:2843]  |      127.0.0.1|[43m 403 [0m|           0s|   match|[44m GET     [0m /swagger
+2022/06/25 23:03:44.314 [D] [server.go:2843]  |      127.0.0.1|[43m 403 [0m|           0s|   match|[44m GET     [0m /swagger
+2022/06/25 23:03:44.482 [D] [server.go:2843]  |      127.0.0.1|[43m 403 [0m|           0s|   match|[44m GET     [0m /swagger
+2022/06/25 23:03:44.641 [D] [server.go:2843]  |      127.0.0.1|[43m 403 [0m|           0s|   match|[44m GET     [0m /swagger
+2022/06/25 23:03:44.808 [D] [server.go:2843]  |      127.0.0.1|[43m 403 [0m|           0s|   match|[44m GET     [0m /swagger
+2022/06/25 23:03:45.066 [D] [server.go:2843]  |      127.0.0.1|[43m 403 [0m|      991.6µs|   match|[44m GET     [0m /swagger
+2022/06/25 23:03:55.225 [D] [server.go:2843]  |      127.0.0.1|[43m 403 [0m|           0s|   match|[44m GET     [0m /swagger
+2022/06/25 23:04:09.700 [D] [server.go:2843]  |      127.0.0.1|[43m 403 [0m|           0s|   match|[44m GET     [0m /swagger
+2022/06/25 23:05:13.124 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/25 23:05:13.124 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/25 23:05:13.698 [D] [server.go:2843]  |      127.0.0.1|[43m 403 [0m|           0s|   match|[44m GET     [0m /swagger
+2022/06/25 23:05:13.778 [D] [server.go:2843]  |      127.0.0.1|[42m 200 [0m|      995.4µs|   match|[44m GET     [0m /favicon.ico
+2022/06/25 23:05:15.178 [D] [server.go:2843]  |      127.0.0.1|[43m 403 [0m|           0s|   match|[44m GET     [0m /swagger
+2022/06/25 23:05:16.107 [D] [server.go:2843]  |      127.0.0.1|[43m 403 [0m|      970.6µs|   match|[44m GET     [0m /swagger
+2022/06/25 23:05:33.829 [I] [router.go:678]  current router path is  /=
+2022/06/25 23:05:33.830 [D] [server.go:2843]  |      127.0.0.1|[43m 404 [0m|     3.9897ms| nomatch|[44m GET     [0m /= 
+2022/06/25 23:05:37.422 [I] [router.go:678]  current router path is  /
+2022/06/25 23:05:37.754 [D] [server.go:2843]  |      127.0.0.1|[42m 200 [0m|   333.1384ms|   match|[44m GET     [0m /     r:/
+2022/06/25 23:05:37.817 [D] [server.go:2843]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/css/iconfont.css
+2022/06/25 23:05:37.820 [D] [server.go:2843]  |      127.0.0.1|[42m 200 [0m|     2.0019ms|   match|[44m GET     [0m /static/css/style.css
+2022/06/25 23:05:37.821 [D] [server.go:2843]  |      127.0.0.1|[42m 200 [0m|      989.2µs|   match|[44m GET     [0m /static/images/1645579631563919.jpg
+2022/06/25 23:05:37.822 [D] [server.go:2843]  |      127.0.0.1|[42m 200 [0m|      996.5µs|   match|[44m GET     [0m /static/images/1577085917492097.jpg
+2022/06/25 23:05:37.823 [D] [server.go:2843]  |      127.0.0.1|[47m 304 [0m|           0s|   match|[44m GET     [0m /static/images/aboutbg.jpg
+2022/06/25 23:05:37.824 [D] [server.go:2843]  |      127.0.0.1|[47m 304 [0m|      995.8µs|   match|[44m GET     [0m /static/images/1577085312882794.jpg
+2022/06/25 23:05:37.824 [D] [server.go:2843]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/images/1645527463866306.png
+2022/06/25 23:05:37.835 [D] [server.go:2843]  |      127.0.0.1|[47m 304 [0m|      998.5µs|   match|[44m GET     [0m /static/images/user.png
+2022/06/25 23:05:37.836 [D] [server.go:2843]  |      127.0.0.1|[47m 304 [0m|           0s|   match|[44m GET     [0m /static/images/1645527536351277.png
+2022/06/25 23:05:37.857 [D] [server.go:2843]  |      127.0.0.1|[47m 304 [0m|      997.7µs|   match|[44m GET     [0m /static/js/jquery-2.2.4.min.js
+2022/06/25 23:05:37.858 [D] [server.go:2843]  |      127.0.0.1|[47m 304 [0m|           0s|   match|[44m GET     [0m /static/js/moment-with-locales.min.js
+2022/06/25 23:05:37.861 [D] [server.go:2843]  |      127.0.0.1|[42m 200 [0m|     1.0009ms|   match|[44m GET     [0m /static/js/common.js
+2022/06/25 23:05:37.963 [D] [server.go:2843]  |      127.0.0.1|[47m 304 [0m|           0s|   match|[44m GET     [0m /static/fonts/iconfont.ttf
+2022/06/25 23:05:50.090 [D] [server.go:2843]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /swagger/
+2022/06/25 23:05:50.190 [D] [server.go:2843]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /swagger/css/typography.css
+2022/06/25 23:05:50.190 [D] [server.go:2843]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /swagger/css/reset.css
+2022/06/25 23:05:50.191 [D] [server.go:2843]  |      127.0.0.1|[42m 200 [0m|      998.4µs|   match|[44m GET     [0m /swagger/css/screen.css
+2022/06/25 23:05:50.199 [D] [server.go:2843]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /swagger/images/logo_small.png
+2022/06/25 23:05:50.220 [D] [server.go:2843]  |      127.0.0.1|[42m 200 [0m|      963.2µs|   match|[44m GET     [0m /swagger/lib/object-assign-pollyfill.js
+2022/06/25 23:05:50.220 [D] [server.go:2843]  |      127.0.0.1|[42m 200 [0m|      963.2µs|   match|[44m GET     [0m /swagger/lib/jquery-1.8.0.min.js
+2022/06/25 23:05:50.220 [D] [server.go:2843]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /swagger/lib/jquery.slideto.min.js
+2022/06/25 23:05:50.225 [D] [server.go:2843]  |      127.0.0.1|[42m 200 [0m|      997.2µs|   match|[44m GET     [0m /swagger/lib/backbone-min.js
+2022/06/25 23:05:50.220 [D] [server.go:2843]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /swagger/lib/jquery.wiggle.min.js
+2022/06/25 23:05:50.223 [D] [server.go:2843]  |      127.0.0.1|[42m 200 [0m|      995.3µs|   match|[44m GET     [0m /swagger/lib/handlebars-4.0.5.js
+2022/06/25 23:05:50.224 [D] [server.go:2843]  |      127.0.0.1|[42m 200 [0m|      995.3µs|   match|[44m GET     [0m /swagger/lib/lodash.min.js
+2022/06/25 23:05:50.224 [D] [server.go:2843]  |      127.0.0.1|[42m 200 [0m|      998.7µs|   match|[44m GET     [0m /swagger/lib/jquery.ba-bbq.min.js
+2022/06/25 23:05:50.225 [D] [server.go:2843]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /swagger/lib/highlight.9.1.0.pack_extended.js
+2022/06/25 23:05:50.227 [D] [server.go:2843]  |      127.0.0.1|[42m 200 [0m|      998.6µs|   match|[44m GET     [0m /swagger/lib/highlight.9.1.0.pack.js
+2022/06/25 23:05:50.228 [D] [server.go:2843]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /swagger/lib/marked.js
+2022/06/25 23:05:50.233 [D] [server.go:2843]  |      127.0.0.1|[42m 200 [0m|      2.991ms|   match|[44m GET     [0m /swagger/swagger-ui.js
+2022/06/25 23:05:50.233 [D] [server.go:2843]  |      127.0.0.1|[42m 200 [0m|      995.8µs|   match|[44m GET     [0m /swagger/lib/jsoneditor.min.js
+2022/06/25 23:05:50.234 [D] [server.go:2843]  |      127.0.0.1|[42m 200 [0m|      999.5µs|   match|[44m GET     [0m /swagger/lib/swagger-oauth.js
+2022/06/25 23:05:50.312 [D] [server.go:2843]  |      127.0.0.1|[42m 200 [0m|      995.9µs|   match|[44m GET     [0m /swagger/css/print.css
+2022/06/25 23:05:50.574 [D] [server.go:2843]  |      127.0.0.1|[42m 200 [0m|     1.0124ms|   match|[44m GET     [0m /swagger/swagger.json
+2022/06/25 23:05:50.608 [D] [server.go:2843]  |      127.0.0.1|[42m 200 [0m|      996.5µs|   match|[44m GET     [0m /swagger/images/favicon-32x32.png
+2022/06/25 23:05:56.599 [D] [server.go:2843]  |      127.0.0.1|[47m 304 [0m|           0s|   match|[44m GET     [0m /swagger/
+2022/06/25 23:05:56.921 [D] [server.go:2843]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /swagger/swagger.json
+2022/06/25 23:06:51.508 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/25 23:06:51.508 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/25 23:07:02.884 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/25 23:07:02.884 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/25 23:07:14.180 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/25 23:07:14.180 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/25 23:07:34.901 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/25 23:07:34.901 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/25 23:07:38.375 [D] [server.go:2843]  |      127.0.0.1|[42m 200 [0m|      996.3µs|   match|[44m GET     [0m /swagger/
+2022/06/25 23:07:38.437 [D] [server.go:2843]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /swagger/css/typography.css
+2022/06/25 23:07:38.439 [D] [server.go:2843]  |      127.0.0.1|[42m 200 [0m|          1ms|   match|[44m GET     [0m /swagger/css/reset.css
+2022/06/25 23:07:38.440 [D] [server.go:2843]  |      127.0.0.1|[47m 304 [0m|     1.0206ms|   match|[44m GET     [0m /swagger/css/screen.css
+2022/06/25 23:07:38.455 [D] [server.go:2843]  |      127.0.0.1|[47m 304 [0m|           0s|   match|[44m GET     [0m /swagger/lib/object-assign-pollyfill.js
+2022/06/25 23:07:38.457 [D] [server.go:2843]  |      127.0.0.1|[42m 200 [0m|      997.2µs|   match|[44m GET     [0m /swagger/lib/lodash.min.js
+2022/06/25 23:07:38.457 [D] [server.go:2843]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /swagger/lib/backbone-min.js
+2022/06/25 23:07:38.458 [D] [server.go:2843]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /swagger/lib/highlight.9.1.0.pack.js
+2022/06/25 23:07:38.461 [D] [server.go:2843]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /swagger/lib/marked.js
+2022/06/25 23:07:38.462 [D] [server.go:2843]  |      127.0.0.1|[42m 200 [0m|        996µs|   match|[44m GET     [0m /swagger/lib/highlight.9.1.0.pack_extended.js
+2022/06/25 23:07:38.462 [D] [server.go:2843]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /swagger/lib/swagger-oauth.js
+2022/06/25 23:07:38.463 [D] [server.go:2843]  |      127.0.0.1|[47m 304 [0m|      996.7µs|   match|[44m GET     [0m /swagger/lib/jquery-1.8.0.min.js
+2022/06/25 23:07:38.464 [D] [server.go:2843]  |      127.0.0.1|[42m 200 [0m|      999.5µs|   match|[44m GET     [0m /swagger/lib/jsoneditor.min.js
+2022/06/25 23:07:38.472 [D] [server.go:2843]  |      127.0.0.1|[47m 304 [0m|           0s|   match|[44m GET     [0m /swagger/lib/jquery.slideto.min.js
+2022/06/25 23:07:38.473 [D] [server.go:2843]  |      127.0.0.1|[47m 304 [0m|          1ms|   match|[44m GET     [0m /swagger/lib/jquery.wiggle.min.js
+2022/06/25 23:07:38.473 [D] [server.go:2843]  |      127.0.0.1|[47m 304 [0m|          1ms|   match|[44m GET     [0m /swagger/lib/jquery.ba-bbq.min.js
+2022/06/25 23:07:38.475 [D] [server.go:2843]  |      127.0.0.1|[47m 304 [0m|           0s|   match|[44m GET     [0m /swagger/lib/handlebars-4.0.5.js
+2022/06/25 23:07:38.482 [D] [server.go:2843]  |      127.0.0.1|[47m 304 [0m|      997.6µs|   match|[44m GET     [0m /swagger/swagger-ui.js
+2022/06/25 23:07:38.598 [D] [server.go:2843]  |      127.0.0.1|[42m 200 [0m|      985.9µs|   match|[44m GET     [0m /swagger/css/print.css
+2022/06/25 23:07:38.723 [D] [server.go:2843]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /swagger/images/logo_small.png
+2022/06/25 23:07:38.755 [D] [server.go:2843]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /swagger/swagger.json
+2022/06/25 23:07:38.772 [D] [server.go:2843]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /swagger/images/favicon-32x32.png
+2022/06/25 23:11:10.453 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/25 23:11:10.453 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/25 23:14:22.608 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/25 23:14:22.608 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/25 23:15:30.845 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/25 23:15:30.845 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/25 23:15:38.789 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/25 23:15:38.789 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/25 23:16:35.053 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/25 23:16:35.053 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/25 23:16:45.877 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/25 23:16:45.877 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/25 23:16:53.512 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/25 23:16:53.512 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/25 23:17:02.931 [D] [server.go:2843]  |      127.0.0.1|[47m 304 [0m|      997.3µs|   match|[44m GET     [0m /swagger/
+2022/06/25 23:17:03.079 [D] [server.go:2843]  |      127.0.0.1|[47m 304 [0m|           0s|   match|[44m GET     [0m /swagger/css/typography.css
+2022/06/25 23:17:03.081 [D] [server.go:2843]  |      127.0.0.1|[47m 304 [0m|           0s|   match|[44m GET     [0m /swagger/css/reset.css
+2022/06/25 23:17:03.083 [D] [server.go:2843]  |      127.0.0.1|[47m 304 [0m|           0s|   match|[44m GET     [0m /swagger/css/screen.css
+2022/06/25 23:17:03.105 [D] [server.go:2843]  |      127.0.0.1|[47m 304 [0m|      996.3µs|   match|[44m GET     [0m /swagger/lib/object-assign-pollyfill.js
+2022/06/25 23:17:03.111 [D] [server.go:2843]  |      127.0.0.1|[47m 304 [0m|           0s|   match|[44m GET     [0m /swagger/lib/jquery-1.8.0.min.js
+2022/06/25 23:17:03.114 [D] [server.go:2843]  |      127.0.0.1|[47m 304 [0m|     1.9954ms|   match|[44m GET     [0m /swagger/lib/jquery.ba-bbq.min.js
+2022/06/25 23:17:03.111 [D] [server.go:2843]  |      127.0.0.1|[47m 304 [0m|           0s|   match|[44m GET     [0m /swagger/lib/jquery.slideto.min.js
+2022/06/25 23:17:03.112 [D] [server.go:2843]  |      127.0.0.1|[47m 304 [0m|      996.4µs|   match|[44m GET     [0m /swagger/lib/jquery.wiggle.min.js
+2022/06/25 23:17:03.115 [D] [server.go:2843]  |      127.0.0.1|[47m 304 [0m|        998µs|   match|[44m GET     [0m /swagger/lib/handlebars-4.0.5.js
+2022/06/25 23:17:03.116 [D] [server.go:2843]  |      127.0.0.1|[47m 304 [0m|           0s|   match|[44m GET     [0m /swagger/lib/lodash.min.js
+2022/06/25 23:17:03.117 [D] [server.go:2843]  |      127.0.0.1|[47m 304 [0m|      967.4µs|   match|[44m GET     [0m /swagger/swagger-ui.js
+2022/06/25 23:17:03.117 [D] [server.go:2843]  |      127.0.0.1|[47m 304 [0m|      967.4µs|   match|[44m GET     [0m /swagger/lib/backbone-min.js
+2022/06/25 23:17:03.118 [D] [server.go:2843]  |      127.0.0.1|[47m 304 [0m|           0s|   match|[44m GET     [0m /swagger/lib/highlight.9.1.0.pack.js
+2022/06/25 23:17:03.119 [D] [server.go:2843]  |      127.0.0.1|[47m 304 [0m|           0s|   match|[44m GET     [0m /swagger/lib/highlight.9.1.0.pack_extended.js
+2022/06/25 23:17:03.121 [D] [server.go:2843]  |      127.0.0.1|[47m 304 [0m|           0s|   match|[44m GET     [0m /swagger/lib/jsoneditor.min.js
+2022/06/25 23:17:03.123 [D] [server.go:2843]  |      127.0.0.1|[47m 304 [0m|           0s|   match|[44m GET     [0m /swagger/lib/marked.js
+2022/06/25 23:17:03.124 [D] [server.go:2843]  |      127.0.0.1|[47m 304 [0m|      994.8µs|   match|[44m GET     [0m /swagger/lib/swagger-oauth.js
+2022/06/25 23:17:03.182 [D] [server.go:2843]  |      127.0.0.1|[42m 200 [0m|      995.6µs|   match|[44m GET     [0m /swagger/css/print.css
+2022/06/25 23:17:03.284 [D] [server.go:2843]  |      127.0.0.1|[47m 304 [0m|           0s|   match|[44m GET     [0m /swagger/images/logo_small.png
+2022/06/25 23:17:03.299 [D] [server.go:2843]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /swagger/swagger.json
+2022/06/25 23:17:09.045 [D] [server.go:2843]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /swagger/images/throbber.gif
+2022/06/25 23:17:55.272 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/25 23:17:55.272 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/25 23:18:08.079 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/25 23:18:08.079 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/25 23:18:20.804 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/25 23:18:20.804 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/25 23:22:19.923 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/25 23:22:19.923 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/25 23:22:23.568 [D] [server.go:2843]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /swagger/
+2022/06/25 23:22:23.673 [D] [server.go:2843]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /swagger/css/typography.css
+2022/06/25 23:22:23.677 [D] [server.go:2843]  |      127.0.0.1|[42m 200 [0m|     2.0006ms|   match|[44m GET     [0m /swagger/css/reset.css
+2022/06/25 23:22:23.678 [D] [server.go:2843]  |      127.0.0.1|[42m 200 [0m|      995.4µs|   match|[44m GET     [0m /swagger/css/screen.css
+2022/06/25 23:22:23.686 [D] [server.go:2843]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /swagger/lib/object-assign-pollyfill.js
+2022/06/25 23:22:23.699 [D] [server.go:2843]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /swagger/css/print.css
+2022/06/25 23:22:23.700 [D] [server.go:2843]  |      127.0.0.1|[47m 304 [0m|      997.4µs|   match|[44m GET     [0m /swagger/lib/jquery-1.8.0.min.js
+2022/06/25 23:22:23.704 [D] [server.go:2843]  |      127.0.0.1|[47m 304 [0m|     2.9917ms|   match|[44m GET     [0m /swagger/lib/jquery.slideto.min.js
+2022/06/25 23:22:23.706 [D] [server.go:2843]  |      127.0.0.1|[47m 304 [0m|     2.9919ms|   match|[44m GET     [0m /swagger/lib/jquery.wiggle.min.js
+2022/06/25 23:22:23.706 [D] [server.go:2843]  |      127.0.0.1|[47m 304 [0m|           0s|   match|[44m GET     [0m /swagger/lib/handlebars-4.0.5.js
+2022/06/25 23:22:23.707 [D] [server.go:2843]  |      127.0.0.1|[47m 304 [0m|      1.004ms|   match|[44m GET     [0m /swagger/lib/lodash.min.js
+2022/06/25 23:22:23.707 [D] [server.go:2843]  |      127.0.0.1|[47m 304 [0m|     3.9959ms|   match|[44m GET     [0m /swagger/lib/jquery.ba-bbq.min.js
+2022/06/25 23:22:23.709 [D] [server.go:2843]  |      127.0.0.1|[47m 304 [0m|      996.6µs|   match|[44m GET     [0m /swagger/lib/backbone-min.js
+2022/06/25 23:22:23.711 [D] [server.go:2843]  |      127.0.0.1|[47m 304 [0m|           0s|   match|[44m GET     [0m /swagger/swagger-ui.js
+2022/06/25 23:22:23.715 [D] [server.go:2843]  |      127.0.0.1|[47m 304 [0m|        997µs|   match|[44m GET     [0m /swagger/lib/highlight.9.1.0.pack.js
+2022/06/25 23:22:23.718 [D] [server.go:2843]  |      127.0.0.1|[47m 304 [0m|      995.9µs|   match|[44m GET     [0m /swagger/lib/highlight.9.1.0.pack_extended.js
+2022/06/25 23:22:23.720 [D] [server.go:2843]  |      127.0.0.1|[47m 304 [0m|      997.5µs|   match|[44m GET     [0m /swagger/lib/jsoneditor.min.js
+2022/06/25 23:22:23.721 [D] [server.go:2843]  |      127.0.0.1|[47m 304 [0m|      996.7µs|   match|[44m GET     [0m /swagger/lib/marked.js
+2022/06/25 23:22:23.723 [D] [server.go:2843]  |      127.0.0.1|[47m 304 [0m|           0s|   match|[44m GET     [0m /swagger/lib/swagger-oauth.js
+2022/06/25 23:22:23.799 [D] [server.go:2843]  |      127.0.0.1|[42m 200 [0m|      998.5µs|   match|[44m GET     [0m /swagger/images/logo_small.png
+2022/06/25 23:22:23.805 [D] [server.go:2843]  |      127.0.0.1|[42m 200 [0m|      996.5µs|   match|[44m GET     [0m /swagger/images/favicon-32x32.png
+2022/06/25 23:22:23.819 [D] [server.go:2843]  |      127.0.0.1|[42m 200 [0m|     1.0004ms|   match|[44m GET     [0m /swagger/swagger.json
+2022/06/25 23:22:26.082 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/25 23:22:26.082 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/25 23:22:26.776 [D] [server.go:2843]  |      127.0.0.1|[47m 304 [0m|      996.7µs|   match|[44m GET     [0m /swagger/
+2022/06/25 23:22:26.977 [D] [server.go:2843]  |      127.0.0.1|[47m 304 [0m|           0s|   match|[44m GET     [0m /swagger/swagger.json
+2022/06/25 23:22:35.743 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/25 23:22:35.743 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/25 23:23:32.335 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/25 23:23:32.335 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/25 23:23:50.516 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/25 23:23:50.516 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/25 23:24:05.667 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/25 23:24:05.667 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/25 23:24:12.803 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/25 23:24:12.803 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/25 23:24:21.970 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/25 23:24:21.970 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/25 23:24:31.319 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/25 23:24:31.319 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/25 23:33:51.021 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/25 23:33:51.021 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/25 23:34:48.104 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/25 23:34:48.105 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/25 23:35:00.415 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/25 23:35:00.415 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/25 23:35:09.221 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/25 23:35:09.221 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/25 23:40:43.405 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/25 23:40:43.405 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/25 23:40:49.621 [D] [server.go:2843]  |      127.0.0.1|[47m 304 [0m|      998.3µs|   match|[44m GET     [0m /swagger/
+2022/06/25 23:40:49.680 [D] [server.go:2843]  |      127.0.0.1|[42m 200 [0m|      975.5µs|   match|[44m GET     [0m /swagger/css/typography.css
+2022/06/25 23:40:49.683 [D] [server.go:2843]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /swagger/css/reset.css
+2022/06/25 23:40:49.685 [D] [server.go:2843]  |      127.0.0.1|[42m 200 [0m|      995.7µs|   match|[44m GET     [0m /swagger/css/screen.css
+2022/06/25 23:40:49.702 [D] [server.go:2843]  |      127.0.0.1|[42m 200 [0m|      997.6µs|   match|[44m GET     [0m /swagger/images/logo_small.png
+2022/06/25 23:40:49.703 [D] [server.go:2843]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /swagger/css/print.css
+2022/06/25 23:40:49.705 [D] [server.go:2843]  |      127.0.0.1|[47m 304 [0m|      997.6µs|   match|[44m GET     [0m /swagger/lib/object-assign-pollyfill.js
+2022/06/25 23:40:49.706 [D] [server.go:2843]  |      127.0.0.1|[47m 304 [0m|      997.9µs|   match|[44m GET     [0m /swagger/lib/jquery-1.8.0.min.js
+2022/06/25 23:40:49.707 [D] [server.go:2843]  |      127.0.0.1|[47m 304 [0m|           0s|   match|[44m GET     [0m /swagger/lib/jquery.slideto.min.js
+2022/06/25 23:40:49.708 [D] [server.go:2843]  |      127.0.0.1|[47m 304 [0m|      998.6µs|   match|[44m GET     [0m /swagger/lib/jquery.wiggle.min.js
+2022/06/25 23:40:49.708 [D] [server.go:2843]  |      127.0.0.1|[47m 304 [0m|           0s|   match|[44m GET     [0m /swagger/lib/jquery.ba-bbq.min.js
+2022/06/25 23:40:49.710 [D] [server.go:2843]  |      127.0.0.1|[47m 304 [0m|      996.6µs|   match|[44m GET     [0m /swagger/lib/handlebars-4.0.5.js
+2022/06/25 23:40:49.710 [D] [server.go:2843]  |      127.0.0.1|[47m 304 [0m|           0s|   match|[44m GET     [0m /swagger/lib/backbone-min.js
+2022/06/25 23:40:49.711 [D] [server.go:2843]  |      127.0.0.1|[47m 304 [0m|      995.9µs|   match|[44m GET     [0m /swagger/lib/lodash.min.js
+2022/06/25 23:40:49.711 [D] [server.go:2843]  |      127.0.0.1|[47m 304 [0m|           0s|   match|[44m GET     [0m /swagger/swagger-ui.js
+2022/06/25 23:40:49.712 [D] [server.go:2843]  |      127.0.0.1|[47m 304 [0m|      998.9µs|   match|[44m GET     [0m /swagger/lib/highlight.9.1.0.pack.js
+2022/06/25 23:40:49.713 [D] [server.go:2843]  |      127.0.0.1|[47m 304 [0m|           0s|   match|[44m GET     [0m /swagger/lib/highlight.9.1.0.pack_extended.js
+2022/06/25 23:40:49.715 [D] [server.go:2843]  |      127.0.0.1|[47m 304 [0m|           0s|   match|[44m GET     [0m /swagger/lib/jsoneditor.min.js
+2022/06/25 23:40:49.717 [D] [server.go:2843]  |      127.0.0.1|[47m 304 [0m|        993µs|   match|[44m GET     [0m /swagger/lib/marked.js
+2022/06/25 23:40:49.718 [D] [server.go:2843]  |      127.0.0.1|[47m 304 [0m|           0s|   match|[44m GET     [0m /swagger/lib/swagger-oauth.js
+2022/06/25 23:40:49.785 [D] [server.go:2843]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /swagger/images/favicon-32x32.png
+2022/06/25 23:40:49.797 [D] [server.go:2843]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /swagger/swagger.json
+2022/06/25 23:43:19.749 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/25 23:43:19.749 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/25 23:43:20.216 [D] [server.go:2843]  |      127.0.0.1|[47m 304 [0m|           0s|   match|[44m GET     [0m /swagger/
+2022/06/25 23:43:20.359 [D] [server.go:2843]  |      127.0.0.1|[42m 200 [0m|      999.9µs|   match|[44m GET     [0m /swagger/swagger.json
+2022/06/25 23:44:19.247 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/25 23:44:19.247 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/25 23:44:27.403 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/25 23:44:27.403 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/25 23:44:41.209 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/25 23:44:41.210 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/25 23:44:54.548 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/25 23:44:54.548 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/25 23:45:08.163 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/25 23:45:08.163 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/25 23:45:22.186 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/25 23:45:22.186 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/25 23:45:34.716 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/25 23:45:34.716 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/25 23:45:41.652 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/25 23:45:41.652 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/25 23:45:49.611 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/25 23:45:49.611 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/25 23:45:58.005 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/25 23:45:58.005 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/25 23:46:06.179 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/25 23:46:06.179 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/25 23:46:14.472 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/25 23:46:14.472 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/25 23:46:21.915 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/25 23:46:21.915 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/25 23:46:29.377 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/25 23:46:29.377 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/25 23:46:37.291 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/25 23:46:37.291 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/25 23:46:45.046 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/25 23:46:45.046 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/25 23:46:52.964 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/25 23:46:52.964 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/25 23:47:01.546 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/25 23:47:01.547 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/25 23:47:10.604 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/25 23:47:10.604 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/25 23:47:18.698 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/25 23:47:18.698 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/25 23:47:26.564 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/25 23:47:26.564 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/25 23:47:34.531 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/25 23:47:34.531 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/25 23:47:42.383 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/25 23:47:42.383 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/25 23:47:50.001 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/25 23:47:50.002 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/25 23:47:57.926 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/25 23:47:57.926 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/25 23:48:05.862 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/25 23:48:05.862 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/25 23:48:14.081 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/25 23:48:14.081 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/25 23:48:28.530 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/25 23:48:28.530 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/25 23:48:37.535 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/25 23:48:37.535 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/25 23:53:59.933 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/25 23:53:59.933 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/25 23:54:08.344 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/25 23:54:08.344 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/25 23:54:15.866 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/25 23:54:15.866 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/25 23:54:23.668 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/25 23:54:23.668 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/25 23:54:46.516 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/25 23:54:46.516 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/25 23:55:01.467 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/25 23:55:01.468 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/25 23:55:08.283 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/25 23:55:08.283 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/25 23:55:11.059 [D] [server.go:2843]  |      127.0.0.1|[42m 200 [0m|      995.9µs|   match|[44m GET     [0m /swagger/
+2022/06/25 23:55:11.189 [D] [server.go:2843]  |      127.0.0.1|[42m 200 [0m|      996.7µs|   match|[44m GET     [0m /swagger/css/typography.css
+2022/06/25 23:55:11.191 [D] [server.go:2843]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /swagger/css/reset.css
+2022/06/25 23:55:11.193 [D] [server.go:2843]  |      127.0.0.1|[42m 200 [0m|      996.8µs|   match|[44m GET     [0m /swagger/css/screen.css
+2022/06/25 23:55:11.216 [D] [server.go:2843]  |      127.0.0.1|[42m 200 [0m|      2.993ms|   match|[44m GET     [0m /swagger/css/print.css
+2022/06/25 23:55:11.223 [D] [server.go:2843]  |      127.0.0.1|[47m 304 [0m|           0s|   match|[44m GET     [0m /swagger/lib/object-assign-pollyfill.js
+2022/06/25 23:55:11.224 [D] [server.go:2843]  |      127.0.0.1|[47m 304 [0m|           0s|   match|[44m GET     [0m /swagger/lib/jquery-1.8.0.min.js
+2022/06/25 23:55:11.225 [D] [server.go:2843]  |      127.0.0.1|[47m 304 [0m|      997.3µs|   match|[44m GET     [0m /swagger/lib/jquery.slideto.min.js
+2022/06/25 23:55:11.227 [D] [server.go:2843]  |      127.0.0.1|[47m 304 [0m|      996.7µs|   match|[44m GET     [0m /swagger/lib/jquery.wiggle.min.js
+2022/06/25 23:55:11.239 [D] [server.go:2843]  |      127.0.0.1|[47m 304 [0m|     1.9924ms|   match|[44m GET     [0m /swagger/swagger-ui.js
+2022/06/25 23:55:11.231 [D] [server.go:2843]  |      127.0.0.1|[47m 304 [0m|     4.9869ms|   match|[44m GET     [0m /swagger/lib/jquery.ba-bbq.min.js
+2022/06/25 23:55:11.233 [D] [server.go:2843]  |      127.0.0.1|[47m 304 [0m|     2.9956ms|   match|[44m GET     [0m /swagger/lib/handlebars-4.0.5.js
+2022/06/25 23:55:11.233 [D] [server.go:2843]  |      127.0.0.1|[47m 304 [0m|     1.9984ms|   match|[44m GET     [0m /swagger/lib/lodash.min.js
+2022/06/25 23:55:11.234 [D] [server.go:2843]  |      127.0.0.1|[47m 304 [0m|      994.4µs|   match|[44m GET     [0m /swagger/lib/backbone-min.js
+2022/06/25 23:55:11.242 [D] [server.go:2843]  |      127.0.0.1|[47m 304 [0m|     1.9935ms|   match|[44m GET     [0m /swagger/lib/highlight.9.1.0.pack.js
+2022/06/25 23:55:11.249 [D] [server.go:2843]  |      127.0.0.1|[47m 304 [0m|      3.991ms|   match|[44m GET     [0m /swagger/lib/highlight.9.1.0.pack_extended.js
+2022/06/25 23:55:11.252 [D] [server.go:2843]  |      127.0.0.1|[47m 304 [0m|     1.9947ms|   match|[44m GET     [0m /swagger/lib/jsoneditor.min.js
+2022/06/25 23:55:11.255 [D] [server.go:2843]  |      127.0.0.1|[47m 304 [0m|     1.9942ms|   match|[44m GET     [0m /swagger/lib/marked.js
+2022/06/25 23:55:11.260 [D] [server.go:2843]  |      127.0.0.1|[47m 304 [0m|     2.9918ms|   match|[44m GET     [0m /swagger/lib/swagger-oauth.js
+2022/06/25 23:55:11.345 [D] [server.go:2843]  |      127.0.0.1|[42m 200 [0m|      996.5µs|   match|[44m GET     [0m /swagger/images/logo_small.png
+2022/06/25 23:55:11.355 [D] [server.go:2843]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /swagger/images/favicon-32x32.png
+2022/06/25 23:55:11.370 [D] [server.go:2843]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /swagger/swagger.json
+2022/06/25 23:55:16.637 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/25 23:55:16.637 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/25 23:55:25.056 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/25 23:55:25.056 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/25 23:55:33.118 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/25 23:55:33.118 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/25 23:55:40.764 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/25 23:55:40.764 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/25 23:55:49.102 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/25 23:55:49.102 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/25 23:55:57.821 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/25 23:55:57.821 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/25 23:56:58.441 [D] [server.go:2843]  |      127.0.0.1|[42m 200 [0m|      996.6µs|   match|[44m GET     [0m /swagger/
+2022/06/25 23:56:58.583 [D] [server.go:2843]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /swagger/images/favicon-32x32.png
+2022/06/25 23:56:58.593 [D] [server.go:2843]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /swagger/swagger.json
+2022/06/25 23:57:01.953 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/25 23:57:01.953 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/25 23:57:10.286 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/25 23:57:10.286 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/25 23:57:18.098 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/25 23:57:18.098 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/25 23:57:18.230 [D] [server.go:2843]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /swagger/
+2022/06/25 23:57:18.396 [D] [server.go:2843]  |      127.0.0.1|[42m 200 [0m|      999.2µs|   match|[44m GET     [0m /swagger/images/favicon-32x32.png
+2022/06/25 23:57:18.412 [D] [server.go:2843]  |      127.0.0.1|[42m 200 [0m|      995.6µs|   match|[44m GET     [0m /swagger/swagger.json
+2022/06/25 23:57:25.243 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/25 23:57:25.243 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/25 23:57:33.407 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/25 23:57:33.407 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/25 23:57:41.078 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/25 23:57:41.078 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/25 23:57:51.032 [D] [server.go:2843]  |      127.0.0.1|[47m 304 [0m|      999.2µs|   match|[44m GET     [0m /swagger/
+2022/06/25 23:57:51.190 [D] [server.go:2843]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /swagger/swagger.json
+2022/06/25 23:57:52.659 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/25 23:57:52.659 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/25 23:58:00.539 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/25 23:58:00.539 [I] [asm_amd64.s:1374]  http server Running on http://:8082

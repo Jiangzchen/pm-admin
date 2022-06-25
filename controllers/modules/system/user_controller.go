@@ -18,10 +18,14 @@ import (
 	"github.com/astaxie/beego"
 )
 
+// 用户控制器
 type UserController struct {
 	beego.Controller
 }
 
+// @Title 用户界面
+// @Description 跳转用户界面
+// @router /view [get]
 func (this *UserController) View() {
 	// 渲染模板
 	this.TplName = "user/view.tpl"

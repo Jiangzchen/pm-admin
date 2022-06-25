@@ -18,6 +18,7 @@ import (
 	"github.com/astaxie/beego"
 )
 
+// 角色控制器
 type RoleController struct {
 	beego.Controller
 }

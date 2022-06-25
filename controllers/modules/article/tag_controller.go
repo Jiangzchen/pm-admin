@@ -18,6 +18,7 @@ import (
 	"github.com/astaxie/beego"
 )
 
+// 标签控制器
 type TagController struct {
 	beego.Controller
 }

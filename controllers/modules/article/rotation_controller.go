@@ -18,6 +18,7 @@ import (
 	"github.com/astaxie/beego"
 )
 
+// 轮播控制器
 type RotationController struct {
 	beego.Controller
 }

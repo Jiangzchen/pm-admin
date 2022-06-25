@@ -23,15 +23,25 @@ import (
 	"github.com/vcqr/captcha"
 )
 
+// 系统控制器
 type SystemController struct {
 	beego.Controller
 }
 
+// @Title 登录界面
+// @Description 跳转登录页面
+// @router /toLogin [get]
 func (this *SystemController) ToLogin() {
 	// 渲染模板
 	this.TplName = "system/login.tpl"
 }
 
+// @Title 登录
+// @Description 登录
+// @Param body body	dto.LoginDto true "The object content"
+// @Success 200 {object} utils.R
+// @Failure 403 body is empty
+// @router /login [post]
 func (this *SystemController) Login() {
 	verCode := this.GetSession("CaptchaCode")
 	if verCode == nil {
@@ -99,7 +109,7 @@ func (this *SystemController) Index() {
 
 // @Title 验证码
 // @Description 获取验证码图片
-// @router /system/captcha [post]
+// @router /captcha [get]
 func (this *SystemController) Captcha() {
 	w := this.Ctx.ResponseWriter
 

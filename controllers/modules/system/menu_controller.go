@@ -18,6 +18,7 @@ import (
 	"github.com/astaxie/beego"
 )
 
+// 菜单控制器
 type MenuController struct {
 	beego.Controller
 }

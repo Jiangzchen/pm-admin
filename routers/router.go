@@ -28,13 +28,59 @@ import (
 )
 
 var JwtAuthFilter = func(ctx *context.Context) {
-	fmt.Println("都要过滤")
+	fmt.Println("都要过滤JwtAuthFilter")
 	logs.Info("current router path is ", ctx.Request.RequestURI)
 
 }
 
 func init() {
+	ns :=
+		beego.NewNamespace("v1",
+			beego.NSNamespace("/system", //分组 user组的base_url为：http://localhost:8080/user
+				beego.NSInclude(
+					&system.SystemController{},
+				),
+			),
+			beego.NSNamespace("/user",
+				beego.NSInclude(
+					&system.UserController{},
+				),
+			),
+			beego.NSNamespace("/role",
+				beego.NSInclude(
+					&system.RoleController{},
+				),
+			),
+			beego.NSNamespace("/menu",
+				beego.NSInclude(
+					&system.MenuController{},
+				),
+			),
+			beego.NSNamespace("/article",
+				beego.NSInclude(
+					&article.ArticleController{},
+				),
+			),
+			beego.NSNamespace("/tag",
+				beego.NSInclude(
+					&article.TagController{},
+				),
+			),
+			beego.NSNamespace("/link",
+				beego.NSInclude(
+					&article.LinkController{},
+				),
+			),
+			beego.NSNamespace("/rotation",
+				beego.NSInclude(
+					&article.RotationController{},
+				),
+			),
+			// beego.Router("/system/captcha", &system.SystemController{}, "Get:Captcha")
+		) //base_url为：http://localhost:8080
 
+	beego.AddNamespace(ns)
+	beego.SetStaticPath("/swagger", "swagger") // 访问 http://localhost:8080/swagger即可看到swagger页面
 	beego.InsertFilter("/*", beego.BeforeRouter, JwtAuthFilter)
 	beego.InsertFilter("*", beego.BeforeRouter, cors.Allow(&cors.Options{
 		AllowAllOrigins:  true,
@@ -44,12 +90,11 @@ func init() {
 		AllowCredentials: true,
 	}))
 
-	beego.SetStaticPath("/swagger", "swagger") // 访问 http://localhost:8080/swagger即可看到swagger页面
 	beego.Router("/", &controllers.MainController{})
 	beego.Router("/system/index", &system.SystemController{}, "Get:Index")
 	beego.Router("/system/toLogin", &system.SystemController{}, "Get:ToLogin")
 	beego.Router("/system/login", &system.SystemController{}, "Post:Login")
-	beego.Router("/system/captcha", &system.SystemController{}, "Get:Captcha")
+
 	beego.Router("/system/check", &system.SystemController{}, "Post:Check")
 	beego.Router("/system/loginOut", &system.SystemController{}, "Post:LoginOut")
 
@@ -61,12 +106,12 @@ func init() {
 
 	// 角色管理
 	beego.Router("/role/view", &system.RoleController{}, "Get:View")
-	beego.Router("/role/create", &system.UserController{}, "Post:Create")
+	beego.Router("/role/create", &system.RoleController{}, "Post:Create")
 	beego.Router("/role/list", &system.RoleController{}, "Post:List")
 
 	// 菜单管理
 	beego.Router("/menu/view", &system.MenuController{}, "Get:View")
-	beego.Router("/menu/create", &system.UserController{}, "Post:Create")
+	beego.Router("/menu/create", &system.MenuController{}, "Post:Create")
 	beego.Router("/menu/list", &system.MenuController{}, "Post:List")
 
 	// 文章管理

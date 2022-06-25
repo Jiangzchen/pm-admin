@@ -18,6 +18,7 @@ import (
 	"github.com/astaxie/beego"
 )
 
+// 文章控制器
 type ArticleController struct {
 	beego.Controller
 }

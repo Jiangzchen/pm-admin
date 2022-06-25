@@ -4,4 +4,93 @@ info:
   description: pm-admin APIs
   contact:
     email: 927764151@qq.com
-paths: {}
+basePath: v1
+paths:
+  /system/captcha:
+    get:
+      tags:
+      - system
+      description: 获取验证码图片
+      operationId: SystemController.验证码
+  /system/login:
+    post:
+      tags:
+      - system
+      description: 登录
+      operationId: SystemController.登录
+      parameters:
+      - in: body
+        name: body
+        description: The object content
+        required: true
+        schema:
+          $ref: '#/definitions/dto.LoginDto'
+      responses:
+        "200":
+          description: ""
+          schema:
+            $ref: '#/definitions/utils.R'
+        "403":
+          description: body is empty
+  /system/toLogin:
+    get:
+      tags:
+      - system
+      description: 跳转登录页面
+      operationId: SystemController.登录界面
+  /user/view:
+    get:
+      tags:
+      - user
+      description: 跳转用户界面
+      operationId: UserController.用户界面
+definitions:
+  6323.0xc0004f35c0.false:
+    title: "false"
+    type: object
+  dto.LoginDto:
+    title: LoginDto
+    type: object
+    properties:
+      password:
+        type: string
+      username:
+        type: string
+      verCode:
+        type: string
+  utils.R:
+    title: R
+    type: object
+    properties:
+      code:
+        type: integer
+        format: int64
+      data:
+        $ref: '#/definitions/6323.0xc0004f35c0.false'
+      message:
+        type: string
+tags:
+- name: system
+  description: |
+    系统控制器
+- name: user
+  description: |
+    用户控制器
+- name: role
+  description: |
+    角色控制器
+- name: menu
+  description: |
+    菜单控制器
+- name: article
+  description: |
+    文章控制器
+- name: tag
+  description: |
+    标签控制器
+- name: link
+  description: |
+    链接控制器
+- name: rotation
+  description: |
+    轮播控制器
