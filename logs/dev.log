@@ -159,3 +159,7 @@
 2022/06/25 18:01:10.466 [I] [asm_amd64.s:1374]  http server Running on http://:8082
 2022/06/25 18:01:17.786 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
 2022/06/25 18:01:17.786 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/25 18:01:25.090 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/25 18:01:25.090 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/25 22:38:50.944 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/25 22:38:50.944 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
