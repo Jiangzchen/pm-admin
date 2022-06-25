@@ -10,7 +10,9 @@
 go+beego学习后端
 光年html的前端模板
 > bee generate docs
+
 > bee run -gendoc=true -downdoc=true
+
 > bee run
 
 ![Alt](https://raw.githubusercontent.com/Jiangzchen/pm-bed/master/pm-login.png)
