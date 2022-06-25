@@ -23,11 +23,17 @@ type MenuController struct {
 	beego.Controller
 }
 
+// @Title 菜单界面
+// @Description 跳转菜单页面
+// @router /view [get]
 func (this *MenuController) View() {
 	// 渲染模板
 	this.TplName = "menu/view.tpl"
 }
 
+// @Title 菜单列表
+// @Description 查询菜单列表
+// @router /list [post]
 func (this *MenuController) List() {
 	list := serivces.SelectPmMenu()
 	data := utils.R{0, "ok", list}

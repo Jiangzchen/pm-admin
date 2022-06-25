@@ -23,6 +23,9 @@ type LinkController struct {
 	beego.Controller
 }
 
+// @Title 链接列表
+// @Description 查询链接列表
+// @router /list [post]
 func (this *LinkController) List() {
 	list := serivces.SelectPmLink()
 	data := utils.R{0, "ok", list}

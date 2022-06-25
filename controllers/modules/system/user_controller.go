@@ -45,6 +45,9 @@ func (this *UserController) Create() {
 	this.ServeJSON()
 }
 
+// @Title 用户列表
+// @Description 查询用户列表
+// @router /list [post]
 func (this *UserController) List() {
 	var userPageDto dto.UserPageDto
 	err := json.Unmarshal(this.Ctx.Input.RequestBody, &userPageDto)

@@ -28,6 +28,9 @@ func (this *ArticleController) View() {
 	this.TplName = "article/13.tpl"
 }
 
+// @Title 文章列表
+// @Description 查询文章列表
+// @router /list [post]
 func (this *ArticleController) List() {
 	list := serivces.SelectPmArticle()
 	data := utils.R{0, "ok", list}

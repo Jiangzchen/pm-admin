@@ -23,6 +23,9 @@ type RotationController struct {
 	beego.Controller
 }
 
+// @Title 轮播列表
+// @Description 查询轮播列表
+// @router /list [post]
 func (this *RotationController) List() {
 	list := serivces.SelectPmRotation()
 	data := utils.R{0, "ok", list}

@@ -23,6 +23,9 @@ type TagController struct {
 	beego.Controller
 }
 
+// @Title 标签列表
+// @Description 查询标签列表
+// @router /list [post]
 func (this *TagController) List() {
 	list := serivces.SelectPmTag()
 	data := utils.R{0, "ok", list}

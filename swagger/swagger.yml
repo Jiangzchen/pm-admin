@@ -6,6 +6,48 @@ info:
     email: 927764151@qq.com
 basePath: v1
 paths:
+  /article/list:
+    post:
+      tags:
+      - article
+      description: 查询文章列表
+      operationId: ArticleController.文章列表
+  /link/list:
+    post:
+      tags:
+      - link
+      description: 查询链接列表
+      operationId: LinkController.链接列表
+  /menu/list:
+    post:
+      tags:
+      - menu
+      description: 查询菜单列表
+      operationId: MenuController.菜单列表
+  /menu/view:
+    get:
+      tags:
+      - menu
+      description: 跳转菜单页面
+      operationId: MenuController.菜单界面
+  /role/list:
+    post:
+      tags:
+      - role
+      description: 查询角色列表
+      operationId: RoleController.角色列表
+  /role/view:
+    get:
+      tags:
+      - role
+      description: 跳转角色页面
+      operationId: RoleController.角色界面
+  /rotation/list:
+    post:
+      tags:
+      - rotation
+      description: 查询轮播列表
+      operationId: RotationController.轮播列表
   /system/captcha:
     get:
       tags:
@@ -38,6 +80,18 @@ paths:
       - system
       description: 跳转登录页面
       operationId: SystemController.登录界面
+  /tag/list:
+    post:
+      tags:
+      - tag
+      description: 查询标签列表
+      operationId: TagController.标签列表
+  /user/list:
+    post:
+      tags:
+      - user
+      description: 查询用户列表
+      operationId: UserController.用户列表
   /user/view:
     get:
       tags:
@@ -45,7 +99,7 @@ paths:
       description: 跳转用户界面
       operationId: UserController.用户界面
 definitions:
-  6323.0xc0004f35c0.false:
+  6323.0xc0005671a0.false:
     title: "false"
     type: object
   dto.LoginDto:
@@ -66,7 +120,7 @@ definitions:
         type: integer
         format: int64
       data:
-        $ref: '#/definitions/6323.0xc0004f35c0.false'
+        $ref: '#/definitions/6323.0xc0005671a0.false'
       message:
         type: string
 tags:

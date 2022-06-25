@@ -23,11 +23,17 @@ type RoleController struct {
 	beego.Controller
 }
 
+// @Title 角色界面
+// @Description 跳转角色页面
+// @router /view [get]
 func (this *RoleController) View() {
 	// 渲染模板
 	this.TplName = "role/view.tpl"
 }
 
+// @Title 角色列表
+// @Description 查询角色列表
+// @router /list [post]
 func (this *RoleController) List() {
 	list := serivces.SelectPmRole()
 	data := utils.R{0, "ok", list}
