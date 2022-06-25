@@ -2,7 +2,7 @@
  * @Author: Jiangzchen 927764151@qq.com
  * @Date: 2022-06-10 20:18:57
  * @LastEditors: Jiangzchen 927764151@qq.com
- * @LastEditTime: 2022-06-24 11:50:12
+ * @LastEditTime: 2022-06-25 17:55:29
  * @FilePath: \pm-admin\controllers\system.go
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
@@ -18,6 +18,8 @@ import (
 	"pm-admin/utils"
 
 	"github.com/astaxie/beego"
+	"github.com/astaxie/beego/logs"
+	"github.com/astaxie/beego/validation"
 	"github.com/vcqr/captcha"
 )
 
@@ -51,6 +53,21 @@ func (this *SystemController) Login() {
 		this.ServeJSON()
 	}
 
+	valid := validation.Validation{} //创建验证数据对象
+	valid.Required(loginDto.Username, "Username").Message("用户名不能为空")
+	valid.MinSize(loginDto.Username, 6, "Username").Message("用户名最短为6位")
+
+	if valid.HasErrors() {
+		// 如果有错误信息，证明验证没通过
+		// 打印错误信息
+		for _, err := range valid.Errors {
+			logs.Info(err.Key, err.Message)
+			data := utils.R{-1, err.Message, nil}
+			this.Data["json"] = &data
+			this.ServeJSON()
+		}
+	}
+
 	loginVo := serivces.SelectPmUserWithUsername(loginDto.Username)
 
 	token := utils.CreateToken(loginVo, 0)
@@ -62,8 +79,8 @@ func (this *SystemController) Login() {
 		this.Ctx.WriteString(token)
 	}
 
-	// data := utils.R{0, "请求成功", loginVo}
-	this.Data["json"] = &token
+	data := utils.R{0, "请求成功", loginVo}
+	this.Data["json"] = &data
 	this.ServeJSON()
 }
 
@@ -80,6 +97,9 @@ func (this *SystemController) Index() {
 	this.TplName = "system/index.tpl"
 }
 
+// @Title 验证码
+// @Description 获取验证码图片
+// @router /system/captcha [post]
 func (this *SystemController) Captcha() {
 	w := this.Ctx.ResponseWriter
 
@@ -94,4 +114,8 @@ func (this *SystemController) Captcha() {
 	w.Header().Set("Content-Type", "image/png; charset=utf-8")
 
 	png.Encode(w, img) // 输出为图片
+}
+
+// 退出
+func (this *SystemController) LoginOut() {
 }

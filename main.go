@@ -22,5 +22,6 @@ func init() {
 }
 func main() {
 	orm.Debug = true
+	beego.SetLogger("file", `{"filename":"logs/dev.log"}`)
 	beego.Run()
 }

@@ -2,10 +2,15 @@
  * @Author: Jiangzchen 927764151@qq.com
  * @Date: 2022-06-10 19:57:13
  * @LastEditors: Jiangzchen 927764151@qq.com
- * @LastEditTime: 2022-06-24 12:29:54
+ * @LastEditTime: 2022-06-25 18:00:46
  * @FilePath: \pm-admin\routers\router.go
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
+
+// Package routers @APIVersion 1.0.0
+// @Title pm-admin
+// @Description pm-admin APIs
+// @Contact 927764151@qq.com
 package routers
 
 import (
@@ -39,12 +44,14 @@ func init() {
 		AllowCredentials: true,
 	}))
 
+	beego.SetStaticPath("/swagger", "swagger") // 访问 http://localhost:8080/swagger即可看到swagger页面
 	beego.Router("/", &controllers.MainController{})
 	beego.Router("/system/index", &system.SystemController{}, "Get:Index")
 	beego.Router("/system/toLogin", &system.SystemController{}, "Get:ToLogin")
 	beego.Router("/system/login", &system.SystemController{}, "Post:Login")
 	beego.Router("/system/captcha", &system.SystemController{}, "Get:Captcha")
 	beego.Router("/system/check", &system.SystemController{}, "Post:Check")
+	beego.Router("/system/loginOut", &system.SystemController{}, "Post:LoginOut")
 
 	// 用户管理
 	beego.Router("/user/view", &system.UserController{}, "Get:View")
@@ -78,5 +85,4 @@ func init() {
 	// 轮播管理
 	beego.Router("/rotation/list", &article.RotationController{}, "Post:List")
 	beego.Router("/rotation/create", &article.RotationController{}, "Post:Create")
-
 }
