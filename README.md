@@ -25,3 +25,8 @@ go+beego学习后端
 
 
 ![Alt](https://raw.githubusercontent.com/Jiangzchen/pm-bed/master/pm-view.png)
+
+
+![Alt](https://raw.githubusercontent.com/Jiangzchen/pm-bed/master/swagger.png)
+
+
