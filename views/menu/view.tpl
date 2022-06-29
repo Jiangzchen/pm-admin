@@ -11,6 +11,8 @@
 <link href="/static/css/bootstrap.min.css" rel="stylesheet">
 <link href="/static/css/materialdesignicons.min.css" rel="stylesheet">
 <link href="/static/css/style.min.css" rel="stylesheet">
+<link href="/static/js/bootstrap-table/bootstrap-table.min.css" rel="stylesheet">
+<link href="/static/js/jquery-treegrid/jquery.treegrid.min.css" rel="stylesheet">
 </head>
   
 <body>
@@ -220,21 +222,6 @@
           <div class="col-lg-12">
             <div class="card">
               <div class="card-toolbar clearfix">
-                <form class="pull-right search-bar" method="get" action="#!" role="form">
-                  <div class="input-group">
-                    <div class="input-group-btn">
-                      <input type="hidden" name="search_field" id="search-field" value="title">
-                      <button class="btn btn-default dropdown-toggle" id="search-btn" data-toggle="dropdown" type="button" aria-haspopup="true" aria-expanded="false">
-                      标题 <span class="caret"></span>
-                      </button>
-                      <ul class="dropdown-menu">
-                        <li> <a tabindex="-1" href="javascript:void(0)" data-field="title">标题</a> </li>
-                        <li> <a tabindex="-1" href="javascript:void(0)" data-field="cat_name">栏目</a> </li>
-                      </ul>
-                    </div>
-                    <input type="text" class="form-control" value="" name="keyword" placeholder="请输入名称">
-                  </div>
-                </form>
                 <div class="toolbar-btn-action">
                   <a class="btn btn-primary m-r-5" href="#!"><i class="mdi mdi-plus"></i> 新增</a>
                   <a class="btn btn-success m-r-5" href="#!"><i class="mdi mdi-check"></i> 启用</a>
@@ -242,86 +229,9 @@
                   <a class="btn btn-danger" href="#!"><i class="mdi mdi-window-close"></i> 删除</a>
                 </div>
               </div>
-              <div class="card-body">
-                
-                <div class="table-responsive">
-                  <table class="table table-bordered">
-                    <thead>
-                      <tr>
-                        <th>
-                          <label class="lyear-checkbox checkbox-primary">
-                            <input type="checkbox" id="check-all"><span></span>
-                          </label>
-                        </th>
-                        <th>编号</th>
-                        <th>标题</th>
-                        <th>书籍</th>
-                        <th>作者</th>
-                        <th>阅读量</th>
-                        <th>状态</th>
-                        <th>操作</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <td>
-                          <label class="lyear-checkbox checkbox-primary">
-                            <input type="checkbox" name="ids[]" value="1"><span></span>
-                          </label>
-                        </td>
-                        <td>1</td>
-                        <td>第01章 天涯思君不可忘</td>
-                        <td>《倚天屠龙记》</td>
-                        <td>金庸</td>
-                        <td>36</td>
-                        <td><font class="text-success">正常</font></td>
-                        <td>
-                          <div class="btn-group">
-                            <a class="btn btn-xs btn-default" href="#!" title="编辑" data-toggle="tooltip"><i class="mdi mdi-pencil"></i></a>
-                            <a class="btn btn-xs btn-default" href="#!" title="查看" data-toggle="tooltip"><i class="mdi mdi-eye"></i></a>
-                            <a class="btn btn-xs btn-default" href="#!" title="删除" data-toggle="tooltip"><i class="mdi mdi-window-close"></i></a>
-                          </div>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <label class="lyear-checkbox checkbox-primary">
-                            <input type="checkbox" name="ids[]" value="2"><span></span>
-                          </label>
-                        </td>
-                        <td>2</td>
-                        <td>第01章 古道腾驹惊白发，危峦快剑识青翎</td>
-                        <td>《书剑恩仇录》</td>
-                        <td>金庸</td>
-                        <td>44</td>
-                        <td><font class="text-success">正常</font></td>
-                        <td>
-                          <div class="btn-group">
-                            <a class="btn btn-xs btn-default" href="#!" title="编辑" data-toggle="tooltip"><i class="mdi mdi-pencil"></i></a>
-                            <a class="btn btn-xs btn-default" href="#!" title="查看" data-toggle="tooltip"><i class="mdi mdi-eye"></i></a>
-                            <a class="btn btn-xs btn-default" href="#!" title="删除" data-toggle="tooltip"><i class="mdi mdi-window-close"></i></a>
-                          </div>
-                        </td>
-                      </tr>
-                    </tbody>
-                  </table>
+              <div class="card-body" style="padding: 0px 24px;">
+                <table id="tb_init"></table>
                 </div>
-                <ul class="pagination">
-                  <li class="disabled"><span>«</span></li>
-                  <li class="active"><span>1</span></li>
-                  <li><a href="#1">2</a></li>
-                  <li><a href="#1">3</a></li>
-                  <li><a href="#1">4</a></li>
-                  <li><a href="#1">5</a></li>
-                  <li><a href="#1">6</a></li>
-                  <li><a href="#1">7</a></li>
-                  <li><a href="#1">8</a></li>
-                  <li class="disabled"><span>...</span></li>
-                  <li><a href="#!">14452</a></li>
-                  <li><a href="#!">14453</a></li>
-                  <li><a href="#!">»</a></li>
-                </ul>
-       
               </div>
             </div>
           </div>
@@ -339,6 +249,11 @@
 <script type="text/javascript" src="/static/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="/static/js/perfect-scrollbar.min.js"></script>
 <script type="text/javascript" src="/static/js/main.min.js"></script>
+
+<script src="/static/js/bootstrap-table/bootstrap-table.min.js"></script>
+<script type="text/javascript" src="/static/js/bootstrap-table/locale/bootstrap-table-zh-CN.min.js"></script>
+<script type="text/javascript" src="/static/js/jquery-treegrid/jquery.treegrid.min.js"></script>
+<script type="text/javascript" src="/static/js/bootstrap-table/extensions/treegrid/bootstrap-table-treegrid.min.js"></script>
 <script type="text/javascript">
 $(function(){
     $('.search-bar .dropdown-menu a').click(function() {
@@ -348,5 +263,218 @@ $(function(){
     });
 });
 </script>
+<script type="text/javascript">
+    // tree-grid使用
+    var data = JSON.parse(
+        '[{"id":1, "pid":0, "status":1, "name":"用户管理", "permissionValue":"open:user:manage"},' +
+        '{"id":2, "pid":0, "status":1, "name":"系统管理", "permissionValue":"open:system:manage"},' +
+        '{"id":3, "pid":1, "status":1, "name":"新增用户", "permissionValue":"open:user:add"},' +
+        '{"id":4, "pid":1, "status":1, "name":"修改用户", "permissionValue":"open:user:edit"},' +
+        '{"id":5, "pid":1, "status":0, "name":"删除用户", "permissionValue":"open:user:del"},' +
+        '{"id":6, "pid":2, "status":1, "name":"系统配置管理", "permissionValue":"open:systemconfig:manage"},' +
+        '{"id":7, "pid":6, "status":1, "name":"新增配置", "permissionValue":"open:systemconfig:add"},' +
+        '{"id":8, "pid":6, "status":1, "name":"修改配置", "permissionValue":"open:systemconfig:edit"},' +
+        '{"id":9, "pid":6, "status":0, "name":"删除配置", "permissionValue":"open:systemconfig:del"},' +
+        '{"id":10, "pid":2,"status":1, "name":"系统日志管理", "permissionValue":"open:log:manage"},' +
+        '{"id":11, "pid":10,"status":1, "name":"新增日志", "permissionValue":"open:log:add"},' +
+        '{"id":12, "pid":10,"status":1, "name":"修改日志", "permissionValue":"open:log:edit"},' +
+        '{"id":13, "pid":10,"status":0, "name":"删除日志", "permissionValue":"open:log:del"}]');
+    
+    var $treeTable = $('#tb_init');
+    $treeTable.bootstrapTable({
+        classes: 'table table-hover table-condensed',
+        iconSize:"sm",                      // 1,设置修改图标  sm小图标 lg大图标
+        data: data,
+        idField: 'id',
+        uniqueId: 'id',
+        dataType: 'jsonp',
+        toolbar: '#toolbar2',
+        columns: [
+            {
+                field: 'check',
+                checkbox: true
+            },
+            {
+                field: 'name',
+                title: '菜单名称'
+            },
+            {
+                field: 'url',
+                title: '菜单URL'
+            },
+            {
+                field: 'perms',
+                title: '授权'
+            },
+            {
+                field: 'type',
+                title: '类型'
+            },
+            {
+                field: 'icon',
+                title: '菜单图标'
+            },
+            {
+                field: 'orderNum',
+                title: '排序'
+            },
+            {
+                field: 'status',
+                title: '状态',
+                sortable: true,
+                /*
+                 * 可以选择采用开关来处理状态显示
+                 * 或者采用上个示例的处理方式
+                 */
+                formatter: function(value, row, index) {
+                    if (value == 0) {
+                        is_checked = '';
+                    } else if (value == 1) {
+                        is_checked = 'checked="checked"';
+                    }
+                    result = '<div class="custom-control custom-switch"><input type="checkbox" class="custom-control-input" id="customSwitch' + row.id + '" ' + is_checked + '><label class="custom-control-label" for="customSwitch' + row.id + '" onClick="updateStatus(' + row.id + ', ' + value + ')"></label></div>';
+    
+                    return result;
+                },
+            },
+            {
+                field: 'permissionValue',
+                title: '权限值'
+            },
+            {
+                field: 'operate',
+                title: '操作',
+                align: 'center',
+                events: {
+                    'click .role-add': function(e, value, row, index) {
+                        add(row.id);
+                    },
+                    'click .role-delete': function(e, value, row, index) {
+                        del(row.id);
+                    },
+                    'click .role-edit': function(e, value, row, index) {
+                        update(row.id);
+                    }
+                },
+                formatter: operateFormatter
+            }
+        ],
+    
+        treeShowField: 'name',
+        parentIdField: 'pid',
+    
+        onResetView: function(data) {
+            $treeTable.treegrid({
+                initialState: 'collapsed', // 所有节点都折叠
+                treeColumn: 1,
+                //expanderExpandedClass: 'mdi mdi-folder-open',  // 可自定义图标样式
+                //expanderCollapsedClass: 'mdi mdi-folder',
+            });
+    
+            // 只展开树形的第一集节点
+            $treeTable.treegrid('getRootNodes').treegrid('expand');
+        },
+        onCheck: function(row) {
+            var datas = $treeTable.bootstrapTable('getData');
+    
+            selectChilds(datas, row, 'id', 'pid', true); // 选择子类
+    
+            selectParentChecked(datas, row, 'id', 'pid'); // 选择父类
+    
+            $treeTable.bootstrapTable('load', datas);
+        },
+    
+        onUncheck: function(row) {
+            var datas = $treeTable.bootstrapTable('getData');
+            selectChilds(datas, row, 'id', 'pid', false);
+            $treeTable.bootstrapTable('load', datas);
+        },
+    });
+    
+    // 操作按钮
+    function operateFormatter(value, row, index) {
+        return [
+            '<a type="button" class="role-add btn btn-xs btn-default m-r-5" title="编辑" data-toggle="tooltip"><i class="mdi mdi-plus"></i></a>',
+            '<a type="button" class="role-edit btn btn-xs btn-default m-r-5" title="修改" data-toggle="tooltip"><i class="mdi mdi-pencil"></i></a>',
+            '<a type="button" class="role-delete btn btn-xs btn-default" title="删除" data-toggle="tooltip"><i class="mdi mdi-delete"></i></a>'
+        ].join('');
+    }
+    
+    /**
+     * 选中父项时，同时选中子项
+     * @param datas 所有的数据
+     * @param row 当前数据
+     * @param id id 字段名
+     * @param pid 父id字段名
+     */
+    function selectChilds(datas, row, id, pid, checked) {
+        for (var i in datas) {
+            if (datas[i][pid] == row[id]) {
+                datas[i].check = checked;
+                selectChilds(datas, datas[i], id, pid, checked);
+            };
+        }
+    }
+    
+    function selectParentChecked(datas, row, id, pid) {
+        for (var i in datas) {
+            if (datas[i][id] == row[pid]) {
+                datas[i].check = true;
+                selectParentChecked(datas, datas[i], id, pid);
+            };
+        }
+    }
+    
+    function add(id) {
+        alert("add 方法 , id = " + id);
+    }
+    
+    function del(id) {
+        alert("del 方法 , id = " + id);
+    }
+    
+    function update(id) {
+        alert("update 方法 , id = " + id);
+    }
+    
+    function updateStatus(id, state) {
+        var newstate = (state == 1) ? 0 : 1; // 发送参数值跟当前参数值相反
+        $.ajax({
+            type: "get",
+            url: "http://www.bixiaguangnian.com/index/test/testGridJson",
+            data: {id: id, state: newstate},
+            dataType: 'jsonp',
+            success: function(data, status) {
+                if (data.code == '200') {
+                    $treeTable.bootstrapTable('updateCellByUniqueId', {id: id, field: 'status', value: newstate});
+                } else {
+                    alert(data.msg);
+                    $treeTable.bootstrapTable('updateCellByUniqueId', {id: id, field: 'status', value: state}); // 因开关点击后样式是变的，失败也重置下
+                }
+            },
+            error: function() {
+                alert('修改失败，请稍后再试');
+            }
+        });
+    }
+    
+    function test() {
+        var selRows = $treeTable.bootstrapTable("getSelections");
+        if (selRows.length == 0) {
+            alert("请至少选择一行");
+            return;
+        }
+        console.log(selRows);
+    
+        var postData = "";
+        $.each(selRows, function(i) {
+            postData += this.id;
+            if (i < selRows.length - 1) {
+                postData += "， ";
+            }
+        });
+        alert("你选中行的 id 为：" + postData);
+    }
+    </script>
 </body>
 </html>

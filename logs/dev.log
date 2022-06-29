@@ -916,3 +916,521 @@
 2022/06/28 21:50:39.222 [D] [server.go:2843]  |            ::1|[43m 404 [0m|      999.8µs| nomatch|[44m GET     [0m /static/js/popper.min.js
 2022/06/28 21:50:39.292 [I] [router.go:678]  current router path is  /role/list
 2022/06/28 21:50:39.325 [D] [server.go:2843]  |            ::1|[42m 200 [0m|    32.9127ms|   match|[46m POST    [0m /role/list   r:/role/list
+2022/06/29 09:12:19.439 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/29 09:12:19.439 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/29 09:12:55.395 [I] [router.go:678]  current router path is  /role/view
+2022/06/29 09:12:55.398 [D] [server.go:2843]  |            ::1|[42m 200 [0m|      4.985ms|   match|[44m GET     [0m /role/view   r:/role/view
+2022/06/29 09:12:55.410 [D] [server.go:2843]  |            ::1|[47m 304 [0m|           0s|   match|[44m GET     [0m /static/css/bootstrap.min.css
+2022/06/29 09:12:55.417 [I] [router.go:678]  current router path is  /static/js/popper.min.js
+2022/06/29 09:12:55.418 [D] [server.go:2843]  |            ::1|[43m 404 [0m|      997.8µs| nomatch|[44m GET     [0m /static/js/popper.min.js
+2022/06/29 09:12:55.525 [I] [router.go:678]  current router path is  /role/list
+2022/06/29 09:12:55.603 [D] [server.go:2843]  |            ::1|[42m 200 [0m|    78.7605ms|   match|[46m POST    [0m /role/list   r:/role/list
+2022/06/29 09:12:55.611 [D] [server.go:2843]  |            ::1|[47m 304 [0m|    79.7861ms|   match|[44m GET     [0m /static/fonts/glyphicons-halflings-regular.woff2
+2022/06/29 09:13:15.220 [I] [router.go:678]  current router path is  /role/view
+2022/06/29 09:13:15.223 [D] [server.go:2843]  |            ::1|[42m 200 [0m|     2.9937ms|   match|[44m GET     [0m /role/view   r:/role/view
+2022/06/29 09:13:15.232 [I] [router.go:678]  current router path is  /static/js/popper.min.js
+2022/06/29 09:13:15.232 [D] [server.go:2843]  |            ::1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /static/js/popper.min.js
+2022/06/29 09:13:15.287 [I] [router.go:678]  current router path is  /role/list
+2022/06/29 09:13:15.323 [D] [server.go:2843]  |            ::1|[42m 200 [0m|    35.9045ms|   match|[46m POST    [0m /role/list   r:/role/list
+2022/06/29 09:13:21.629 [I] [router.go:678]  current router path is  /role/view
+2022/06/29 09:13:21.630 [D] [server.go:2843]  |            ::1|[42m 200 [0m|     1.9944ms|   match|[44m GET     [0m /role/view   r:/role/view
+2022/06/29 09:13:21.638 [I] [router.go:678]  current router path is  /static/js/popper.min.js
+2022/06/29 09:13:21.639 [D] [server.go:2843]  |            ::1|[43m 404 [0m|      997.7µs| nomatch|[44m GET     [0m /static/js/popper.min.js
+2022/06/29 09:13:21.687 [I] [router.go:678]  current router path is  /role/list
+2022/06/29 09:13:21.725 [D] [server.go:2843]  |            ::1|[42m 200 [0m|     37.899ms|   match|[46m POST    [0m /role/list   r:/role/list
+2022/06/29 09:13:29.092 [I] [router.go:678]  current router path is  /role/view
+2022/06/29 09:13:29.096 [D] [server.go:2843]  |            ::1|[42m 200 [0m|     3.9891ms|   match|[44m GET     [0m /role/view   r:/role/view
+2022/06/29 09:13:29.106 [I] [router.go:678]  current router path is  /static/js/popper.min.js
+2022/06/29 09:13:29.106 [D] [server.go:2843]  |            ::1|[43m 404 [0m|      999.7µs| nomatch|[44m GET     [0m /static/js/popper.min.js
+2022/06/29 09:13:29.129 [I] [router.go:678]  current router path is  /role/list
+2022/06/29 09:13:29.167 [D] [server.go:2843]  |            ::1|[42m 200 [0m|    37.8984ms|   match|[46m POST    [0m /role/list   r:/role/list
+2022/06/29 09:14:09.761 [I] [router.go:678]  current router path is  /user/view
+2022/06/29 09:14:09.763 [D] [server.go:2843]  |            ::1|[42m 200 [0m|     1.9948ms|   match|[44m GET     [0m /user/view   r:/user/view
+2022/06/29 09:14:09.778 [I] [router.go:678]  current router path is  /static/js/popper.min.js
+2022/06/29 09:14:09.778 [D] [server.go:2843]  |            ::1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /static/js/popper.min.js
+2022/06/29 09:20:12.726 [I] [router.go:678]  current router path is  /user/view
+2022/06/29 09:20:12.729 [D] [server.go:2843]  |            ::1|[42m 200 [0m|     3.0243ms|   match|[44m GET     [0m /user/view   r:/user/view
+2022/06/29 09:20:12.738 [I] [router.go:678]  current router path is  /static/js/popper.min.js
+2022/06/29 09:20:12.738 [D] [server.go:2843]  |            ::1|[43m 404 [0m|      997.1µs| nomatch|[44m GET     [0m /static/js/popper.min.js
+2022/06/29 09:20:17.291 [I] [router.go:678]  current router path is  /role/view
+2022/06/29 09:20:17.293 [D] [server.go:2843]  |            ::1|[42m 200 [0m|     2.9914ms|   match|[44m GET     [0m /role/view   r:/role/view
+2022/06/29 09:20:17.310 [I] [router.go:678]  current router path is  /static/js/popper.min.js
+2022/06/29 09:20:17.310 [D] [server.go:2843]  |            ::1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /static/js/popper.min.js
+2022/06/29 09:20:46.439 [I] [router.go:678]  current router path is  /role/view
+2022/06/29 09:20:46.441 [D] [server.go:2843]  |            ::1|[42m 200 [0m|     1.9929ms|   match|[44m GET     [0m /role/view   r:/role/view
+2022/06/29 09:20:46.454 [I] [router.go:678]  current router path is  /static/js/popper.min.js
+2022/06/29 09:20:46.455 [D] [server.go:2843]  |            ::1|[43m 404 [0m|      995.4µs| nomatch|[44m GET     [0m /static/js/popper.min.js
+2022/06/29 09:20:46.525 [I] [router.go:678]  current router path is  /role/list
+2022/06/29 09:20:46.561 [D] [server.go:2843]  |            ::1|[42m 200 [0m|    35.9049ms|   match|[46m POST    [0m /role/list   r:/role/list
+2022/06/29 09:21:06.501 [I] [router.go:678]  current router path is  /role/view
+2022/06/29 09:21:06.503 [D] [server.go:2843]  |            ::1|[42m 200 [0m|     1.9929ms|   match|[44m GET     [0m /role/view   r:/role/view
+2022/06/29 09:21:06.515 [I] [router.go:678]  current router path is  /static/js/popper.min.js
+2022/06/29 09:21:06.516 [D] [server.go:2843]  |            ::1|[43m 404 [0m|      996.1µs| nomatch|[44m GET     [0m /static/js/popper.min.js
+2022/06/29 09:21:06.581 [I] [router.go:678]  current router path is  /role/list
+2022/06/29 09:21:06.616 [D] [server.go:2843]  |            ::1|[42m 200 [0m|    34.9071ms|   match|[46m POST    [0m /role/list   r:/role/list
+2022/06/29 09:21:39.933 [I] [router.go:678]  current router path is  /role/view
+2022/06/29 09:21:39.936 [D] [server.go:2843]  |            ::1|[42m 200 [0m|     2.9914ms|   match|[44m GET     [0m /role/view   r:/role/view
+2022/06/29 09:21:39.945 [I] [router.go:678]  current router path is  /static/js/popper.min.js
+2022/06/29 09:21:39.946 [D] [server.go:2843]  |            ::1|[43m 404 [0m|      997.4µs| nomatch|[44m GET     [0m /static/js/popper.min.js
+2022/06/29 09:21:40.012 [I] [router.go:678]  current router path is  /role/list
+2022/06/29 09:21:40.049 [D] [server.go:2843]  |            ::1|[42m 200 [0m|    36.9404ms|   match|[46m POST    [0m /role/list   r:/role/list
+2022/06/29 09:21:47.785 [I] [router.go:678]  current router path is  /role/view
+2022/06/29 09:21:47.787 [D] [server.go:2843]  |            ::1|[42m 200 [0m|     1.9953ms|   match|[44m GET     [0m /role/view   r:/role/view
+2022/06/29 09:21:47.797 [I] [router.go:678]  current router path is  /static/js/popper.min.js
+2022/06/29 09:21:47.798 [D] [server.go:2843]  |            ::1|[43m 404 [0m|      999.2µs| nomatch|[44m GET     [0m /static/js/popper.min.js
+2022/06/29 09:21:47.860 [I] [router.go:678]  current router path is  /role/list
+2022/06/29 09:21:47.897 [D] [server.go:2843]  |            ::1|[42m 200 [0m|    36.9065ms|   match|[46m POST    [0m /role/list   r:/role/list
+2022/06/29 09:22:48.282 [I] [router.go:678]  current router path is  /role/view
+2022/06/29 09:22:48.284 [D] [server.go:2843]  |            ::1|[42m 200 [0m|     1.9948ms|   match|[44m GET     [0m /role/view   r:/role/view
+2022/06/29 09:22:48.296 [I] [router.go:678]  current router path is  /static/js/popper.min.js
+2022/06/29 09:22:48.298 [D] [server.go:2843]  |            ::1|[43m 404 [0m|     1.9959ms| nomatch|[44m GET     [0m /static/js/popper.min.js
+2022/06/29 09:22:48.363 [I] [router.go:678]  current router path is  /role/list
+2022/06/29 09:22:48.399 [D] [server.go:2843]  |            ::1|[42m 200 [0m|    37.0545ms|   match|[46m POST    [0m /role/list   r:/role/list
+2022/06/29 09:22:56.377 [I] [router.go:678]  current router path is  /role/list
+2022/06/29 09:22:56.414 [D] [server.go:2843]  |            ::1|[42m 200 [0m|    37.4156ms|   match|[46m POST    [0m /role/list   r:/role/list
+2022/06/29 09:22:56.928 [I] [router.go:678]  current router path is  /role/list
+2022/06/29 09:22:56.965 [D] [server.go:2843]  |            ::1|[42m 200 [0m|    36.4841ms|   match|[46m POST    [0m /role/list   r:/role/list
+2022/06/29 09:22:57.304 [I] [router.go:678]  current router path is  /role/list
+2022/06/29 09:22:57.339 [D] [server.go:2843]  |            ::1|[42m 200 [0m|    35.5845ms|   match|[46m POST    [0m /role/list   r:/role/list
+2022/06/29 09:22:57.480 [I] [router.go:678]  current router path is  /role/list
+2022/06/29 09:22:57.515 [D] [server.go:2843]  |            ::1|[42m 200 [0m|     36.039ms|   match|[46m POST    [0m /role/list   r:/role/list
+2022/06/29 09:22:57.664 [I] [router.go:678]  current router path is  /role/list
+2022/06/29 09:22:57.700 [D] [server.go:2843]  |            ::1|[42m 200 [0m|    35.8734ms|   match|[46m POST    [0m /role/list   r:/role/list
+2022/06/29 09:22:57.848 [I] [router.go:678]  current router path is  /role/list
+2022/06/29 09:22:57.885 [D] [server.go:2843]  |            ::1|[42m 200 [0m|    37.6127ms|   match|[46m POST    [0m /role/list   r:/role/list
+2022/06/29 09:22:58.008 [I] [router.go:678]  current router path is  /role/list
+2022/06/29 09:22:58.044 [D] [server.go:2843]  |            ::1|[42m 200 [0m|    36.3013ms|   match|[46m POST    [0m /role/list   r:/role/list
+2022/06/29 09:22:58.168 [I] [router.go:678]  current router path is  /role/list
+2022/06/29 09:22:58.205 [D] [server.go:2843]  |            ::1|[42m 200 [0m|    36.5125ms|   match|[46m POST    [0m /role/list   r:/role/list
+2022/06/29 09:23:48.714 [I] [router.go:678]  current router path is  /role/view
+2022/06/29 09:23:48.716 [D] [server.go:2843]  |            ::1|[42m 200 [0m|     1.9954ms|   match|[44m GET     [0m /role/view   r:/role/view
+2022/06/29 09:23:48.727 [I] [router.go:678]  current router path is  /static/js/popper.min.js
+2022/06/29 09:23:48.727 [D] [server.go:2843]  |            ::1|[43m 404 [0m|      996.5µs| nomatch|[44m GET     [0m /static/js/popper.min.js
+2022/06/29 09:23:48.790 [I] [router.go:678]  current router path is  /role/list
+2022/06/29 09:23:48.826 [D] [server.go:2843]  |            ::1|[42m 200 [0m|    35.9042ms|   match|[46m POST    [0m /role/list   r:/role/list
+2022/06/29 09:24:07.273 [I] [router.go:678]  current router path is  /role/view
+2022/06/29 09:24:07.275 [D] [server.go:2843]  |            ::1|[42m 200 [0m|     2.0278ms|   match|[44m GET     [0m /role/view   r:/role/view
+2022/06/29 09:24:07.285 [I] [router.go:678]  current router path is  /static/js/popper.min.js
+2022/06/29 09:24:07.285 [D] [server.go:2843]  |            ::1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /static/js/popper.min.js
+2022/06/29 09:24:07.349 [I] [router.go:678]  current router path is  /role/list
+2022/06/29 09:24:07.386 [D] [server.go:2843]  |            ::1|[42m 200 [0m|    36.9726ms|   match|[46m POST    [0m /role/list   r:/role/list
+2022/06/29 09:24:11.730 [I] [router.go:678]  current router path is  /role/view
+2022/06/29 09:24:11.732 [D] [server.go:2843]  |            ::1|[42m 200 [0m|     1.9953ms|   match|[44m GET     [0m /role/view   r:/role/view
+2022/06/29 09:24:11.740 [I] [router.go:678]  current router path is  /static/js/popper.min.js
+2022/06/29 09:24:11.741 [D] [server.go:2843]  |            ::1|[43m 404 [0m|      998.4µs| nomatch|[44m GET     [0m /static/js/popper.min.js
+2022/06/29 09:24:11.796 [I] [router.go:678]  current router path is  /role/list
+2022/06/29 09:24:11.831 [D] [server.go:2843]  |            ::1|[42m 200 [0m|    34.8898ms|   match|[46m POST    [0m /role/list   r:/role/list
+2022/06/29 09:24:18.441 [I] [router.go:678]  current router path is  /role/list
+2022/06/29 09:24:18.477 [D] [server.go:2843]  |            ::1|[42m 200 [0m|    36.0681ms|   match|[46m POST    [0m /role/list   r:/role/list
+2022/06/29 09:24:19.056 [I] [router.go:678]  current router path is  /role/list
+2022/06/29 09:24:19.094 [D] [server.go:2843]  |            ::1|[42m 200 [0m|    37.8109ms|   match|[46m POST    [0m /role/list   r:/role/list
+2022/06/29 09:24:20.015 [I] [router.go:678]  current router path is  /role/list
+2022/06/29 09:24:20.053 [D] [server.go:2843]  |            ::1|[42m 200 [0m|    38.0329ms|   match|[46m POST    [0m /role/list   r:/role/list
+2022/06/29 09:24:24.568 [I] [router.go:678]  current router path is  /role/list
+2022/06/29 09:24:24.604 [D] [server.go:2843]  |            ::1|[42m 200 [0m|    35.9048ms|   match|[46m POST    [0m /role/list   r:/role/list
+2022/06/29 09:26:44.967 [I] [router.go:678]  current router path is  /role/view
+2022/06/29 09:26:44.969 [D] [server.go:2843]  |            ::1|[42m 200 [0m|     1.9938ms|   match|[44m GET     [0m /role/view   r:/role/view
+2022/06/29 09:26:44.980 [I] [router.go:678]  current router path is  /static/js/popper.min.js
+2022/06/29 09:26:44.981 [D] [server.go:2843]  |            ::1|[43m 404 [0m|      996.6µs| nomatch|[44m GET     [0m /static/js/popper.min.js
+2022/06/29 09:26:45.054 [I] [router.go:678]  current router path is  /role/list
+2022/06/29 09:26:45.089 [D] [server.go:2843]  |            ::1|[42m 200 [0m|    35.9026ms|   match|[46m POST    [0m /role/list   r:/role/list
+2022/06/29 09:26:49.007 [I] [router.go:678]  current router path is  /role/view
+2022/06/29 09:26:49.009 [D] [server.go:2843]  |            ::1|[42m 200 [0m|     1.9963ms|   match|[44m GET     [0m /role/view   r:/role/view
+2022/06/29 09:26:49.018 [I] [router.go:678]  current router path is  /static/js/popper.min.js
+2022/06/29 09:26:49.018 [D] [server.go:2843]  |            ::1|[43m 404 [0m|      998.5µs| nomatch|[44m GET     [0m /static/js/popper.min.js
+2022/06/29 09:26:49.084 [I] [router.go:678]  current router path is  /role/list
+2022/06/29 09:26:49.120 [D] [server.go:2843]  |            ::1|[42m 200 [0m|    36.3755ms|   match|[46m POST    [0m /role/list   r:/role/list
+2022/06/29 09:27:04.228 [I] [router.go:678]  current router path is  /role/list
+2022/06/29 09:27:04.263 [D] [server.go:2843]  |            ::1|[42m 200 [0m|    34.9516ms|   match|[46m POST    [0m /role/list   r:/role/list
+2022/06/29 09:30:59.361 [I] [router.go:678]  current router path is  /role/view
+2022/06/29 09:30:59.364 [D] [server.go:2843]  |            ::1|[42m 200 [0m|     2.9971ms|   match|[44m GET     [0m /role/view   r:/role/view
+2022/06/29 09:30:59.375 [I] [router.go:678]  current router path is  /static/js/popper.min.js
+2022/06/29 09:30:59.376 [D] [server.go:2843]  |            ::1|[43m 404 [0m|     1.9969ms| nomatch|[44m GET     [0m /static/js/popper.min.js
+2022/06/29 09:31:09.061 [I] [router.go:678]  current router path is  /role/view
+2022/06/29 09:31:09.062 [I] [router.go:678]  current router path is  /role/list
+2022/06/29 09:31:09.063 [D] [server.go:2843]  |            ::1|[42m 200 [0m|     2.9925ms|   match|[44m GET     [0m /role/view   r:/role/view
+2022/06/29 09:31:09.079 [I] [router.go:678]  current router path is  /static/js/popper.min.js
+2022/06/29 09:31:09.079 [D] [server.go:2843]  |            ::1|[43m 404 [0m|      996.9µs| nomatch|[44m GET     [0m /static/js/popper.min.js
+2022/06/29 09:31:09.097 [D] [server.go:2843]  |            ::1|[42m 200 [0m|    33.9079ms|   match|[46m POST    [0m /role/list   r:/role/list
+2022/06/29 09:31:11.524 [I] [router.go:678]  current router path is  /role/list
+2022/06/29 09:31:11.561 [D] [server.go:2843]  |            ::1|[42m 200 [0m|     36.408ms|   match|[46m POST    [0m /role/list   r:/role/list
+2022/06/29 09:31:14.380 [I] [router.go:678]  current router path is  /role/view
+2022/06/29 09:31:14.382 [D] [server.go:2843]  |            ::1|[42m 200 [0m|     2.9904ms|   match|[44m GET     [0m /role/view   r:/role/view
+2022/06/29 09:31:14.392 [I] [router.go:678]  current router path is  /static/js/popper.min.js
+2022/06/29 09:31:14.393 [D] [server.go:2843]  |            ::1|[43m 404 [0m|      997.4µs| nomatch|[44m GET     [0m /static/js/popper.min.js
+2022/06/29 09:31:15.821 [I] [router.go:678]  current router path is  /role/list
+2022/06/29 09:31:15.859 [D] [server.go:2843]  |            ::1|[42m 200 [0m|     37.823ms|   match|[46m POST    [0m /role/list   r:/role/list
+2022/06/29 09:31:56.623 [I] [router.go:678]  current router path is  /role/view
+2022/06/29 09:31:56.626 [D] [server.go:2843]  |            ::1|[42m 200 [0m|     2.9927ms|   match|[44m GET     [0m /role/view   r:/role/view
+2022/06/29 09:31:56.635 [I] [router.go:678]  current router path is  /static/js/popper.min.js
+2022/06/29 09:31:56.635 [D] [server.go:2843]  |            ::1|[43m 404 [0m|      997.7µs| nomatch|[44m GET     [0m /static/js/popper.min.js
+2022/06/29 09:31:56.697 [I] [router.go:678]  current router path is  /role/list
+2022/06/29 09:31:56.733 [D] [server.go:2843]  |            ::1|[42m 200 [0m|    36.0505ms|   match|[46m POST    [0m /role/list   r:/role/list
+2022/06/29 09:41:26.725 [I] [router.go:678]  current router path is  /role/view
+2022/06/29 09:41:26.728 [D] [server.go:2843]  |            ::1|[42m 200 [0m|     3.0188ms|   match|[44m GET     [0m /role/view   r:/role/view
+2022/06/29 09:41:26.738 [I] [router.go:678]  current router path is  /static/js/popper.min.js
+2022/06/29 09:41:26.738 [D] [server.go:2843]  |            ::1|[43m 404 [0m|      997.2µs| nomatch|[44m GET     [0m /static/js/popper.min.js
+2022/06/29 09:41:26.810 [I] [router.go:678]  current router path is  /role/list
+2022/06/29 09:41:26.846 [D] [server.go:2843]  |            ::1|[42m 200 [0m|    36.7908ms|   match|[46m POST    [0m /role/list   r:/role/list
+2022/06/29 09:43:09.505 [I] [router.go:678]  current router path is  /role/view
+2022/06/29 09:43:09.507 [D] [server.go:2843]  |            ::1|[42m 200 [0m|     1.9946ms|   match|[44m GET     [0m /role/view   r:/role/view
+2022/06/29 09:43:09.521 [I] [router.go:678]  current router path is  /static/js/popper.min.js
+2022/06/29 09:43:09.522 [D] [server.go:2843]  |            ::1|[43m 404 [0m|      997.5µs| nomatch|[44m GET     [0m /static/js/popper.min.js
+2022/06/29 09:43:09.600 [I] [router.go:678]  current router path is  /role/list
+2022/06/29 09:43:09.636 [D] [server.go:2843]  |            ::1|[42m 200 [0m|    35.9036ms|   match|[46m POST    [0m /role/list   r:/role/list
+2022/06/29 09:47:44.037 [I] [router.go:678]  current router path is  /role/view
+2022/06/29 09:47:44.039 [D] [server.go:2843]  |            ::1|[42m 200 [0m|     1.9924ms|   match|[44m GET     [0m /role/view   r:/role/view
+2022/06/29 09:47:44.048 [I] [router.go:678]  current router path is  /static/js/popper.min.js
+2022/06/29 09:47:44.049 [D] [server.go:2843]  |            ::1|[43m 404 [0m|      997.2µs| nomatch|[44m GET     [0m /static/js/popper.min.js
+2022/06/29 09:47:44.127 [I] [router.go:678]  current router path is  /role/list
+2022/06/29 09:47:44.162 [D] [server.go:2843]  |            ::1|[42m 200 [0m|    34.9053ms|   match|[46m POST    [0m /role/list   r:/role/list
+2022/06/29 09:48:29.074 [I] [router.go:678]  current router path is  /role/view
+2022/06/29 09:48:29.076 [D] [server.go:2843]  |            ::1|[42m 200 [0m|     1.9895ms|   match|[44m GET     [0m /role/view   r:/role/view
+2022/06/29 09:48:29.089 [I] [router.go:678]  current router path is  /static/js/popper.min.js
+2022/06/29 09:48:29.090 [D] [server.go:2843]  |            ::1|[43m 404 [0m|      996.8µs| nomatch|[44m GET     [0m /static/js/popper.min.js
+2022/06/29 09:48:29.171 [I] [router.go:678]  current router path is  /role/list
+2022/06/29 09:48:29.208 [D] [server.go:2843]  |            ::1|[42m 200 [0m|    37.8983ms|   match|[46m POST    [0m /role/list   r:/role/list
+2022/06/29 09:49:23.062 [I] [router.go:678]  current router path is  /role/view
+2022/06/29 09:49:23.065 [D] [server.go:2843]  |            ::1|[42m 200 [0m|     3.0187ms|   match|[44m GET     [0m /role/view   r:/role/view
+2022/06/29 09:49:23.076 [I] [router.go:678]  current router path is  /static/js/popper.min.js
+2022/06/29 09:49:23.077 [D] [server.go:2843]  |            ::1|[43m 404 [0m|      996.7µs| nomatch|[44m GET     [0m /static/js/popper.min.js
+2022/06/29 09:49:23.147 [I] [router.go:678]  current router path is  /role/list
+2022/06/29 09:49:23.183 [D] [server.go:2843]  |            ::1|[42m 200 [0m|    35.9343ms|   match|[46m POST    [0m /role/list   r:/role/list
+2022/06/29 12:28:37.434 [I] [router.go:678]  current router path is  /static/js/popper.min.js
+2022/06/29 12:28:37.469 [D] [server.go:2843]  |            ::1|[43m 404 [0m|    37.8978ms| nomatch|[44m GET     [0m /static/js/popper.min.js
+2022/06/29 12:28:38.238 [I] [router.go:678]  current router path is  /role/list
+2022/06/29 12:28:38.305 [D] [server.go:2843]  |            ::1|[42m 200 [0m|    69.8126ms|   match|[46m POST    [0m /role/list   r:/role/list
+2022/06/29 12:28:55.302 [I] [router.go:678]  current router path is  /role/view
+2022/06/29 12:28:55.305 [D] [server.go:2843]  |            ::1|[42m 200 [0m|     3.9902ms|   match|[44m GET     [0m /role/view   r:/role/view
+2022/06/29 12:29:25.331 [I] [router.go:678]  current router path is  /user/view
+2022/06/29 12:29:25.333 [D] [server.go:2843]  |            ::1|[42m 200 [0m|      2.996ms|   match|[44m GET     [0m /user/view   r:/user/view
+2022/06/29 12:29:25.359 [I] [router.go:678]  current router path is  /static/js/popper.min.js
+2022/06/29 12:29:25.360 [D] [server.go:2843]  |            ::1|[43m 404 [0m|        997µs| nomatch|[44m GET     [0m /static/js/popper.min.js
+2022/06/29 12:39:03.484 [I] [router.go:678]  current router path is  /menu/view
+2022/06/29 12:39:03.486 [D] [server.go:2843]  |            ::1|[42m 200 [0m|     1.9946ms|   match|[44m GET     [0m /menu/view   r:/menu/view
+2022/06/29 12:39:03.524 [I] [router.go:678]  current router path is  /static/js/jquery-treegrid/jquery.treegrid.min.css
+2022/06/29 12:39:03.525 [I] [router.go:678]  current router path is  /static/js/jquery-treegrid/jquery.treegrid.min.js
+2022/06/29 12:39:03.525 [D] [server.go:2843]  |            ::1|[43m 404 [0m|      997.8µs| nomatch|[44m GET     [0m /static/js/jquery-treegrid/jquery.treegrid.min.css
+2022/06/29 12:39:03.526 [D] [server.go:2843]  |            ::1|[43m 404 [0m|     1.9939ms| nomatch|[44m GET     [0m /static/js/jquery-treegrid/jquery.treegrid.min.js
+2022/06/29 12:39:03.544 [D] [server.go:2843]  |            ::1|[42m 200 [0m|    18.9483ms|   match|[44m GET     [0m /static/js/bootstrap-table/extensions/treegrid/bootstrap-table-treegrid.min.js
+2022/06/29 12:41:22.071 [I] [router.go:678]  current router path is  /menu/view
+2022/06/29 12:41:22.075 [D] [server.go:2843]  |            ::1|[42m 200 [0m|      3.987ms|   match|[44m GET     [0m /menu/view   r:/menu/view
+2022/06/29 12:41:22.084 [I] [router.go:678]  current router path is  /static/js/jquery-treegrid/jquery.treegrid.min.css
+2022/06/29 12:41:22.084 [I] [router.go:678]  current router path is  /static/js/jquery-treegrid/jquery.treegrid.min.js
+2022/06/29 12:41:22.084 [D] [server.go:2843]  |            ::1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /static/js/jquery-treegrid/jquery.treegrid.min.css
+2022/06/29 12:41:22.085 [D] [server.go:2843]  |            ::1|[43m 404 [0m|      997.6µs| nomatch|[44m GET     [0m /static/js/jquery-treegrid/jquery.treegrid.min.js
+2022/06/29 12:41:31.854 [I] [router.go:678]  current router path is  /menu/view
+2022/06/29 12:41:31.857 [D] [server.go:2843]  |            ::1|[42m 200 [0m|     2.9907ms|   match|[44m GET     [0m /menu/view   r:/menu/view
+2022/06/29 12:41:31.871 [I] [router.go:678]  current router path is  /static/js/jquery-treegrid/jquery.treegrid.min.css
+2022/06/29 12:41:31.872 [I] [router.go:678]  current router path is  /static/js/jquery-treegrid/jquery.treegrid.min.js
+2022/06/29 12:41:31.872 [D] [server.go:2843]  |            ::1|[43m 404 [0m|      997.3µs| nomatch|[44m GET     [0m /static/js/jquery-treegrid/jquery.treegrid.min.css
+2022/06/29 12:41:31.872 [D] [server.go:2843]  |            ::1|[43m 404 [0m|      997.3µs| nomatch|[44m GET     [0m /static/js/jquery-treegrid/jquery.treegrid.min.js
+2022/06/29 12:41:32.465 [I] [router.go:678]  current router path is  /menu/view
+2022/06/29 12:41:32.467 [D] [server.go:2843]  |            ::1|[42m 200 [0m|     1.9941ms|   match|[44m GET     [0m /menu/view   r:/menu/view
+2022/06/29 12:41:32.477 [I] [router.go:678]  current router path is  /static/js/jquery-treegrid/jquery.treegrid.min.css
+2022/06/29 12:41:32.478 [I] [router.go:678]  current router path is  /static/js/jquery-treegrid/jquery.treegrid.min.js
+2022/06/29 12:41:32.478 [D] [server.go:2843]  |            ::1|[43m 404 [0m|        998µs| nomatch|[44m GET     [0m /static/js/jquery-treegrid/jquery.treegrid.min.css
+2022/06/29 12:41:32.478 [D] [server.go:2843]  |            ::1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /static/js/jquery-treegrid/jquery.treegrid.min.js
+2022/06/29 12:44:17.329 [I] [router.go:678]  current router path is  /menu/view
+2022/06/29 12:44:17.332 [D] [server.go:2843]  |            ::1|[42m 200 [0m|     2.9902ms|   match|[44m GET     [0m /menu/view   r:/menu/view
+2022/06/29 12:44:17.341 [D] [server.go:2843]  |            ::1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/js/jquery-treegrid/jquery.treegrid.min.css
+2022/06/29 12:44:17.341 [D] [server.go:2843]  |            ::1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/js/jquery-treegrid/jquery.treegrid.min.js
+2022/06/29 12:44:18.969 [I] [router.go:678]  current router path is  /menu/view
+2022/06/29 12:44:18.971 [D] [server.go:2843]  |            ::1|[42m 200 [0m|     1.9943ms|   match|[44m GET     [0m /menu/view   r:/menu/view
+2022/06/29 12:44:19.577 [I] [router.go:678]  current router path is  /menu/view
+2022/06/29 12:44:19.579 [D] [server.go:2843]  |            ::1|[42m 200 [0m|     1.9944ms|   match|[44m GET     [0m /menu/view   r:/menu/view
+2022/06/29 12:44:50.541 [I] [router.go:678]  current router path is  /menu/view
+2022/06/29 12:44:50.543 [D] [server.go:2843]  |            ::1|[42m 200 [0m|     1.9944ms|   match|[44m GET     [0m /menu/view   r:/menu/view
+2022/06/29 12:44:59.459 [I] [router.go:678]  current router path is  /menu/view
+2022/06/29 12:44:59.462 [D] [server.go:2843]  |            ::1|[42m 200 [0m|     3.9867ms|   match|[44m GET     [0m /menu/view   r:/menu/view
+2022/06/29 12:44:59.536 [D] [server.go:2843]  |            ::1|[42m 200 [0m|    60.7215ms|   match|[44m GET     [0m /static/js/jquery.min.js
+2022/06/29 12:44:59.548 [D] [server.go:2843]  |            ::1|[42m 200 [0m|    72.7638ms|   match|[44m GET     [0m /static/css/style.min.css
+2022/06/29 12:44:59.560 [D] [server.go:2843]  |            ::1|[42m 200 [0m|     83.747ms|   match|[44m GET     [0m /static/js/bootstrap.min.js
+2022/06/29 12:44:59.580 [D] [server.go:2843]  |            ::1|[42m 200 [0m|    41.8216ms|   match|[44m GET     [0m /static/images/users/avatar.jpg
+2022/06/29 12:44:59.593 [D] [server.go:2843]  |            ::1|[42m 200 [0m|    11.9952ms|   match|[44m GET     [0m /static/js/jquery-treegrid/jquery.treegrid.min.css
+2022/06/29 12:44:59.593 [D] [server.go:2843]  |            ::1|[42m 200 [0m|   117.5273ms|   match|[44m GET     [0m /static/js/perfect-scrollbar.min.js
+2022/06/29 12:44:59.602 [D] [server.go:2843]  |            ::1|[42m 200 [0m|     6.9802ms|   match|[44m GET     [0m /static/js/jquery-treegrid/jquery.treegrid.min.js
+2022/06/29 12:44:59.602 [D] [server.go:2843]  |            ::1|[42m 200 [0m|     5.9836ms|   match|[44m GET     [0m /static/js/bootstrap-table/extensions/treegrid/bootstrap-table-treegrid.min.js
+2022/06/29 12:44:59.602 [D] [server.go:2843]  |            ::1|[42m 200 [0m|   128.4984ms|   match|[44m GET     [0m /static/css/materialdesignicons.min.css
+2022/06/29 12:44:59.628 [D] [server.go:2843]  |            ::1|[42m 200 [0m|   155.4239ms|   match|[44m GET     [0m /static/css/bootstrap.min.css
+2022/06/29 12:44:59.654 [D] [server.go:2843]  |            ::1|[42m 200 [0m|    91.8255ms|   match|[44m GET     [0m /static/js/main.min.js
+2022/06/29 12:44:59.663 [D] [server.go:2843]  |            ::1|[42m 200 [0m|   113.5784ms|   match|[44m GET     [0m /static/images/logo-sidebar.png
+2022/06/29 12:44:59.681 [D] [server.go:2843]  |            ::1|[42m 200 [0m|    34.9068ms|   match|[44m GET     [0m /static/fonts/materialdesignicons.woff2
+2022/06/29 12:44:59.710 [D] [server.go:2843]  |            ::1|[42m 200 [0m|    13.9615ms|   match|[44m GET     [0m /static/favicon.ico
+2022/06/29 12:45:00.355 [I] [router.go:678]  current router path is  /menu/view
+2022/06/29 12:45:00.358 [D] [server.go:2843]  |            ::1|[42m 200 [0m|     2.9922ms|   match|[44m GET     [0m /menu/view   r:/menu/view
+2022/06/29 12:45:00.368 [D] [server.go:2843]  |            ::1|[42m 200 [0m|        996µs|   match|[44m GET     [0m /static/css/bootstrap.min.css
+2022/06/29 12:45:00.369 [D] [server.go:2843]  |            ::1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/css/materialdesignicons.min.css
+2022/06/29 12:45:00.369 [D] [server.go:2843]  |            ::1|[42m 200 [0m|      997.8µs|   match|[44m GET     [0m /static/js/jquery.min.js
+2022/06/29 12:45:00.369 [D] [server.go:2843]  |            ::1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/js/perfect-scrollbar.min.js
+2022/06/29 12:45:00.369 [D] [server.go:2843]  |            ::1|[42m 200 [0m|      997.8µs|   match|[44m GET     [0m /static/css/style.min.css
+2022/06/29 12:45:00.369 [D] [server.go:2843]  |            ::1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/js/bootstrap.min.js
+2022/06/29 12:45:00.375 [D] [server.go:2843]  |            ::1|[42m 200 [0m|      998.8µs|   match|[44m GET     [0m /static/js/main.min.js
+2022/06/29 12:45:00.381 [D] [server.go:2843]  |            ::1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/js/jquery-treegrid/jquery.treegrid.min.css
+2022/06/29 12:45:00.382 [D] [server.go:2843]  |            ::1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/js/jquery-treegrid/jquery.treegrid.min.js
+2022/06/29 12:45:00.382 [D] [server.go:2843]  |            ::1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/images/logo-sidebar.png
+2022/06/29 12:45:00.382 [D] [server.go:2843]  |            ::1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/js/bootstrap-table/extensions/treegrid/bootstrap-table-treegrid.min.js
+2022/06/29 12:45:00.382 [D] [server.go:2843]  |            ::1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/images/users/avatar.jpg
+2022/06/29 12:45:00.388 [D] [server.go:2843]  |            ::1|[42m 200 [0m|      997.6µs|   match|[44m GET     [0m /static/fonts/materialdesignicons.woff2
+2022/06/29 12:45:00.437 [D] [server.go:2843]  |            ::1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/favicon.ico
+2022/06/29 12:45:00.747 [I] [router.go:678]  current router path is  /menu/view
+2022/06/29 12:45:00.751 [D] [server.go:2843]  |            ::1|[42m 200 [0m|     3.9885ms|   match|[44m GET     [0m /menu/view   r:/menu/view
+2022/06/29 12:45:00.760 [D] [server.go:2843]  |            ::1|[42m 200 [0m|      997.4µs|   match|[44m GET     [0m /static/css/bootstrap.min.css
+2022/06/29 12:45:00.763 [D] [server.go:2843]  |            ::1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/css/materialdesignicons.min.css
+2022/06/29 12:45:00.764 [D] [server.go:2843]  |            ::1|[42m 200 [0m|      996.4µs|   match|[44m GET     [0m /static/js/bootstrap.min.js
+2022/06/29 12:45:00.764 [D] [server.go:2843]  |            ::1|[42m 200 [0m|      996.4µs|   match|[44m GET     [0m /static/css/style.min.css
+2022/06/29 12:45:00.764 [D] [server.go:2843]  |            ::1|[42m 200 [0m|      996.4µs|   match|[44m GET     [0m /static/js/jquery.min.js
+2022/06/29 12:45:00.764 [D] [server.go:2843]  |            ::1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/js/perfect-scrollbar.min.js
+2022/06/29 12:45:00.768 [D] [server.go:2843]  |            ::1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/js/main.min.js
+2022/06/29 12:45:00.777 [D] [server.go:2843]  |            ::1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/js/jquery-treegrid/jquery.treegrid.min.css
+2022/06/29 12:45:00.778 [D] [server.go:2843]  |            ::1|[42m 200 [0m|      996.9µs|   match|[44m GET     [0m /static/js/jquery-treegrid/jquery.treegrid.min.js
+2022/06/29 12:45:00.778 [D] [server.go:2843]  |            ::1|[42m 200 [0m|      996.9µs|   match|[44m GET     [0m /static/js/bootstrap-table/extensions/treegrid/bootstrap-table-treegrid.min.js
+2022/06/29 12:45:00.778 [D] [server.go:2843]  |            ::1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/images/logo-sidebar.png
+2022/06/29 12:45:00.778 [D] [server.go:2843]  |            ::1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/images/users/avatar.jpg
+2022/06/29 12:45:00.807 [D] [server.go:2843]  |            ::1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/fonts/materialdesignicons.woff2
+2022/06/29 12:45:00.849 [D] [server.go:2843]  |            ::1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/favicon.ico
+2022/06/29 12:45:00.946 [I] [router.go:678]  current router path is  /menu/view
+2022/06/29 12:45:00.949 [D] [server.go:2843]  |            ::1|[42m 200 [0m|     2.9909ms|   match|[44m GET     [0m /menu/view   r:/menu/view
+2022/06/29 12:45:00.960 [D] [server.go:2843]  |            ::1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/css/bootstrap.min.css
+2022/06/29 12:45:00.962 [D] [server.go:2843]  |            ::1|[42m 200 [0m|     1.0017ms|   match|[44m GET     [0m /static/css/materialdesignicons.min.css
+2022/06/29 12:45:00.962 [D] [server.go:2843]  |            ::1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/js/jquery.min.js
+2022/06/29 12:45:00.962 [D] [server.go:2843]  |            ::1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/js/bootstrap.min.js
+2022/06/29 12:45:00.962 [D] [server.go:2843]  |            ::1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/css/style.min.css
+2022/06/29 12:45:00.963 [D] [server.go:2843]  |            ::1|[42m 200 [0m|      995.2µs|   match|[44m GET     [0m /static/js/perfect-scrollbar.min.js
+2022/06/29 12:45:00.966 [D] [server.go:2843]  |            ::1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/js/main.min.js
+2022/06/29 12:45:00.971 [D] [server.go:2843]  |            ::1|[42m 200 [0m|      997.2µs|   match|[44m GET     [0m /static/js/jquery-treegrid/jquery.treegrid.min.css
+2022/06/29 12:45:00.973 [D] [server.go:2843]  |            ::1|[42m 200 [0m|      989.8µs|   match|[44m GET     [0m /static/js/jquery-treegrid/jquery.treegrid.min.js
+2022/06/29 12:45:00.973 [D] [server.go:2843]  |            ::1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/js/bootstrap-table/extensions/treegrid/bootstrap-table-treegrid.min.js
+2022/06/29 12:45:00.974 [D] [server.go:2843]  |            ::1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/images/logo-sidebar.png
+2022/06/29 12:45:00.974 [D] [server.go:2843]  |            ::1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/images/users/avatar.jpg
+2022/06/29 12:45:00.983 [D] [server.go:2843]  |            ::1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/fonts/materialdesignicons.woff2
+2022/06/29 12:45:01.035 [D] [server.go:2843]  |            ::1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/favicon.ico
+2022/06/29 12:45:01.100 [I] [router.go:678]  current router path is  /menu/view
+2022/06/29 12:45:01.103 [D] [server.go:2843]  |            ::1|[42m 200 [0m|     2.9916ms|   match|[44m GET     [0m /menu/view   r:/menu/view
+2022/06/29 12:45:01.118 [D] [server.go:2843]  |            ::1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/css/bootstrap.min.css
+2022/06/29 12:45:01.118 [D] [server.go:2843]  |            ::1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/css/materialdesignicons.min.css
+2022/06/29 12:45:01.119 [D] [server.go:2843]  |            ::1|[42m 200 [0m|      998.3µs|   match|[44m GET     [0m /static/js/jquery.min.js
+2022/06/29 12:45:01.119 [D] [server.go:2843]  |            ::1|[42m 200 [0m|      998.3µs|   match|[44m GET     [0m /static/css/style.min.css
+2022/06/29 12:45:01.119 [D] [server.go:2843]  |            ::1|[42m 200 [0m|      998.3µs|   match|[44m GET     [0m /static/js/bootstrap.min.js
+2022/06/29 12:45:01.119 [D] [server.go:2843]  |            ::1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/js/perfect-scrollbar.min.js
+2022/06/29 12:45:01.131 [D] [server.go:2843]  |            ::1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/js/main.min.js
+2022/06/29 12:45:01.131 [D] [server.go:2843]  |            ::1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/js/jquery-treegrid/jquery.treegrid.min.css
+2022/06/29 12:45:01.131 [D] [server.go:2843]  |            ::1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/js/jquery-treegrid/jquery.treegrid.min.js
+2022/06/29 12:45:01.131 [D] [server.go:2843]  |            ::1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/images/logo-sidebar.png
+2022/06/29 12:45:01.131 [D] [server.go:2843]  |            ::1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/js/bootstrap-table/extensions/treegrid/bootstrap-table-treegrid.min.js
+2022/06/29 12:45:01.132 [D] [server.go:2843]  |            ::1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/images/users/avatar.jpg
+2022/06/29 12:45:01.164 [D] [server.go:2843]  |            ::1|[42m 200 [0m|      996.7µs|   match|[44m GET     [0m /static/fonts/materialdesignicons.woff2
+2022/06/29 12:45:01.206 [D] [server.go:2843]  |            ::1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/favicon.ico
+2022/06/29 12:45:35.721 [I] [router.go:678]  current router path is  /menu/view
+2022/06/29 12:45:35.724 [D] [server.go:2843]  |            ::1|[42m 200 [0m|     2.9921ms|   match|[44m GET     [0m /menu/view   r:/menu/view
+2022/06/29 12:46:23.165 [I] [router.go:678]  current router path is  /menu/view
+2022/06/29 12:46:23.169 [D] [server.go:2843]  |            ::1|[42m 200 [0m|     3.9881ms|   match|[44m GET     [0m /menu/view   r:/menu/view
+2022/06/29 12:47:00.588 [I] [router.go:678]  current router path is  /menu/view
+2022/06/29 12:47:00.591 [D] [server.go:2843]  |            ::1|[42m 200 [0m|     2.9915ms|   match|[44m GET     [0m /menu/view   r:/menu/view
+2022/06/29 12:51:00.982 [I] [router.go:678]  current router path is  /menu/view
+2022/06/29 12:51:00.984 [D] [server.go:2843]  |            ::1|[42m 200 [0m|     2.9901ms|   match|[44m GET     [0m /menu/view   r:/menu/view
+2022/06/29 12:52:08.578 [I] [router.go:678]  current router path is  /user/view
+2022/06/29 12:52:08.580 [D] [server.go:2843]  |            ::1|[42m 200 [0m|     1.9942ms|   match|[44m GET     [0m /user/view   r:/user/view
+2022/06/29 12:52:08.599 [I] [router.go:678]  current router path is  /static/js/popper.min.js
+2022/06/29 12:52:08.599 [D] [server.go:2843]  |            ::1|[43m 404 [0m|      997.3µs| nomatch|[44m GET     [0m /static/js/popper.min.js
+2022/06/29 12:52:10.890 [I] [router.go:678]  current router path is  /role/view
+2022/06/29 12:52:10.925 [D] [server.go:2843]  |            ::1|[42m 200 [0m|    35.0581ms|   match|[44m GET     [0m /role/view   r:/role/view
+2022/06/29 12:52:10.940 [I] [router.go:678]  current router path is  /static/js/popper.min.js
+2022/06/29 12:52:10.940 [D] [server.go:2843]  |            ::1|[43m 404 [0m|      997.9µs| nomatch|[44m GET     [0m /static/js/popper.min.js
+2022/06/29 12:52:10.984 [I] [router.go:678]  current router path is  /role/list
+2022/06/29 12:52:11.020 [D] [server.go:2843]  |            ::1|[42m 200 [0m|    36.3806ms|   match|[46m POST    [0m /role/list   r:/role/list
+2022/06/29 12:52:13.795 [I] [router.go:678]  current router path is  /menu/view
+2022/06/29 12:52:13.798 [D] [server.go:2843]  |            ::1|[42m 200 [0m|     2.9928ms|   match|[44m GET     [0m /menu/view   r:/menu/view
+2022/06/29 12:52:26.217 [I] [router.go:678]  current router path is  /user/view
+2022/06/29 12:52:26.220 [D] [server.go:2843]  |            ::1|[42m 200 [0m|     2.9942ms|   match|[44m GET     [0m /user/view   r:/user/view
+2022/06/29 12:52:26.237 [I] [router.go:678]  current router path is  /static/js/popper.min.js
+2022/06/29 12:52:26.238 [D] [server.go:2843]  |            ::1|[43m 404 [0m|      999.6µs| nomatch|[44m GET     [0m /static/js/popper.min.js
+2022/06/29 12:53:39.726 [I] [router.go:678]  current router path is  /user/view
+2022/06/29 12:53:39.729 [D] [server.go:2843]  |            ::1|[42m 200 [0m|     2.9932ms|   match|[44m GET     [0m /user/view   r:/user/view
+2022/06/29 12:53:39.740 [I] [router.go:678]  current router path is  /static/js/popper.min.js
+2022/06/29 12:53:39.740 [D] [server.go:2843]  |            ::1|[43m 404 [0m|           0s| nomatch|[44m GET     [0m /static/js/popper.min.js
+2022/06/29 12:53:39.781 [I] [router.go:678]  current router path is  /user/list?callback=jQuery21405827418121498122_1656478419752&limit=15&offset=0&page=1&sortOrder=asc
+2022/06/29 12:53:39.782 [D] [server.go:2843]  |            ::1|[43m 404 [0m|      997.4µs| nomatch|[44m GET     [0m /user/list
+2022/06/29 12:53:42.154 [I] [router.go:678]  current router path is  /role/view
+2022/06/29 12:53:42.161 [D] [server.go:2843]  |            ::1|[42m 200 [0m|      6.985ms|   match|[44m GET     [0m /role/view   r:/role/view
+2022/06/29 12:53:42.175 [I] [router.go:678]  current router path is  /static/js/popper.min.js
+2022/06/29 12:53:42.176 [D] [server.go:2843]  |            ::1|[43m 404 [0m|      997.6µs| nomatch|[44m GET     [0m /static/js/popper.min.js
+2022/06/29 12:53:42.215 [I] [router.go:678]  current router path is  /role/list
+2022/06/29 12:53:42.250 [D] [server.go:2843]  |            ::1|[42m 200 [0m|    35.9567ms|   match|[46m POST    [0m /role/list   r:/role/list
+2022/06/29 12:54:06.929 [I] [router.go:678]  current router path is  /role/view
+2022/06/29 12:54:06.931 [D] [server.go:2843]  |            ::1|[42m 200 [0m|      1.994ms|   match|[44m GET     [0m /role/view   r:/role/view
+2022/06/29 12:54:06.941 [I] [router.go:678]  current router path is  /static/js/popper.min.js
+2022/06/29 12:54:06.941 [D] [server.go:2843]  |            ::1|[43m 404 [0m|      997.9µs| nomatch|[44m GET     [0m /static/js/popper.min.js
+2022/06/29 12:54:06.975 [I] [router.go:678]  current router path is  /role/list
+2022/06/29 12:54:07.011 [D] [server.go:2843]  |            ::1|[42m 200 [0m|    35.4572ms|   match|[46m POST    [0m /role/list   r:/role/list
+2022/06/29 12:54:07.656 [I] [router.go:678]  current router path is  /role/view
+2022/06/29 12:54:07.658 [D] [server.go:2843]  |            ::1|[42m 200 [0m|     2.9913ms|   match|[44m GET     [0m /role/view   r:/role/view
+2022/06/29 12:54:07.668 [I] [router.go:678]  current router path is  /static/js/popper.min.js
+2022/06/29 12:54:07.668 [D] [server.go:2843]  |            ::1|[43m 404 [0m|      995.6µs| nomatch|[44m GET     [0m /static/js/popper.min.js
+2022/06/29 12:54:07.698 [I] [router.go:678]  current router path is  /role/list
+2022/06/29 12:54:07.734 [D] [server.go:2843]  |            ::1|[42m 200 [0m|    35.9016ms|   match|[46m POST    [0m /role/list   r:/role/list
+2022/06/29 12:54:07.860 [I] [router.go:678]  current router path is  /role/view
+2022/06/29 12:54:07.863 [D] [server.go:2843]  |            ::1|[42m 200 [0m|     2.9918ms|   match|[44m GET     [0m /role/view   r:/role/view
+2022/06/29 12:54:07.872 [I] [router.go:678]  current router path is  /static/js/popper.min.js
+2022/06/29 12:54:07.873 [D] [server.go:2843]  |            ::1|[43m 404 [0m|      997.8µs| nomatch|[44m GET     [0m /static/js/popper.min.js
+2022/06/29 12:54:07.905 [I] [router.go:678]  current router path is  /role/list
+2022/06/29 12:54:07.940 [D] [server.go:2843]  |            ::1|[42m 200 [0m|    36.3559ms|   match|[46m POST    [0m /role/list   r:/role/list
+2022/06/29 12:54:08.032 [I] [router.go:678]  current router path is  /role/view
+2022/06/29 12:54:08.034 [D] [server.go:2843]  |            ::1|[42m 200 [0m|     2.0007ms|   match|[44m GET     [0m /role/view   r:/role/view
+2022/06/29 12:54:08.043 [I] [router.go:678]  current router path is  /static/js/popper.min.js
+2022/06/29 12:54:08.044 [D] [server.go:2843]  |            ::1|[43m 404 [0m|      998.3µs| nomatch|[44m GET     [0m /static/js/popper.min.js
+2022/06/29 12:54:08.071 [I] [router.go:678]  current router path is  /role/list
+2022/06/29 12:54:08.107 [D] [server.go:2843]  |            ::1|[42m 200 [0m|    35.8785ms|   match|[46m POST    [0m /role/list   r:/role/list
+2022/06/29 12:54:09.523 [I] [router.go:678]  current router path is  /role/list
+2022/06/29 12:54:09.559 [D] [server.go:2843]  |            ::1|[42m 200 [0m|    35.6199ms|   match|[46m POST    [0m /role/list   r:/role/list
+2022/06/29 12:54:09.926 [I] [router.go:678]  current router path is  /role/list
+2022/06/29 12:54:09.963 [D] [server.go:2843]  |            ::1|[42m 200 [0m|    36.5319ms|   match|[46m POST    [0m /role/list   r:/role/list
+2022/06/29 12:54:10.103 [I] [router.go:678]  current router path is  /role/list
+2022/06/29 12:54:10.140 [D] [server.go:2843]  |            ::1|[42m 200 [0m|    36.9259ms|   match|[46m POST    [0m /role/list   r:/role/list
+2022/06/29 12:54:10.274 [I] [router.go:678]  current router path is  /role/list
+2022/06/29 12:54:10.310 [D] [server.go:2843]  |            ::1|[42m 200 [0m|    35.7943ms|   match|[46m POST    [0m /role/list   r:/role/list
+2022/06/29 12:54:10.454 [I] [router.go:678]  current router path is  /role/list
+2022/06/29 12:54:10.492 [D] [server.go:2843]  |            ::1|[42m 200 [0m|    37.8984ms|   match|[46m POST    [0m /role/list   r:/role/list
+2022/06/29 12:54:10.639 [I] [router.go:678]  current router path is  /role/list
+2022/06/29 12:54:10.675 [D] [server.go:2843]  |            ::1|[42m 200 [0m|    35.9679ms|   match|[46m POST    [0m /role/list   r:/role/list
+2022/06/29 12:54:10.831 [I] [router.go:678]  current router path is  /role/list
+2022/06/29 12:54:10.866 [D] [server.go:2843]  |            ::1|[42m 200 [0m|     34.911ms|   match|[46m POST    [0m /role/list   r:/role/list
+2022/06/29 12:54:23.363 [I] [router.go:678]  current router path is  /role/view
+2022/06/29 12:54:23.365 [D] [server.go:2843]  |            ::1|[42m 200 [0m|     1.9947ms|   match|[44m GET     [0m /role/view   r:/role/view
+2022/06/29 12:54:23.376 [I] [router.go:678]  current router path is  /static/js/popper.min.js
+2022/06/29 12:54:23.376 [D] [server.go:2843]  |            ::1|[43m 404 [0m|      997.5µs| nomatch|[44m GET     [0m /static/js/popper.min.js
+2022/06/29 12:54:23.408 [I] [router.go:678]  current router path is  /role/list
+2022/06/29 12:54:23.444 [D] [server.go:2843]  |            ::1|[42m 200 [0m|    36.1068ms|   match|[46m POST    [0m /role/list   r:/role/list
+2022/06/29 12:54:24.932 [I] [router.go:678]  current router path is  /user/view
+2022/06/29 12:54:24.935 [D] [server.go:2843]  |            ::1|[42m 200 [0m|     2.9923ms|   match|[44m GET     [0m /user/view   r:/user/view
+2022/06/29 12:54:24.952 [I] [router.go:678]  current router path is  /static/js/popper.min.js
+2022/06/29 12:54:24.952 [D] [server.go:2843]  |            ::1|[43m 404 [0m|      998.8µs| nomatch|[44m GET     [0m /static/js/popper.min.js
+2022/06/29 12:54:24.983 [I] [router.go:678]  current router path is  /user/list?callback=jQuery21408027826676551897_1656478464948&limit=15&offset=0&page=1&sortOrder=asc
+2022/06/29 12:54:24.984 [D] [server.go:2843]  |            ::1|[43m 404 [0m|      998.3µs| nomatch|[44m GET     [0m /user/list
+2022/06/29 12:54:26.653 [I] [router.go:678]  current router path is  /menu/view
+2022/06/29 12:54:26.679 [D] [server.go:2843]  |            ::1|[42m 200 [0m|    25.9563ms|   match|[44m GET     [0m /menu/view   r:/menu/view
+2022/06/29 12:54:28.652 [I] [router.go:678]  current router path is  /role/view
+2022/06/29 12:54:28.655 [D] [server.go:2843]  |            ::1|[42m 200 [0m|     2.9927ms|   match|[44m GET     [0m /role/view   r:/role/view
+2022/06/29 12:54:28.674 [I] [router.go:678]  current router path is  /static/js/popper.min.js
+2022/06/29 12:54:28.675 [D] [server.go:2843]  |            ::1|[43m 404 [0m|        995µs| nomatch|[44m GET     [0m /static/js/popper.min.js
+2022/06/29 12:54:28.705 [I] [router.go:678]  current router path is  /role/list
+2022/06/29 12:54:28.741 [D] [server.go:2843]  |            ::1|[42m 200 [0m|     35.906ms|   match|[46m POST    [0m /role/list   r:/role/list
+2022/06/29 13:08:58.541 [D] [server.go:2843]  |            ::1|[47m 304 [0m|           0s|   match|[44m GET     [0m /static/css/bootstrap.min.css
+2022/06/29 13:08:58.548 [I] [router.go:678]  current router path is  /static/js/popper.min.js
+2022/06/29 13:08:58.550 [D] [server.go:2843]  |            ::1|[43m 404 [0m|     1.9946ms| nomatch|[44m GET     [0m /static/js/popper.min.js
+2022/06/29 13:08:58.683 [I] [router.go:678]  current router path is  /role/list
+2022/06/29 13:08:58.720 [D] [server.go:2843]  |            ::1|[42m 200 [0m|    36.9012ms|   match|[46m POST    [0m /role/list   r:/role/list
+2022/06/29 13:09:00.956 [I] [router.go:678]  current router path is  /role/view
+2022/06/29 13:09:00.977 [D] [server.go:2843]  |            ::1|[42m 200 [0m|    20.9443ms|   match|[44m GET     [0m /role/view   r:/role/view
+2022/06/29 13:09:53.316 [I] [router.go:678]  current router path is  /role/view
+2022/06/29 13:09:53.323 [D] [server.go:2843]  |            ::1|[42m 200 [0m|     8.9713ms|   match|[44m GET     [0m /role/view   r:/role/view
+2022/06/29 13:09:53.342 [I] [router.go:678]  current router path is  /static/js/popper.min.js
+2022/06/29 13:09:53.343 [D] [server.go:2843]  |            ::1|[43m 404 [0m|     1.9952ms| nomatch|[44m GET     [0m /static/js/popper.min.js
+2022/06/29 13:09:53.519 [I] [router.go:678]  current router path is  /role/list
+2022/06/29 13:09:53.623 [D] [server.go:2843]  |            ::1|[42m 200 [0m|   113.6969ms|   match|[46m POST    [0m /role/list   r:/role/list
+2022/06/29 13:10:42.387 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/29 13:10:42.387 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/29 13:10:45.201 [I] [router.go:678]  current router path is  /role/view
+2022/06/29 13:10:45.204 [D] [server.go:2843]  |            ::1|[42m 200 [0m|     4.9871ms|   match|[44m GET     [0m /role/view   r:/role/view
+2022/06/29 13:10:45.216 [I] [router.go:678]  current router path is  /static/js/popper.min.js
+2022/06/29 13:10:45.218 [D] [server.go:2843]  |            ::1|[43m 404 [0m|     2.9919ms| nomatch|[44m GET     [0m /static/js/popper.min.js
+2022/06/29 13:10:45.282 [I] [router.go:678]  current router path is  /role/list
+2022/06/29 13:10:45.357 [D] [server.go:2843]  |            ::1|[42m 200 [0m|    74.7998ms|   match|[46m POST    [0m /role/list   r:/role/list
+2022/06/29 13:10:50.240 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/29 13:10:50.240 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/29 13:10:57.720 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/29 13:10:57.720 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/29 13:11:08.187 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/29 13:11:08.188 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/29 13:11:22.444 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/29 13:11:22.445 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/29 13:11:27.924 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/29 13:11:27.924 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/29 13:11:33.239 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/29 13:11:33.240 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/29 13:11:38.190 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/29 13:11:38.190 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/29 13:11:48.090 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/29 13:11:48.090 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/29 13:11:55.285 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/29 13:11:55.285 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/29 13:12:00.689 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/29 13:12:00.690 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/29 13:12:04.892 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/29 13:12:04.892 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/29 13:12:05.053 [I] [router.go:678]  current router path is  /role/list
+2022/06/29 13:12:05.115 [D] [server.go:2843]  |            ::1|[42m 200 [0m|    65.8292ms|   match|[46m POST    [0m /role/list   r:/role/list
+2022/06/29 13:12:08.934 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/29 13:12:08.934 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/29 13:12:13.561 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/29 13:12:13.561 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/29 13:12:17.424 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/29 13:12:17.424 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/29 13:12:17.471 [I] [router.go:678]  current router path is  /role/list
+2022/06/29 13:12:17.538 [D] [server.go:2843]  |      127.0.0.1|[42m 200 [0m|    71.8058ms|   match|[46m POST    [0m /role/list   r:/role/list
+2022/06/29 13:12:17.878 [I] [router.go:678]  current router path is  /role/list
+2022/06/29 13:12:17.939 [D] [server.go:2843]  |      127.0.0.1|[42m 200 [0m|    60.8365ms|   match|[46m POST    [0m /role/list   r:/role/list
+2022/06/29 13:12:21.548 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/29 13:12:21.548 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/29 13:12:25.186 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/29 13:12:25.186 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/29 13:12:28.767 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/29 13:12:28.767 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/29 13:12:32.152 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/29 13:12:32.152 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/29 13:12:35.328 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/29 13:12:35.328 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/29 13:12:38.329 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/29 13:12:38.329 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/29 13:12:41.275 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/29 13:12:41.275 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/29 13:12:41.284 [I] [router.go:678]  current router path is  /role/list
+2022/06/29 13:12:41.346 [D] [server.go:2843]  |      127.0.0.1|[42m 200 [0m|     67.688ms|   match|[46m POST    [0m /role/list   r:/role/list
+2022/06/29 13:12:44.306 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/29 13:12:44.306 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/29 13:12:46.407 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/29 13:12:46.407 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/29 13:12:50.104 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/29 13:12:50.104 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/29 13:12:58.397 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/29 13:12:58.397 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/29 13:13:02.965 [I] [router.go:678]  current router path is  /role/view
+2022/06/29 13:13:02.969 [D] [server.go:2843]  |            ::1|[42m 200 [0m|     8.9732ms|   match|[44m GET     [0m /role/view   r:/role/view
+2022/06/29 13:13:03.027 [I] [router.go:678]  current router path is  /static/js/popper.min.js
+2022/06/29 13:13:03.039 [D] [server.go:2843]  |            ::1|[43m 404 [0m|    26.4526ms| nomatch|[44m GET     [0m /static/js/popper.min.js
+2022/06/29 13:13:03.232 [I] [router.go:678]  current router path is  /role/list
+2022/06/29 13:13:03.313 [D] [server.go:2843]  |            ::1|[42m 200 [0m|    82.3243ms|   match|[46m POST    [0m /role/list   r:/role/list
+2022/06/29 13:13:06.892 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/29 13:13:06.892 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/29 13:13:07.070 [I] [router.go:678]  current router path is  /role/view
+2022/06/29 13:13:07.085 [D] [server.go:2843]  |            ::1|[42m 200 [0m|     32.914ms|   match|[44m GET     [0m /role/view   r:/role/view
+2022/06/29 13:13:07.146 [I] [router.go:678]  current router path is  /static/js/popper.min.js
+2022/06/29 13:13:07.148 [D] [server.go:2843]  |            ::1|[43m 404 [0m|     2.9925ms| nomatch|[44m GET     [0m /static/js/popper.min.js
+2022/06/29 13:13:07.361 [I] [router.go:678]  current router path is  /role/list
+2022/06/29 13:13:07.431 [D] [server.go:2843]  |            ::1|[42m 200 [0m|    70.3339ms|   match|[46m POST    [0m /role/list   r:/role/list
+2022/06/29 13:13:16.052 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/29 13:13:16.052 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/29 13:13:16.110 [I] [router.go:678]  current router path is  /role/view
+2022/06/29 13:13:16.113 [D] [server.go:2843]  |            ::1|[42m 200 [0m|     52.912ms|   match|[44m GET     [0m /role/view   r:/role/view
+2022/06/29 13:13:16.125 [I] [router.go:678]  current router path is  /static/js/popper.min.js
+2022/06/29 13:13:16.126 [D] [server.go:2843]  |            ::1|[43m 404 [0m|      996.9µs| nomatch|[44m GET     [0m /static/js/popper.min.js
+2022/06/29 13:13:16.199 [I] [router.go:678]  current router path is  /role/list
+2022/06/29 13:13:16.274 [D] [server.go:2843]  |            ::1|[42m 200 [0m|    74.7994ms|   match|[46m POST    [0m /role/list   r:/role/list
+2022/06/29 13:13:20.855 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/29 13:13:20.855 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/29 13:13:23.684 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/29 13:13:23.684 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/29 13:13:26.838 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/29 13:13:26.838 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/29 13:13:30.222 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/29 13:13:30.222 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/29 13:13:33.850 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088
+2022/06/29 13:13:33.850 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/29 13:13:33.995 [I] [router.go:678]  current router path is  /role/view
+2022/06/29 13:13:33.998 [D] [server.go:2843]  |            ::1|[42m 200 [0m|     4.9878ms|   match|[44m GET     [0m /role/view   r:/role/view
+2022/06/29 13:13:34.011 [I] [router.go:678]  current router path is  /static/js/popper.min.js
+2022/06/29 13:13:34.012 [D] [server.go:2843]  |            ::1|[43m 404 [0m|      998.5µs| nomatch|[44m GET     [0m /static/js/popper.min.js
+2022/06/29 13:13:34.072 [I] [router.go:678]  current router path is  /role/list
+2022/06/29 13:13:34.137 [D] [server.go:2843]  |            ::1|[42m 200 [0m|    65.9186ms|   match|[46m POST    [0m /role/list   r:/role/list
+2022/06/29 13:13:36.543 [I] [asm_amd64.s:1374]  http server Running on http://:8082
+2022/06/29 13:13:36.543 [I] [asm_amd64.s:1374]  Admin server Running on localhost:8088

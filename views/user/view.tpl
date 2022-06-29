@@ -263,7 +263,7 @@
 
 $('#tb_departments').bootstrapTable({
 	classes: 'table table-hover table-condensed',
-	url: 'http://www.bixiaguangnian.com/index/test/getExampleJson',
+	url: '/user/list',
 	method: 'get',
 	dataType: 'jsonp', // 因为本示例中是跨域的调用,所以涉及到ajax都采用jsonp,
 	uniqueId: 'id',

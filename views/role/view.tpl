@@ -3,11 +3,11 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
-<title>文档列表 - 光年(Light Year Admin)后台管理系统模板</title>
+<title>角色列表 - pm后台管理系统</title>
 <link rel="icon" href="/static/favicon.ico" type="image/ico">
-<meta name="keywords" content="LightYear,光年,后台模板,后台管理系统,光年HTML模板">
-<meta name="description" content="LightYear是一个基于Bootstrap v3.3.7的后台管理系统的HTML模板。">
-<meta name="author" content="yinqi">
+<meta name="keywords" content="pm后台管理系统">
+<meta name="description" content="pm后台管理系统">
+<meta name="author" content="zichen">
 <link href="/static/css/bootstrap.min.css" rel="stylesheet">
 <link href="/static/css/materialdesignicons.min.css" rel="stylesheet">
 <link href="/static/css/style.min.css" rel="stylesheet">
@@ -41,7 +41,7 @@
         </nav>
         
         <div class="sidebar-footer">
-          <p class="copyright">Copyright &copy; 2022. <a target="_blank" href="http://lyear.itshubao.com">pm</a> All rights reserved.</p>
+          <p class="copyright">Copyright &copy; 2022. <a target="_blank" href="#">pm</a> All rights reserved.</p>
         </div>
       </div>
       
@@ -223,20 +223,13 @@
                 <div class="card-body" style="padding: 0px 24px;">
                   <table id="tb_init"></table>
                   <div id="toolbar">
-                    
                     <!--默认使用-->
                     <div class="card-toolbar clearfix" style="padding: 0px 24px 0px 10px;">
                         <form class="form-inline" action="#!" method="post">
                         <div class="form-group m-b-5">
-                            <input class="form-control input-sm" type="email" name="keywords" placeholder="请输入邮箱..">
+                            <input class="form-control input-sm" type="text" name="keyword" id="keyword" placeholder="请输入角色名称或角色标识..">
                         </div>
-                        <div class="form-group m-b-5">
-                            <input class="form-control input-sm" type="password" name="usernbame" placeholder="请输入用户名..">
-                        </div>
-                        <div class="form-group m-b-5">
-                            <input class="form-control input-sm" type="phone" name="phone" placeholder="请输入手机号..">
-                        </div>
-                        <a class="btn btn-sm btn-default m-b-5" href="#!"><i class="mdi mdi-magnify"></i> 搜索</a>
+                        <a class="btn btn-sm btn-info m-b-5" href="#!"><i class="mdi mdi-magnify"></i> 搜索</a>
                         <a class="btn btn-sm btn-primary m-b-5" href="#!"><i class="mdi mdi-plus"></i> 新增</a>
                         <a class="btn btn-sm btn-success m-b-5" href="#!"><i class="mdi mdi-check"></i> 启用</a>
                         <a class="btn btn-sm btn-warning m-b-5" href="#!"><i class="mdi mdi-block-helper"></i> 禁用</a>
@@ -249,11 +242,8 @@
               </div>
             </div>
           </div>
-          
         </div>
-        
       </div>
-      
     </main>
     <!--End 页面主要内容-->
   </div>
@@ -264,17 +254,8 @@
 <script type="text/javascript" src="/static/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="/static/js/perfect-scrollbar.min.js"></script>
 <script type="text/javascript" src="/static/js/main.min.js"></script>
-<script src="/static/js/bootstrap-table/bootstrap-table.min.js"></script>
+<script type="text/javascript" src="/static/js/bootstrap-table/bootstrap-table.min.js"></script>
 <script type="text/javascript" src="/static/js/bootstrap-table/locale/bootstrap-table-zh-CN.min.js"></script>
-<script type="text/javascript">
-$(function(){
-    $('.search-bar .dropdown-menu a').click(function() {
-        var field = $(this).data('field') || '';
-        $('#search-field').val(field);
-        $('#search-btn').html($(this).text() + ' <span class="caret"></span>');
-    });
-});
-</script>
 
 <script type="text/javascript">
 $(function(){
@@ -289,33 +270,35 @@ var TableInit = function () {
     oTableInit.Init = function () {
         $('#tb_init').bootstrapTable({
             classes: 'table table-hover table-condensed',
-            iconSize:"sm",   // 1,设置修改图标  sm小图标 lg大图标
-            url: '/role/list',         //请求后台的URL（*）
-            method: 'post',                      //请求方式（*）
+            iconSize:"sm",                      // 1,设置修改图标  sm小图标 lg大图标
+            url: '/role/list',                  //请求后台的URL（*）
+            method: 'post',                     //请求方式（*）
             toolbar: '#toolbar',                //工具按钮用哪个容器
             striped: true,                      //是否显示行间隔色
             cache: false,                       //是否使用缓存，默认为true，所以一般情况下需要设置一下这个属性（*）
             pagination: true,                   //是否显示分页（*）
-            sortable: false,                     //是否启用排序
+            sortable: false,                    //是否启用排序
             sortOrder: "asc",                   //排序方式
             queryParams: oTableInit.queryParams,//传递参数（*）
-            sidePagination: "server",           //分页方式：client客户端分页，server服务端分页（*）
+            sidePagination: "client",           //分页方式：client客户端分页，server服务端分页（*）
             pageNumber:1,                       //初始化加载第一页，默认第一页
-            pageSize: 10,                       //每页的记录行数（*）
-            pageList: [10, 25, 50, 100],        //可供选择的每页的行数（*）
-            // search: true,                       //是否显示表格搜索，此搜索是客户端搜索，不会进服务端，所以，个人感觉意义不大
+            pageSize: 3,                       //每页的记录行数（*）
+            pageList: [3, 25, 50, 100],        //可供选择的每页的行数（*）
+            // search: true,                    //是否显示表格搜索，此搜索是客户端搜索，不会进服务端，所以，个人感觉意义不大
             strictSearch: true,
             showColumns: true,                  //是否显示所有的列
             showRefresh: true,                  //是否显示刷新按钮
             minimumCountColumns: 2,             //最少允许的列数
             clickToSelect: true,                //是否启用点击选中行
-            height: 800,                        //行高，如果没有设置height属性，表格自动根据记录条数觉得表格高度
+            height: 850,                        //行高，如果没有设置height属性，表格自动根据记录条数觉得表格高度
             uniqueId: "id",                     //每一行的唯一标识，一般为主键列
             showToggle:true,                    //是否显示详细视图和列表视图的切换按钮
             cardView: false,                    //是否显示详细视图
-            detailView: false,                   //是否显示父子表
+            detailView: false,                  //是否显示父子表
+            onPostBody:function(res){           //表格渲染前事件
+                // console.log("res:"+JSON.stringify(res));
+            },
             responseHandler: function (res) {
-                console.log(res);
                 return {
                     "total": 10, //总页数
                     "rows": res.data //数据
@@ -324,28 +307,37 @@ var TableInit = function () {
             columns: [
                 {
                     checkbox: true
-                }
-                , {
-                    field: 'id',
-                    title: '方法名'
-                }, {
+                },{
                     field: 'roleName',
-                    title: '日志类型'
-                }, {
+                    title: '角色名称'
+                },{
                     field: 'roleSign',
-                    title: '内容格式'
-                }, {
+                    title: '角色标识'
+                },{
                     field: 'remark',
-                    title: '格式参数'
-                }, {
+                    title: '备注'
+                },{
                     field: 'userIdCreate',
-                    title: '数值'
-                }, {
+                    title: '创建用户'
+                },{
                     field: 'gmtCreate',
-                    title: '数值定义'
-                }, {
-                    field: 'gmtModified',
                     title: '创建时间'
+                },{
+                    field: 'gmtModified',
+                    title: '修改时间'
+                },{
+                    field: 'operate',
+                    align: 'center',
+                    title: '操作',
+                    formatter: btnGroup, 
+                    events: {
+                        'click .edit-btn': function(event, value, row, index) {
+                            editUser(row);
+                        },
+                        'click .del-btn': function(event, value, row, index) {
+                            delUser(row);
+                        }
+                    }
                 }
             ]
         });
@@ -355,13 +347,29 @@ var TableInit = function () {
         var temp = {   //这里的键的名字和控制器的变量名必须一直，这边改动，控制器也需要改成一样的
             limit: params.limit,   //页面大小
             offset: params.offset,  //页码
-            departmentname: $("#txt_search_departmentname").val(),
-            statu: $("#txt_search_statu").val()
+            keyword: $("#keyword").val(),
         };
         return temp;
     };
     return oTableInit;
 };
+
+// 操作按钮
+function btnGroup() {
+	let html =
+		'<a href="#!" class="btn btn-xs btn-default m-r-5 edit-btn" title="编辑" data-toggle="tooltip"><i class="mdi mdi-pencil"></i></a>' +
+		'<a href="#!" class="btn btn-xs btn-default del-btn" title="删除" data-toggle="tooltip"><i class="mdi mdi-window-close"></i></a>';
+	return html;
+}
+
+// 操作方法 - 编辑
+function editUser() {
+	alert('跳转修改信息');
+}
+// 操作方法 - 删除
+function delUser() {
+	alert('信息删除成功');
+}
 
 </script>
 </body>
